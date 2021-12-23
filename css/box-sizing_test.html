@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>box-sizing-test</title>
+        <style>
+
+            /*
+                content-box 특징
+                border는 늘리면 content의 width의 크기도 같이 변한다
+                실제 크기를 측정하기 어렵다
+            
+            
+            */
+            .a {
+                width: 100px;
+                height: 50px;
+                border: 30px solid red;
+                margin-bottom: 10px;
+                box-sizing: content-box;
+            }
+
+
+           
+            .b {
+                width: 100px;
+                height: 50px;
+                border: 20px solid green;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat rem eaque ea sapiente tempore laudantium quod quos sit maxime. Amet ducimus itaque ipsa. Neque quidem facilis quasi qui expedita illo!
+        </div>
+        <div class="b">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium cum reiciendis cupiditate natus, incidunt eaque at dolores molestiae harum similique dolore ea facilis nihil quidem commodi esse nostrum error tempora.
+        </div>
+
+
+
+    </body>
+
+</html>
