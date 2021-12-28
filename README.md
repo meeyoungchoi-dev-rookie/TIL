@@ -94,4 +94,26 @@ What Today I Learned
 
                         ```
         
+
+# 12월 28일
+  ## CSS
+  + 배운점
+  + p태그를 가로 세로 정렬하는 방법
+  + vertical-align : inline 요소 또는 inline-block요소를 수직 정렬할때 사용
+  + text-align : block 요소 안에 있는 inline 요소를 정렬한다 (텍스트를 정렬한다)
+
+  ## SQL
+  + 배운점
+  + LIKE를 사용하여 문자열의 일부분을 부분검색하는 방법
+  + `%` : 문자의 길이는 상관하지 않는다
+  + `_` : 문자의 길이와 관계 있다 (1개의 문자를 표현한다)
+
+  + 문자열 안에 포함된 % 또는 _를 찾고 싶은 경우
+  + `\` 를 사용하여 검색한다
+  ```
+  SELECT *
+  FROM customers
+  WHERE discount LIKE '50\%';
+
+
      
