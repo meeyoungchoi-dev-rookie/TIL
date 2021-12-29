@@ -114,6 +114,57 @@ What Today I Learned
   SELECT *
   FROM customers
   WHERE discount LIKE '50\%';
+  ```
 
+# 12월 29일
+## SQL
++ 잘한점
++ 해커랭크에서 sql where 관련 문제 6문제 풀어봄
 
-     
++ 배운점
++ NOT LIKE를 사용하여 문자열 패턴을 만족하지 않는 조건을 검사한다
++ station 테이블에서 city 컬럼의 값이 a , e , i , o ,u로 시작하지 않으면서 동시에 a , e , i , o , u 로 끝나지 않는 조건을 만족하는 row를 추출한다
++ 이때 city 컬럼의 데이터가 중복되면 안된다
+```
+SELECT distinct city
+FROM station
+WHERE city NOT LIKE 'a%' 
+AND city NOT LIKE 'e%' 
+AND city NOT LIKE 'i%' 
+AND city NOT LIKE 'o%' 
+AND city NOT LIKE 'u%' 
+AND city NOT LIKE '%a' 
+AND city NOT LIKE '%e' 
+AND city NOT LIKE '%i' 
+AND city NOT LIKE '%o' 
+AND city NOT LIKE '%u';
+```
+## 블로그 프로젝트
++ 잘된점
++ 회원가입 페이지 div 컨텐츠 영역 레이아웃 수정
++ 로그인 페이지 div 컨텐츠 영역 레이아웃 수정
++ 블로그 글쓰기 페이지 div 컨텐츠 영역 레이아웃 수정 
+
++ 배운점
++ button 태그를 div로 감싸서 정렬
++ ```
+   .register .register_popup .popup_body div button {
+                display: block;
+                margin-left: 33%;
+                width: 170px;
+                margin-bottom: 10px;
+                margin-top: 20px;
+               
+            }
+  ```
+
++ 향후 계획
+  + 향후 만들어야 하는 레이아웃
+  + 블로그 관리자 페이지
+    + 관리자 메인 페이지
+    + 글 관리 페이지
+    + 카테고리 관리 페이지
+    + 댓글 관리 페이지
+    + 카테고리 관리 팝업
+    + 카테고리 이동 처리 팝업
+      

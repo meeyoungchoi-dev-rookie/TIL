@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>블로그 글쓰기</title>
+        <style>
+
+            div {
+                box-sizing: border-box;
+            }
+
+            .top {
+                width: 1000px;
+                height: 100px;
+                border: 1px solid gray;
+                margin-left: 15%;
+            }
+
+
+
+
+            .top .top_left {
+                float: left;
+                border: 1px solid red;
+                width: 200px;
+                height: 80px;
+                margin-left: 10px;
+                margin-top: 10px;
+                font-size: 25px;
+            }
+
+            .logo_title {
+                width: 150px;
+                height: 70px;
+                border: 1px solid yellow;
+                margin-left: 22px;
+                margin-top: 5px;
+            }
+
+            .logo_title p {
+                font-size: 20px;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+
+            .top .top_right {
+                float: right;
+                border: 1px solid green;
+                margin-right: 10px;
+                margin-top: 10px;
+                width: 400px;
+                height: 80px;
+            }
+
+
+            .top_right div {
+                width: 250px;
+                height: 30px;
+                border: 1px solid purple;
+                margin-top: 5%;
+                margin-left: 22%;
+
+            }
+
+            .middle {
+                margin-left: 15%;
+                margin-top: 50px;
+
+            }
+
+            .middle form {
+                margin-bottom: 20px;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="top_left">
+                <div class="logo_title">
+                    <p>DevLog</p>
+                </div>
+            </div>
+            <div class="top_right">
+                <div>
+                    <button type="button">Categories</button>
+                    <button type="button">질문하기</button>
+                    <button type="button">로그아웃</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="middle">
+            <form action="">
+                <label>카테고리:</label>
+                <select name="categories" id="categories">
+                    <option value="internet">인터넷네트워크</option>
+                    <option value="html">HTML</option>
+                    <option value="css">css</option>
+                </select>
+            </form>
+
+            <textarea rows="100" cols="136">
+
+            </textarea>
+
+            <div>
+                <button type="button">저장</button>
+                <button type="button">취소</button>
+            </div>
+        
+        </div>
+    </body>
+</html>

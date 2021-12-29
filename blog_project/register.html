@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>회원가입</title>
+        <style>
+            div {
+                box-sizing: border-box;
+            }
+
+            .blog_top {
+                width: 1000px;
+                height: 100px;
+                border: 1px solid black;
+                margin-left: 15%;
+            }
+
+
+            .logo {
+                width: 200px;
+                height: 80px;
+                border: 1px solid blue;
+                float: left;
+                margin-left: 10px;
+                margin-top: 1%;
+            }
+
+            .logo .logo_title {
+                width: 150px;
+                height: 50px;
+                border: 1px solid red;
+                margin-left: 10%;
+                margin-top: 5px;
+            }
+
+            .logo_title p {
+                font-size: 2opx;
+                vertical-align: middle;
+                text-align: center;
+
+            }
+
+            .top_buttons {
+                width: 300px;
+                height: 80px;
+                border: 1px solid red;
+                float: right;
+                margin-right: 10px;
+                margin-top: 1%;
+            }
+
+            .top_buttons div {
+                width: 200px;
+                height: 60px;
+                border: 1px solid blueviolet;
+                margin-left: 16%;
+                margin-top: 2%;
+                padding-top: 15px;
+                padding-left: 25px;
+            }
+
+            .register {
+                clear: both;
+                display: inline-block;
+                width: 1000px;
+                border: 1px solid red;
+                margin-left: 15%;
+                margin-top: 30px;
+                position: relative;
+                height: 500px;
+            }
+            
+            .register .register_popup {
+                position: absolute;
+                width: 500px;
+                height: 450px;
+                border: 1px solid orange;
+                left: 25%;
+                top: 5%;
+            }
+
+            .register .register_popup .popup_logo {
+                margin-left: 40%;
+            }
+
+            .register .register_popup input {
+               display: inline-block;
+               margin-left: 33%;
+               margin-bottom: 10px;
+            }
+
+            .register .register_popup form button {
+                margin-left: 33%;
+                width: 170px;
+            }
+
+            #input_name {
+                margin-bottom: 30px;
+            }
+
+            hr {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+
+
+            .register .register_popup .popup_body div button {
+                display: block;
+                margin-left: 33%;
+                width: 170px;
+                margin-bottom: 10px;
+                margin-top: 20px;
+               
+            }
+
+
+
+        </style>
+    </header>
+    <body>
+        <div class="blog_top">
+            <div class="logo">
+                <div class="logo_title">
+                    <p>DevLog</p>
+                </div>
+                
+            </div>
+            <div class="top_buttons">
+                <div>
+                    <button type="button">Categories</button>
+                    <button type="button">로그인</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="register">
+            <div class="register_popup">
+                <div class="popup_logo">
+                    <p>회원가입</p>
+                </div>
+                <div class="popup_body">
+                    <form>
+                        <input type="text" placeholder="사용자 닉네임"/><br>
+                        <input type="password" placeholder="비밀번호"/><br>
+                        <input type="password" placeholder="비밀번호 확인"/><br>
+                        <input type="email" placeholder="이메일을 입력하세요"/><br>
+                        <input id="input_name" type="text" placeholder="이름을 입력하세요"/><br>
+                        <button type="submit">등록후 이메일 인증</button>
+                    </form>
+                    <hr>
+                    <div>
+                        <button type="button">카카오로 시작하기</button>
+                        <button type="button">깃허브로 시작하기</button>
+                        <button type="button">이미 회원 이신가요?</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
