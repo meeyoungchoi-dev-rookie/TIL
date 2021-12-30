@@ -168,3 +168,96 @@ AND city NOT LIKE '%u';
     + 카테고리 관리 팝업
     + 카테고리 이동 처리 팝업
       
+
+
+## 12월 30일
+# 12월 30일
+## 블로그 글 상세 페이지 (블로그 프로젝트)
+### 잘된점
++ 이전까지는 레이아웃을 float 와 absolute , relative를 사용하여 잡았다
++ 이번부터는 flex를 적용하여 레이아웃을 잡았다
+
+### 배운점
++ flex의 정렬 방식 - row , column
++ items 요소들을 container로 감싸서 정렬시킨다
+
+## 개선할 점
++ 블로그 상세글 레이아웃의 content 내부 영역 레이아웃 수정
+
+## sql
+### 잘된점
++ order by를 사용하여 정렬하는 방식
++ DESC (내림차순) , ASC (오름차순)
++ 해커랭크에서 order by 관련 4문제 풀기
+
+### 배운점
++ ROUND() 를 사용하여 소숫점 아래 n 번째 자리에서 반올림 처리
+```
+SELECT ROUND(long_w , 4)
+FROM station
+WHERE lat_n < 137.2345
+ORDER BY lat_n DESC
+LIMIT 1;
+```
++ LIMIT을 사용하여 정렬된 데이터중 보여주고 싶은 만큼만 추출하기
+```
+SELECT *
+FROM products
+ORDER BY price DESC
+LIMIT 3;
+```
+
++ SUBSTR()를 사용하여 문자열 자르기
+```
+SELECT name
+FROM students
+WHERE marks > 75
+ORDER BY SUBSTR(name , -3) , ID ASC;
+
+```
++ LEFT() - 문자열을 앞에서 부터 자른다
++ RIGHT() - 문자열을 뒤에서 부터 자른다
+```
+SELECT name
+FROM students
+WHERE marks > 75
+ORDER BY RIGHT(name , 3) , ID ASC;
+
+```
++ SUBSTR(컬럼 , -3) - 컬럼 데이터를 뒤에서부터 3개 자르겠다
+```
+SELECT name
+FROM students
+WHERE marks > 75
+ORDER BY RIGHT(name , 3) , ID ASC;
+```
+
+## 자바스크립트
+### 끝말잇기 게임 만들기
+#### 잘된점
++ 끝말잇기 게임 동작 흐름 파악
++ 함수간 호출 흐름 파악
+
+#### 배운점
++ document.querySelector를 사용하여 html 태그와 id , class 선택자를 선택하는 방법
+```
+let $input = document.querySelector('input');
+let $word = document.querySelector('#word');
+let $button = document.querySelector('button');
+let $order = document.querySelector('#order');
+
+
+
+```
++ addEventListener를 사용하여 선택자에 이벤트를 발생시키는 방법
+```
+ $input.addEventListener('input' , checkInput);
+ $button.addEventListener('click' , buttonClick);
+```
+
+#### 개선 사항
++ 구조파악은 완료 했다
++ 코드를 보지 않고 스스로 구조도를 그리고 코딩할 수 있도록 연습하자
+
+
+

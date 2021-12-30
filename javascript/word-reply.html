@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>끝말잇기 게임</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <h1>끝말잇기 게임</h1>
+        <div>
+            <span id="order">1</span>번째 참가자
+            제시어: <span id="word"></span>
+        </div>
+        <div>
+            <input type="text" placeholder="제시어를 입력하세요"/>
+            <button id="ok">확인</button>
+        </div>
+
+        <script>
+            
+            let $input = document.querySelector('input');
+            let $word = document.querySelector('#word');
+            let $button = document.querySelector('button');
+            let $order = document.querySelector('#order');
+
+            let newWord;
+            let playerWord;
+
+            let playerOrder;
+            let orderCopy;
+
+            const players = prompt('게임 참여 인원을 입력하세요');
+            console.log('참여 인원: ' , Number(players));
+
+            // 현재 순서
+            playerOrder = $order.textContent;
+            console.log('현재 순서: ' , playerOrder);
+
+
+            function checkInput(event) {
+                 newWord = event.target.value;
+            }
+
+
+            function buttonClick() {
+
+                // 제시어 규칙 검사
+                if (!playerWord || playerWord[playerWord.length - 1] === newWord[0]) {
+
+                    // 입력받은 단어를 제시어를 변수에 저장해야 한다
+                    playerWord = newWord;
+                    console.log('입력받은 단어: ' , playerWord);
+
+                    // 제시어를 화면에 보여줘야 한다
+                    $word.textContent = playerWord;
+                    console.log('화면에 보여줄 제시어: ' , $word.textContent);
+
+                    
+           
+
+                    // 제시어를 화면에 보여줘야 한다
+                    $word.textContent = newWord;
+                    console.log('화면에 보여줄 제시어: ' , $word.textContent);
+
+                    // 다음사람이 입력할 수 있게 다음 순서로 넘어가 져야 한다
+                    // 현재 순서 + 1 한 값이 게임에 참여 하고 있는 총 인원수 보다 크다면
+                    // 다시 첫번째 사람으로 순서가 넘어간다
+
+                    // 아닌 경우 현재 순서 + 1을 해준다
+
+                    if (Number(playerOrder) + 1 > Number(players)) {
+                        $order.textContent = 1;
+                        console.log('다시 처음 순서: ' , );
+                    } else {
+                        console.log('다음 순서: ' ,Number(playerOrder));
+                        $order.textContent = Number(playerOrder) + 1;
+                    }
+
+
+
+                 
+
+
+
+
+                } else {
+                  
+                    // 끝말잇기 규칙 검사를 하기 위해 
+                    // 화면에 보여지고 있는 제시어를 미리 복사해 둔다
+                    playerWord = $word.textContent;
+                    console.log('이전 제시어: ' ,  playerWord);
+
+
+                    // 입력받은 단어를 제시어를 변수에 저장해야 한다                    
+                    console.log('입력받은 단어: ' , newWord);
+
+                
+
+                    // 끝말잇기 규칙에 따라 유효성 검사를 진행한다
+                    if (playerWord[playerWord.length - 1] === newWord[0]) {
+
+                        // 제시어를 화면에 보여줘야 한다
+                        $word.textContent = newWord;
+                        console.log('화면에 보여줄 제시어: ' , $word.textContent);
+
+                        // 다음사람이 입력할 수 있게 다음 순서로 넘어가 져야 한다
+                        // 현재 순서 + 1 한 값이 게임에 참여 하고 있는 총 인원수 보다 크다면
+                        // 다시 첫번째 사람으로 순서가 넘어간다
+
+                        // 아닌 경우 현재 순서 + 1을 해준다
+
+                        if (Number(playerOrder) + 1 > Number(players)) {
+                            $order.textContent = 1;
+                        } else {
+                            console.log('다음 순서: ' ,Number(playerOrder));
+                            $order.textContent = Number(playerOrder) + 1;
+                        }
+
+
+
+                    }
+
+
+                }
+
+
+            }
+
+
+
+
+            $input.addEventListener('input' , checkInput);
+            $button.addEventListener('click' , buttonClick);
+
+
+
+        </script>
+
+    </body>
+</html>
