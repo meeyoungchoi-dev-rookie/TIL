@@ -261,3 +261,129 @@ let $order = document.querySelector('#order');
 
 
 
+# 12월 31일
+## 블로그 프로젝트
+### 잘된점
++ flex를 사용하여 블로그글 상세페이지 컨텐츠 부분 레이아웃 설계
++ flex를 사용하여 블로그글 상세페이지 댓글 부분 레이아웃 설계
+
+### 향후 계획
++ 블로그 글 상세페이지 페이징처리 레리아웃 , 카드 형식으로 연관된 글 보여주는 레이아웃 설계
++ 관리자 메인페이지
++ 관리자 글 관리 페이지
++ 관리자 카테고리 관리 페이지
++ 관리자 댓글 관리 페이지
+
+### 아쉬운점
++ 하루에 한 페이지는 마무리 할수 있도록 하자
+
+## 자바스크립트 - 끝말잇기 게임
+### 잘됨점
++ 코드흐름 파악하여 구조도를 그려보았다
++ 모르는 문법 내용을 구글링하여 정리하였다
++ 책을 보지 않고 완전히 이해하여 직접 만들어 보았다
++ 직접 중복되는 코드를 제거하고 리펙토링을 진행해 보았다
+```
+  function buttonClick() {
+
+      // 코드 리펙토링
+      // 순서를 넘기는 코드가 중복된다
+      // 첫번째 순서이거나 다음 사람이 올바른 단어를 입력했을 때 다음 순서로 넘겨줘야 한다
+      if ( !gameWord || gameWord[gameWord.length - 1] === inputWord[0] ) {
+
+          /*
+              textContent
+              - html 태그 요소가 갖고 있는 텍스트 값을 가져온다
+              - 참고 - https://hianna.tistory.com/483
+          
+          */
+          gameWord = inputWord;
+          $word.textContent = gameWord;
+
+
+          // 첫번째 사람이 입력한 후에도 순서는 다음 순서롤 넘어가 져야 한다
+          // 총 게임 참여 인원수 : players
+          // 현재 순서 : order
+          nowOrder = Number($order.textContent);
+
+          if (nowOrder + 1 > players) {
+              //순서가 다시 1번 으로 돌아간다
+              nowOrder = 1;
+              $order.textContent = Number(nowOrder);
+          } else {
+              // 현재 순서에 1을 더해준다
+              nowOrder += 1;
+              $order.textContent = Number(nowOrder);
+          }
+
+          $word.textContent = "";
+          $input.focus();
+
+
+      } else {
+          // 기존 제시어가 그대로 보여져야 한다
+          $word.textContent = gameWord;
+          alert('올바른 단어가 아닙니다.');
+          $input.focus();
+      }
+ } 
+
+
+
+```
+
+### 배운점
++ document.querySelector()를 사용하여 html 문서의 태그 , id 선택자 , class 선택자 등 요소를 선택한다
++ addEventListener('event명' , 콜백함수명)
++ document 요소를 이벤트와 연결해주기 위해 사용하는 함수
++ 이벤트가 발생되었을때 실행될 콜백함수를 두번째 인자로 넣어준다
+
+### 향후 계획
++ 앞으로도 지금처럼 꾸준히 하자
+
+## SQL - 집계함수
+### 잘된점
++ 집계함수의 개념과 사용방법을 이해 하였다
++ 이를 바탕으로 해커랭크에서 집계함수 관련 문제 6개를 풀어보았다
+
+### 배운점
++ COUNT(*)
++ 테이블에 있는 데이터 레코드의 개수를 전부 더해준다
++ 단 , NULL 값이 들어있는 row도 포함한다
++ 특정 컬럼의 값을 중복을 제거하고 로우의 개수를 카운트 하는 경우
++ count(distince 컬럼명) 을 사용한다
+
++ SUM()
++ 특정 컬럼 데이터 값의 총합을 구하고 싶을 때 사용
++ 특정 컬럼의 데이터 값이 NULL 인 경우 해당 로우는 제외한다
+
+
++ AVG()
++ 특정 컬럼 데이터 값의 평균을 구하고 싶을 때 사용
++ 단 컬럼 값에 null이 들어가 있는 경우 나눌때 해당 로우는 제외하고 나눈다
++ 이런경우 해결책
+```
+SELECT SUM(price)/COUNT(*)
+FROM products;
+```
++ price 컬럼의 총합을 구한후 총 row의 개수로 나눈다
++ count(*) 하면 null 값이 들어가 있는 로우도 포함하여 카운팅 해주기 때문이다
+
++ MIN()
++ 특정 컬럼에서 최솟값을 구할때 사용한다
+
++ MAX()
++ 특정 컬럼에서 최댓값을 구할때 사용한다
+
+
+
+
+
+
+
+
+
+
+
+
+
