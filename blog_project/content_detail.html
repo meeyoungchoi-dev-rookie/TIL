@@ -4,14 +4,21 @@
         <meta charset="utf-8">
         <title>블로그 글 상세 페이지</title>
         <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+             html, body{height: 100%;}
+
             .top_container {
                 display: flex;
                 flex-direction: row;
-                width: 1000px;
+                margin: 0;
+                width: 100%;
                 height: 100px;
-                margin-left: 15%;
-                border: 1px solid black;
-                
+                border: 1px solid black;       
             }
 
             .top_container .top_right {
@@ -74,13 +81,14 @@
 
             .middle_left p {
                 text-align: center;
-                margin-left: 5%;
+                margin-left: 2px;
                 font-size: 20px;
             }
 
             .middle_left  .dropdown {
                 display: inline-block;
                 margin-top: 20px;
+                margin-left: 35px;
             }
 
             .dropdown a {
@@ -115,11 +123,6 @@
                 margin-left: 5%;
             }
 
-         
-
-
-
-
             .middle_container .middle_right {
                 width: 200px;
                 height: 700px;
@@ -132,7 +135,13 @@
             .middle_right h5 {
                 display: inline-block;
                 margin-left: 15%;
+                margin-top: 20px;
                 font-size: 20px;
+            }
+
+            .middle_right .dropdown1 {
+                margin-left: 15%;
+                margin-top: 20px;
             }
 
             .middle_container .middle_center .content_center_container {
@@ -162,6 +171,7 @@
             .content_bottom_apply .container  {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 margin-left: 30px;
                 margin-top: 20px;
                 width: 800px;
@@ -247,15 +257,47 @@
                 margin-left: 15%;
             }
 
+            .middle_list .items .container {
+                width: 1000px;
+                height: 380px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border: 1px solid palevioletred;
+            }
+
+            .middle_list .items .container .card1 {
+                width: 200px;
+                height: 300px;
+                border: 1px solid red;
+            }
+
+            .middle_list .items .container .card1 img {
+                width: 150px;
+               
+            }
+
+
             .footer {
                 display: flex;
-                flex-direction: row;
+                /* flex-direction: row; */
+                justify-content: center;
+                align-items: center;
                 width: 1000px;
                 height: 50px;
                 border: 1px solid green;
                 margin-left: 15%;
                 margin-top: 20px;
             }
+
+            .footer .container {
+                display: inline-block;
+                width: 500px;
+                height: 43px;
+                border: 1px solid red;
+            }
+
+           
 
         </style>
     </head>
@@ -368,15 +410,41 @@
         </div>
         <div class="middle_list">
             <div class="items">
+                <span>소항목 관련 글</span>
                 <div class="container">
-                    <div>
-                        <span>소카테고리 관련 글</span>
+                   
+                    <div class="card1">
+                        <img src="images/login_image.png">
+                        <h1>글 제목</h1>
+                        <small>닐짜</small>
                     </div>
+                    <div class="card1">
+                        <img src="images/login_image.png">
+                        <h1>글 제목</h1>
+                        <small>닐짜</small>
+                    </div>
+                    <div class="card1">
+                        <img src="images/login_image.png">
+                        <h1>글 제목</h1>
+                        <small>닐짜</small>
+                    </div>
+                    <div class="card1">
+                        <img src="images/login_image.png">
+                        <h1>글 제목</h1>
+                        <small>닐짜</small>
+                    </div>
+    
                 </div>
             </div>
         </div>
+    </div>
 
         <div class="footer">
+            <div class="container">
+                <p>
+                    <h1>@DevLog.CMY</h1>
+                </p>
+            </div>
         </div>
     </body>
 </html>
