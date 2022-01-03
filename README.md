@@ -538,6 +538,53 @@ FROM products;
 + 블로그 관리자 댓글 관리 페이지
 
 
+# 2022년 01월 03일
+## 블로그 프로젝트
+### 잘된점
++ flex를 사용하여 블로그 관라지 페이지 레이아웃 작업 진행
++ css 에서 특성선택자를 사용하여 코드 리펙토링
+
+### 배운점
++ flex를 사용할 때와 position 속성을 사용하여 정려할 때의 차이를 명확하게 느낄수 있었다
++ 특성선택자를 통해 html 요소를 더욱 명확하게 선택할 수 있었다
++ 부모 요소 내부에 자식요소를 선택할 때 결합 선택자를 사용하여 관계를 확실하게 표현할 수 있었다
+
+### 향후 계획
++ 관리자 메인페이지 chart.js 적용
++ 글 관리 페이지
++ 카테고리 관리 페이지
++ 댓글 관리 페이지
++ 채팅
+
+## CSS - 가상 클래스
+### 배운점
++ 가상 클래스의 종류와 어떤 상황에서 어떻게 사용해야 하는 지 실습해 볼수 있었다
++ [가상 클래스 정리 내용](https://unique-wandflower-4cc.notion.site/745777ad807443c9b4c0d0c0d11dc2de)
+
+## SQL - GROUP BY HAVING 문제풀이
+### 잘된점
++ group by를 사용하여 그룹내부에서 데이터들의 로우 개수를 구하는 방법을 확실히 이해하였다
+
+### 배운점
++ SQL 문 실행 순서
++ GROUP BY 와 COUNT() 관계
+  + 그룹 내부에서 그룹에 속한 데이터들의 row 개수를 카운팅 한다
++ [GROUP BY HAVING 문제풀이 및 정리내용](https://unique-wandflower-4cc.notion.site/GROUP-BY-HAVING-e6f510ddda2a4131b8ce5e0dc9e3f0ec)
+
+## 자바스크립트
+### 잘된점
++ 끝말잇기 게임을 구조도를 직접 그린 후 스스로 코딩 하였다
++ 쿵쿵따 게임도 구조도를 직접 그린 후 스스로 코딩 하였다
+
+### 배운점
++ NULL vs UNDEFINED
++ 문자열에서 특정 인덱스에 해당하는 문자 추출하는 방법
++ HTML 요소에서 텍스트를 가져오는 방법
++ innerHTML vs innerText vs textContent 차이
++ [끝말잇기 상세 정리 내용](https://unique-wandflower-4cc.notion.site/20d93fcbb70f465fabd045214dd9a31e)
++ [쿵쿵따 상세 정리 내용](https://unique-wandflower-4cc.notion.site/dcd8df52d6e7426eaaab400004d65a24)
+
+
 
 
 
