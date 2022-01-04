@@ -2,157 +2,73 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>끝말잇기</title>
+        <title>끝말잇기 게임</title>
     </head>
     <body>
+        <h1>끝말잇기 게임</h1>
         <div>
-            <h1>끝말잇기</h1>
-            <span id="order">1</span>번 참가자
+            <span id="order">1</span>번째 사람 
             제시어: <span id="word"></span>
-            <div>
-                <input type="text" placeholder="제시어를 입력하세요"/>
-                <button type="button">확인</button>
-            </div>
+        </div>
+        <div>
+            <input type="text" placeholder="제시어를 입력하세요"/>
+            <button type="button">확인</button>
         </div>
 
 
 
         <script>
-            
 
-            /*
-                querySelector()
-                - html 요소를 가져올때
-                - css id 선택자를 사용하여 html 요소를 가져올때
-                - css class 선택자를 사용하여 html 요소를 가져올때
-                참고 - https://junlab.tistory.com/13
-            
-            */
-            let $input = document.querySelector('input');
-            let inputWord; // 사용자가 입력하는 제시어
-            let gameWord; // 화면에 보여지는 제시어
-
-            let $button = document.querySelector('button');
-
-            let $word = document.querySelector('#word');
-
-            
-
-            /*
-                prompt()
-                - 사용자로 부터 입력받은 값을 가져오는 입력창
-                참고 - https://www.codingfactory.net/10431
-            */
-            // 1. 참가 인원수를 입력 받는다
-            const players = Number(prompt('게임에 참가할 인원을 입력하세요'));
-            console.log('참여 인원: ' , players);
-
-            // 현재 순서
-            let $order = document.querySelector('#order');
+            let inputWord = ""; // 입력한 제시어를 저장할 변수
+            let savedWord; // 태그의 제시어를 저장할 변수
+            let comWord = "";   // 태그에서 가져온 제시어를 저장할 변수
             let nowOrder;
+            const players = Number(prompt('게임에 참여할 인원 수를 입력하세요'));
+            const $input = document.querySelector('input');
+            const $button = document.querySelector('button');
+            const $word = document.querySelector('#word');
+            const $order = document.querySelector('#order');
 
-           
-            /*
-                event 객체
-                - html 문서 (Document)와 관련된 이벤트가 발생하면
-                - 이벤트 관련 정보가 모두 event 객체에 저장된다
-                - 에) 이벤트 발생 요소 , 이벤트 타입 , 이벤트 관련 데이터
-                - 참고 - https://blog.sonim1.com/152
-            
-            */
-            function inputCheck(event) {
-                /*
-                    event.target
-                    - 이벤트가 발생한 대상 태그를 가리킨다
-                
-                    event.target.value 
-                    - 이벤트가 발생한 대상 태그의 데이터 값
-                */
+
+            const inputEvent = (event) =>  {
+                console.log('입력한 제시어: ' , event.target.value);
                 inputWord = event.target.value;
-                console.log('입력한 제시어: ' , inputWord);
+                comWord = $word.textContent;
             }
+            
+            $input.addEventListener('input' , inputEvent); 
 
 
-            function buttonClick() {
+            const buttonClick = () => {
 
-                // 코드 리펙토링
-                // 순서를 넘기는 코드가 중복된다
-                // 첫번째 순서이거나 다음 사람이 올바른 단어를 입력했을 때 다음 순서로 넘겨줘야 한다
-                if ( !gameWord || gameWord[gameWord.length - 1] === inputWord[0] ) {
+                if (!savedWord || inputWord[0] === comWord[comWord.length - 1]) {                   
+                    savedWord = inputWord;
+                    $word.textContent = savedWord;
 
-                    /*
-                        textContent
-                        - html 태그 요소가 갖고 있는 텍스트 값을 가져온다
-                        - 참고 - https://hianna.tistory.com/483
-                    
-                    */
-                    gameWord = inputWord;
-                    $word.textContent = gameWord;
-
-
-                    // 첫번째 사람이 입력한 후에도 순서는 다음 순서롤 넘어가 져야 한다
-                    // 총 게임 참여 인원수 : players
-                    // 현재 순서 : order
                     nowOrder = Number($order.textContent);
-
+                    
                     if (nowOrder + 1 > players) {
-                        //순서가 다시 1번 으로 돌아간다
                         nowOrder = 1;
                         $order.textContent = Number(nowOrder);
-                    } else {
-                        // 현재 순서에 1을 더해준다
+                    } else  {
+                        nowOrder = Number($order.textContent);
                         nowOrder += 1;
                         $order.textContent = Number(nowOrder);
                     }
 
-                    $word.textContent = "";
-                    $input.focus();
-
+                    $input.value = "";
 
                 } else {
-                    // 기존 제시어가 그대로 보여져야 한다
-                    $word.textContent = gameWord;
-                    alert('올바른 단어가 아닙니다.');
-                    $input.focus();
+                    alert("제시어가 올바르지 않습니다.");
                 }
+            }
 
-            } 
-
-            // 2. 첫번째 참가자가 제시어를 입력한다
-            // 3. 제시어를 저장하는 변수에 입력한 제시어가 들어가 있지 않으므로 첫번째 참가자 이다
-
-            // 4. 확인 버튼을 클릭한다
-            // 입력받은 제시어를 변수에 저장한다
-
-            // 다음 순서로 차례를 넘긴다
-
-            // 5. 다음사람이 제시어를 입력한다
-            // 기존 제시어의 마지막 글자와 입력한 제시어의 첫번째 글자가 같은 지 검사한다
-
-            // 6. 같다면 화면에 제시어를 보여준다
-            // 7. 다음 순서로 넘긴다
-
-
-            /*
-                이벤트 
-                - 웹 브라우저에서 발생된 사건
-                - 사용자가 클릭을 하거나 스크롤을 내리는 등의 행돌을 의미한다
-
-                addEvnetListener()
-                - html 문서 내 특정 요소에 이벤트를 등록할 때 사용
-                - 첫번째 인자에는 발생될 이벤트를 적어준다
-                - 두번쨰 인자에는 이벤트가 발생했을때 이를 처리할 함수명을 적어준다
-                - 두번째 인자가 콜백함수 이다
-                - 콜백함수 : 다른 함수의 매개변수로 넘겨준 함수
-                - 일단 함수를 넘겨받고 때가 되면 나중에 호출하겠다
-                - 즉 , 버튼이 클릭되었을때 buttonClick 함수가 호출된다
-                - 참고 - https://bigtop.tistory.com/35
-            
-            */
-            $input.addEventListener('input' , inputCheck);
             $button.addEventListener('click' , buttonClick);
-            
+
 
         </script>
+
+
+
     </body>
 </html>

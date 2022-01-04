@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>블로그 관리자 페이지</title>
+       
         <style>
             *{
                 padding: 0;
@@ -156,6 +157,13 @@
                 margin-top: 20px;
             }
 
+            .middle_content > .content_left  > .content_bottom > .custom_select {
+                display: inline-block;
+                margin-left: 24px;
+                margin-bottom: 20px;
+            }
+
+
             .middle_content > .content_right {
                 margin-top: 20px;
                 display: flex;
@@ -254,7 +262,7 @@
 
             .middle_content > .content_right > .right_bottom {
 
-               
+              
                 width: 1160px;
                 height: 200px;
                 margin-left: 20px;
@@ -262,6 +270,23 @@
 
 
             }   
+
+            .middle_content > .content_right > .right_bottom > .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .middle_content > .content_right > .right_bottom > .container > h4 {
+                display: inline-block;
+                margin-top: 10px;
+                
+            }
+
+            .middle_content > .content_right > .right_bottom > .container > ol {
+                display: inline-block;
+                margin-top: 12px;
+            }
 
 
             .middle_content > .content_bottom > .custom_select {
@@ -271,6 +296,21 @@
                
             }
 
+
+            .buttom_footer > .container {
+                display: flex;
+                flex-direction:  row;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+
+            .bottom_footer > .container > h4 {
+                display: inline-block;
+                margin-left: 50%;
+                margin-top: 4%;
+
+            }
 
         </style>
     </head>
@@ -345,17 +385,75 @@
                     </div>
                 </div>
                 <div class="right_middle">
-
+                    <canvas id="myChart" width="200px" height="30px"></canvas>
                 </div>
                 <div class="right_bottom">
-
+                    <div class="container">
+                        <h4>최근 7일 통계 인기글 Top 7.</h4>
+                        <ol>
+                            <li>Title1</li>
+                            <li>Title2</li>
+                            <li>Title3</li>
+                            <li>Title4</li>
+                            <li>Title5</li>
+                            <li>Title6</li>
+                            <li>Title7</li>
+                        </ol>
+                    </div>
                 </div>
             </div>
           
         </div>
-        <div class="bottom_footer"></div>
+        <div class="bottom_footer">
+            <div class="container">
+                <h4>DevLog.CMY</h4>
+            </div>
+        </div>
 
-
-
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.js"></script>
+        <script>
+             const $chart = document.querySelector('#myChart').getContext('2d');
+             const myChart = new Chart($chart , {
+                type: 'line',
+                data: {
+                    labels: ['January', 'Feb', 'March', 'April', 'May', 'June' , 'July'],
+                    datasets: [{
+                        yAxisID: 'y',
+                        label: '블로그 월별 방문자 그래프',
+                        data: [12, 19, 3, 5, 2, 3 , 16],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            max: 25,
+                            ticks: {
+                                beginAtZero: true,
+                               
+                            }
+                            
+                        }
+                    }
+                }
+            });
+        </script>
     </body>
 </html>

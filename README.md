@@ -592,6 +592,102 @@ FROM products;
 
 
 
+# 01월 04일
+## 자바스크립트
+### 잘된점
++ 끝말잇기 구조도 수정
++ 구조도 바탕으로 코딩
++ 코드리뷰 하면서 코드 내용 정리
++ 중복되는 코드 리펙토링
++ [끝말잇기 리펙토링 및 정리 내용](https://unique-wandflower-4cc.notion.site/20d93fcbb70f465fabd045214dd9a31e)
+
+### 배운점
++ prompt() vs alert() vs confirm()
++ Number() vs parseInt()
++ event
++ querySelector() vs querySelectorAll()
+
+### 향후 계획
++ 게산기 만들기
++ 숫자야구 게임
+
+
+## SQL
+### 잘된점
++ CASE WHEN THEN 목적
++ GROUP BY 와 함꼐 사용하는 방법
++ [CASE WHEN THEN 정리 내용](https://unique-wandflower-4cc.notion.site/CASE-WHEN-THEN-be22d892197a4928a247f27c134358c5)
+
+### 배운점
++ GROUP BY 와 함꼐 CASE WHEN THEN 사용하기
+
+### 향후 계획
++ CASE WHEN THEN 해커랭크 문제 풀기
++ JOIN
++ UNION 
+
+
+## 블로그 프로젝트
+### 잘된점
++ 관리자 메인페이지에 chart.js를 사용하여 라인 차트 생성
++ flex를 사용하여 관리자 메인페이지 레이아웃 마무리 작업 진행
+
+### 배운점
++ chart.js cdn 사용하는 방법
++ chart.js 에서 라인차트 생성하는 방법
+```
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.js"></script>
+<script>
+      const $chart = document.querySelector('#myChart').getContext('2d');
+      const myChart = new Chart($chart , {
+        type: 'line',
+        data: {
+            labels: ['January', 'Feb', 'March', 'April', 'May', 'June' , 'July'],
+            datasets: [{
+                yAxisID: 'y',
+                label: '블로그 월별 방문자 그래프',
+                data: [12, 19, 3, 5, 2, 3 , 16],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    max: 25,
+                    ticks: {
+                        beginAtZero: true,
+                        
+                    }
+                    
+                }
+            }
+        }
+    });
+</script>
+
+```
+### 향후 계획
++ 관리자 글 관리 페이지
++ 관리자 카테고리 관리 페이지
++ 관리자 댓글 관리 페이지
+
+
 
 
 
