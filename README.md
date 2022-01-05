@@ -688,6 +688,112 @@ FROM products;
 + 관리자 댓글 관리 페이지
 
 
+# 01월 05일
+## 블로그 프로젝트
+### 잘된점
++ flex를 사용하여 자식 컨테이너 하위 자식 컨테이너의 요소 정렬
++ flex와 a태그를 사용하여 페이징 작업 진행
+
+### 배운점
++ flex를 사용하여 자식 컨테이너 하위에 있는 div 요소의 레이아웃 정렬
+```
+ [class="middle_content"] {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+        height: 900px;
+        border: 1px solid red;
+    }
+
+  .middle_content  .content_left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      width: 175px;
+      height: 850px;
+      border: 1px solid red;
+      margin-left: 10px;
+      
+  }
+
+  .middle_content > .content_left  > .content_top {
+      width: 160px;
+      height: 200px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+      .middle_content > .content_left  > .content_top img {
+      width: 50px;
+      margin-top: -16px;
+  }
+
+  .middle_content > .content_left  > .content_top h4 {
+      margin-top: 20px;
+  }
+
+
+  <div class="middle_content">
+      <div class="content_left">
+          <div class="content_top">
+              <img src="../version1/images/login_image.png">
+              <h4>DevLog.CMY</h4>
+              <button type="button">블로그 관리홈</button>
+          </div>
+      </div>
+  </div>     
+
+```
+
+### 향후 계획
++ 카테고리 관리자 페이지
++ 댓글 관리자 페이지
++ 채팅 관리자 페이지
+
+## 자바스크립트
+### 잘된점
++ 계산기 진행 흐름에 대한 구조도 그림
++ 구조도를 바탕으로 코딩 진행
++ 코드리뷰하면서 내용 정리
++ 리펙토링 방향에 대해 정리
++ [계산기 코딩 과정 및 흐름 정리](https://unique-wandflower-4cc.notion.site/98f7c3bc81eb468785cce3fb696a247b)
+
+### 배운점
++ 숫자를 클릭했을때 어떻게 구분할 것인가
+  + 연산자의 앞과 뒤에 숫자가 오는데 이를 어떻게 구분할 것인가
++ 연산자를 클릭할때 숫자 없는 경우 어떻게 처리할 것인가
++ `=` 연산자를 클릭했을때 어떻게 계산하여 결과를 화면에 보여줄 것인가
+
+### 개선해야 할 점
++ `=` 연산자를 클릭했을때 처리하는 콜백함수 리펙토링
++ 숫자를 클릭했을때 값을 저장하는 변수를 재활용하는 방법에 대한 고민 필요
+
+
+## SQL
+### 잘된점
++ CASE WHEN THEN 절을 사용하여 삼각형이 될 조건을 구하는 문제 해결
++ [문제 해결 과정 정리](https://unique-wandflower-4cc.notion.site/CASE-bfad008bd1c04d219ca887bea24cc2fa)
+
+### 배운점
++ 직관적으로 단순하게 문제에 접근하는 방법
++ 정삼각형 : 세변의 길이가 모두 같다
++ 이등변삼각형 : 두변의 길이만 같다
++ 그냥 삼각형 : 세변의 길이가 모두 다르다
++ 하나씩 select 해보면서 조건을 추려나가야 한다
+
+### 개선할 점
++ 어렵게 생각하지 말자
++ 조급해 하지 말자
+
+
 
 
 
