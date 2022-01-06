@@ -796,6 +796,58 @@ FROM products;
 
 
 
+# 01월 06일
+## SQL 
+### CASE WHEN THEN을 사용한 피봇
+#### 잘된점
++ 피봇에 대한 이해
++ CASE WHEN THEN을 사용하여 삼각형이 안될조건 구하기
+
+### 배운점
++ CASE WHEN THEN을 사용하여 삼각형이 안될 조건 구하기
+1. 전체 데이터를 조회 해본다
+2. 삼각형이 될 수 없는 조건을 가진 데이터를 분류한다
+3. 정삼각형이 될 수 있는 조건을 가진 데이터를 분류한다
+4. 이등변삼각형이 될 수 있는 조건을 가진 데이터를 분류한다
+5. 그외는 삼각형이 될 수 있는 조건이다
+```
+SELECT  CASE 
+          WHEN GREATEST(A , B , C) >= A + B THEN 'Not A Triangle'
+          WHEN A = B && B = C THEN 'Equilateral'
+          WHEN GREATEST(A , B , C) < A + C AND (A = C OR A = B) THEN 'Isosceles'
+          ELSE 'Scalene'
+       END 
+FROM triangles;
+
+```
+
++ 짐계함수를 사용한 데이터를 가로로 한줄에 출력할때 사용한다
++ 카테고리아이디 별 평균가격을 가로로 한출에 출력
+```
+SELECT 
+			AVG(CASE WHEN categoryid = 1 THEN price ELSE NULL END) AS 'category1_price' ,
+			AVG(CASE WHEN categoryid = 2 THEN price ELSE NULL END) AS 'category2_price' ,
+			AVG(CASE WHEN categoryid = 3 THEN price ELSE NULL END) AS 'category3_price'
+FROM Products;
+
+
+```
+## 자바스크립트 
+
+### 계산기 코드 리펙토링
+1. 숫자를 클릭하고 값을 저장하는 변수를 재활용할수 있는 방법에 대한 고민
+ + 첫번째 숫자를 홤녀에 보여주고 난 후 변수를 초기화 해준다
+ + 연산자 클릭후 두번째 숫자가 입력되었을때 변수를 재활용한다
+2. 연산자를 클릭하는 부분
+  + 연산자를 클릭하기 전 첫번째 숫자를 담는 변수에 값이 비어있는지 비어있지 않은지만 체크해 준다
+  + 값이 비어있지 않을 때 연산자를 클릭할 수 있게 처리한다
+3. = 연산자를 클릭했을때 모든 식이 올바르게 되었는지 검사
+  + firstNum , operator , secondNum 변수에 값이 제대로 들어와 있는지 검사
+  + = 연산자는 계산을 처리하여 실제 결과값을 도출해 내는 과정이므로 하나의 함수로 분리하여 작성한다
+4. clear 버튼 클릭시 입력했던 식 과 숫자 전체를 초기화 시킨다
+  + 클릭한 연산자를 보여주는 부분과 계산 결과를 보여주는 부분 초기화
+  
+
 
 
 
