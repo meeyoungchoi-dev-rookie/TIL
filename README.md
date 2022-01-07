@@ -865,8 +865,12 @@ FROM Products;
   + flex를 사용하여 계층 레이아웃 표현
 
 
-  
-
+  ## SQL
+  ### 각 부서별 1월 부터 12월 까지 연봉을 정렬
+  ### 배운점
+  + 피봇을 사용하면 데이터를 가롤로 정렬시킬수 있다
+  + group by 를 한뒤 피봇을 사용하면 그룹별 데이터들을 가로로 정렬시킬 수 있다
+  + [피봇 정리 내용 참고](https://unique-wandflower-4cc.notion.site/CASE-9c981542402142cdaa865ad7afd9e0f5)
 
 
 
