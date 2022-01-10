@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>고객 채팅 팝업</title>
+        <style>
+            .content_right {
+                margin-top: 20px;
+                width: 600px;
+                
+                height: auto;
+               
+                margin-right: 10px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .content_right .right_top {
+                width: 95%;
+                
+                height: auto;
+                
+            }
+
+          
+
+            .content_right .right_top  .top_box1 {
+                width: 100%;
+                height: 100px;
+                border: 1px solid green;
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+
+            .content_right .right_top .top_box2 {
+                margin-top: 10px;
+                width: 100%;
+                height: 600px;
+            
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .content_right .right_top .top_box2  .box2_right {
+                width: 100%;
+                height: 600px;
+              
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            
+            .content_right .right_top .top_box2  .box2_right .right_top {
+                width: 90%;
+                height: 100px;
+                border: 1px solid green;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            
+            .content_right .right_top .top_box2  .box2_right .right_top .right_image {
+                width: 100px;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_top .right_image img {
+                width: 50px;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_top  .right_info {
+                width: 90%;
+                height: 100px;
+                border: 1px solid orangered;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle {
+                width: 90%;
+                height: 500px;
+                border: 1px solid greenyellow;
+                overflow: scroll;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container {
+
+                width: 100%;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container div {
+                margin-left: 25px;
+
+
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle .container2 {
+                width: 100%;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container img {
+                margin-left: 5%;
+                width: 40px;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container2 img {
+                margin-right: 5%;
+                width: 40px;               
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle .container2 div {
+                margin-right: 50px;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_bottom {
+                width: 90%;
+                height: 50px;
+                border: 1px solid purple;
+            }
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="content_right">
+
+            <div class="right_top">
+                <!-- <h4>채팅</h4> -->
+                <div class="top_box2">
+                 
+                  <div class="box2_right">
+                      <div class="right_top">
+                            <div class="right_image">
+                                <img src="../version1/images/login_image.png">
+                            </div>
+                            <div class="right_info">
+                                <h4>받는 사용자ID</h4>
+                            </div>
+                      </div>
+                      <div class="right_middle">
+                        <div class="container">
+                            <img src="../version1/images/login_image.png" alt="Avatar">
+                            <div>
+                                <p>Hello. How are you today?</p>
+                                <span class="time-right">11:00</span>&nbsp;&nbsp;
+                                <span class="date-right">01/10 Tue</span>
+                            </div>
+                            
+                          </div>
+                          
+                        <div class="container2 darker">
+                            <div>
+                                <p>Hey! I'm fine. Thanks for asking!</p>
+                                <span class="time-left">11:01</span>&nbsp;&nbsp;
+                                <span class="date-left">01/10 Tue</span>
+                            </div>
+                            
+                            <!-- <img src="../version1/images/login_image.png" alt="Avatar" class="right"> -->
+                           
+                        </div>
+                        <div class="container">
+                            <img src="../version1/images/login_image.png" alt="Avatar">
+                            <div>
+                                <p>Hello. How are you today?</p>
+                                <span class="time-right">11:00</span>&nbsp;&nbsp;
+                                <span class="date-right">01/10 Tue</span>
+                            </div>
+                            
+                          </div>
+                          
+                        <div class="container2 darker">
+                            <div>
+                                <p>Hey! I'm fine. Thanks for asking!</p>
+                                <span class="time-left">11:01</span>&nbsp;&nbsp;
+                                <span class="date-left">01/10 Tue</span>
+                            </div>
+                            
+                            <!-- <img src="../version1/images/login_image.png" alt="Avatar" class="right"> -->
+                           
+                        </div>
+                        <div class="container">
+                            <img src="../version1/images/login_image.png" alt="Avatar">
+                            <div>
+                                <p>Hello. How are you today?</p>
+                                <span class="time-right">11:00</span>&nbsp;&nbsp;
+                                <span class="date-right">01/10 Tue</span>
+                            </div>
+                            
+                          </div>
+                          
+                        <div class="container2 darker">
+                            <div>
+                                <p>Hey! I'm fine. Thanks for asking!</p>
+                                <span class="time-left">11:01</span>&nbsp;&nbsp;
+                                <span class="date-left">01/10 Tue</span>
+                            </div>
+                            
+                            <!-- <img src="../version1/images/login_image.png" alt="Avatar" class="right"> -->
+                           
+                        </div>
+
+
+                      </div>
+                      <div class="right_bottom">
+                          <form method="post">
+                            <textarea type="text" placeholder="message..." rows="3"></textarea>
+                            <button type="submit">전송</button>
+                          </form>
+                          
+                      </div>
+                  </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>

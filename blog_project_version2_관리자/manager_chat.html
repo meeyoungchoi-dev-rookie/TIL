@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>채팅 관리</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            [class="top_header"] {
+                width: 100%;
+                height: 100px;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+
+            .top_header h1 {
+                display: inline-block;
+                border: 1px solid gold;
+                margin-left: 5%;
+            }
+
+            .top_header .button_container  {
+                display: inline-block;
+                border: 1px solid black;
+                margin-right: 5%;
+            }
+
+
+
+            [class="content"] {
+                width: 100%;
+                /* height: 900px; */
+                height: auto;
+                border: 1px solid red;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .content .content_left {
+                margin-top: 20px;
+                width: 175px;
+                height: 850px;
+                border: 1px solid red;
+                margin-left: 10px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .content_left .left_top {
+                width: 160px;
+                height: 200px;
+                border: 1px solid black;
+            }
+
+            .content_left .left_top > img {
+                width: 50px;
+                margin-left: 34%;
+                margin-top: 20px;
+            }
+
+            .content_left .left_top button {
+                display: inline-block;
+                margin-left: 26%;
+                margin-top: 20px;
+            }
+            
+            
+            .content_left .left_middle {
+                width: 160px;
+                height: 200px;
+                border: 1px solid black;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .content_left .left_middle .custom_select {
+                margin-top: -40px;
+            }
+
+            .content_left .left_middle #select_second {
+                display: inline-block;
+                margin-bottom: 40px;
+            }
+            
+            .content_left .left_middle #second_h4 {
+                display: inline-block;
+                margin-top: -10px;
+            }
+
+            .content_left .left_bottom {
+                width: 160px;
+                height: 200px;
+                border: 1px solid black;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .content_left .left_bottom #left_bottom_h4 {
+                display: inline-block;
+                margin-top: 20px;
+            }
+
+            .content_left .left_bottom  #left_select_second {
+                margin-bottom: 40px;
+            }
+
+            .content .content_right {
+                margin-top: 20px;
+                width: 1200px;
+                /* height: 850px; */
+                height: auto;
+                border: 1px solid black;
+                margin-right: 10px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .content_right .right_top {
+                width: 95%;
+                /* height: 600px; */
+                height: auto;
+                border: 1px solid red;
+            }
+
+            .content_right .right_top h4 {
+                display: inline-block;
+                margin-left: 11%;
+            }
+
+            .content_right .right_top  .top_box1 {
+                width: 100%;
+                height: 100px;
+                border: 1px solid green;
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+
+            .content_right .right_top .top_box2 {
+                margin-top: 10px;
+                width: 100%;
+                height: 700px;
+                /* height: auto; */
+                border: 1px solid greenyellow;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            
+            .content_right .right_top .top_box2  .box2_left {
+                width: 30%;
+                height: 600px;
+                border: 1px solid black;
+                margin-left: 10%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+
+            }
+
+            /* .content_right .right_top .top_box2 .box2_left  .left_top {
+                width: 80%;
+                height: 150px;
+                border: 1px solid black;
+                margin-left: 10%;
+
+                /* display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center; */
+            /* }  */ 
+
+
+            .content_right .right_top .top_box2  .box2_left .left_top {
+                width: 90%;
+                height: 100px;
+                border: 1px solid green;
+                margin-top: 10px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+
+            .content_right .right_top .top_box2  .box2_left .left_top .left_image {
+                width: 100px;
+                height: 100px;
+                border: 1px solid grey;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+
+            .content_right .right_top .top_box2  .box2_left .left_top .left_image  img {
+                width: 50px;
+                
+            }
+
+            .content_right .right_top .top_box2  .box2_left .left_top .right_info {
+                width: 80%;
+                height: 100px;
+                border: 1px solid olivedrab;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-start;
+            }
+
+            .content_right .right_top .top_box2  .box2_left .left_top .right_info h4 {
+                text-align: center;
+            }
+
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom {
+                width: 90%;
+                height: 600px;
+                border: 1px solid red;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+               
+            }
+
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom .search_container {
+                width: 90%;
+                height: 50px;
+                border: 1px solid gold;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+               
+
+            }
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom  .members_container {
+                width: 90%;
+                height: 400px;
+                border: 1px solid orangered;
+                overflow: scroll;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+
+            }
+
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom  .members_container .container {
+                width: 100%;
+                height: 100px;
+                border: 1px solid blue;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom  .members_container .container .right_image {
+                width: 100px;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom  .members_container .container  .right_info {
+                width: 80%;
+                height: 100px;
+                border: 1px solid orangered;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .content_right .right_top .top_box2  .box2_left .left_bottom  .members_container .container .right_image img {
+                width: 50px;
+            }
+
+
+
+            .content_right .right_top .top_box2  .box2_right {
+                width: 55%;
+                height: 600px;
+                border: 1px solid brown;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            
+            .content_right .right_top .top_box2  .box2_right .right_top {
+                width: 90%;
+                height: 100px;
+                border: 1px solid green;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            
+            .content_right .right_top .top_box2  .box2_right .right_top .right_image {
+                width: 100px;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_top .right_image img {
+                width: 50px;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_top  .right_info {
+                width: 90%;
+                height: 100px;
+                border: 1px solid orangered;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+
+
+
+            .content_right .right_top .top_box2  .box2_right .right_middle {
+                width: 90%;
+                height: 500px;
+                border: 1px solid greenyellow;
+                overflow: scroll;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container {
+
+                width: 100%;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container div {
+                margin-left: 25px;
+
+
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle .container2 {
+                width: 100%;
+                height: 100px;
+                border: 1px solid blueviolet;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container img {
+                margin-left: 5%;
+                width: 40px;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle  .container2 img {
+                margin-right: 5%;
+                width: 40px;               
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_middle .container2 div {
+                margin-right: 50px;
+            }
+
+            .content_right .right_top .top_box2  .box2_right .right_bottom {
+                width: 90%;
+                height: 50px;
+                border: 1px solid purple;
+            }
+
+
+
+
+
+
+
+            [class="footer"] {
+                width: 100%;
+                height: 100px;
+                border: 1px solid palevioletred;
+                margin-top: 20px;
+            }
+
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div class="top_header">
+            <h1>DevLog</h1>
+            <div class="button_container">
+                <button>Categories</button>
+                <button>Q&A</button>
+                <button>로그아웃</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_left">
+                <div class="left_top">
+                    <img src="../version1/images/login_image.png">
+                    <button type="button">블로그 홈</button>
+                </div>
+                <div class="left_middle">
+                    <h4>쓰기</h4>
+                    <div class="custom_select">
+                        <select>
+                            <option value="write_content">글</option>
+                            <option value="notice_content">공지사항</option>
+                        </select>
+                    </div>
+                    <h4 id="second_h4">콘텐츠</h4>
+                    <div class="custom_select" id="select_second">
+                        <select>
+                            <option value="content_maange">글 관리</option>
+                            <option value="category_manage">카테고리 관리</option>
+                            <option value="notice_manage">공지 관리</option>
+                            <option value="question_manage">질문 관리</option>
+                            <option value="chat_manage">채팅</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="left_bottom">
+                    <h4 id="left_bottom_h4">댓글</h4>
+                    <div class="custom_select">
+                        <select>
+                            <option value="reply_manage">댓글 관리</option>
+                            <option value="replay_police">신고</option>
+                        </select>
+                    </div>
+                    <h4>통계</h4>
+                    <div class="custom_select" id="left_select_second">
+                        <select>
+                            <option value="visit_manage">방문 통계</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="content_right">
+
+                <div class="right_top">
+                    <h4>채팅 관리</h4>
+                    <!-- <div class="top_box1">
+                        
+                    </div> -->
+                    <div class="top_box2">
+                      <div class="box2_left">
+                          <div class="left_top">
+                              <div class="left_image">
+                                  <img src="../version1/images/login_image.png">
+                              </div>
+                              <div class="right_info">
+                                  <h4>사용자ID</h4>
+                              </div>
+                          </div>
+                          <div class="left_bottom">
+                              <div class="search_container">
+                                <input type="text" placeholder="Search..">
+                                <button type="submit">검색</button>
+                              </div>
+                              <div class="members_container">
+                                  <div class="container">
+                                        <div class="right_image">
+                                            <img src="../version1/images/login_image.png">
+                                        </div>
+                                        <div class="right_info">
+                                            <h4>사용자ID</h4>
+                                            <div>messagemessagemessage</div>
+                                        </div>    
+                                  </div>
+                                  <div class="container">
+                                        <div class="right_image">
+                                            <img src="../version1/images/login_image.png">
+                                        </div>
+                                        <div class="right_info">
+                                            <h4>사용자ID</h4>
+                                            <div>messagemessagemessage</div>
+                                        </div>    
+                                  </div>
+                                  <div class="container">
+                                        <div class="right_image">
+                                            <img src="../version1/images/login_image.png">
+                                        </div>
+                                        <div class="right_info">
+                                            <h4>사용자ID</h4>
+                                            <div>messagemessagemessage</div>
+                                        </div>    
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="box2_right">
+                          <div class="right_top">
+                                <div class="right_image">
+                                    <img src="../version1/images/login_image.png">
+                                </div>
+                                <div class="right_info">
+                                    <h4>받는 사용자ID</h4>
+                                </div>
+                          </div>
+                          <div class="right_middle">
+                            <div class="container">
+                                <img src="../version1/images/login_image.png" alt="Avatar">
+                                <div>
+                                    <p>Hello. How are you today?</p>
+                                    <span class="time-right">11:00</span>&nbsp;&nbsp;
+                                    <span class="date-right">01/10 Tue</span>
+                                </div>
+                                
+                              </div>
+                              
+                            <div class="container2 darker">
+                                <div>
+                                    <p>Hey! I'm fine. Thanks for asking!</p>
+                                    <span class="time-left">11:01</span>&nbsp;&nbsp;
+                                    <span class="date-left">01/10 Tue</span>
+                                </div>
+                                
+                                <!-- <img src="../version1/images/login_image.png" alt="Avatar" class="right"> -->
+                               
+                            </div>
+                            <div class="container">
+                                <img src="../version1/images/login_image.png" alt="Avatar">
+                                <div>
+                                    <p>Hello. How are you today?</p>
+                                    <span class="time-right">11:00</span>&nbsp;&nbsp;
+                                    <span class="date-right">01/10 Tue</span>
+                                </div>
+                                
+                              </div>
+                              
+                            <div class="container2 darker">
+                                <div>
+                                    <p>Hey! I'm fine. Thanks for asking!</p>
+                                    <span class="time-left">11:01</span>&nbsp;&nbsp;
+                                    <span class="date-left">01/10 Tue</span>
+                                </div>
+                                
+                                <!-- <img src="../version1/images/login_image.png" alt="Avatar" class="right"> -->
+                               
+                            </div>
+                            <div class="container">
+                                <img src="../version1/images/login_image.png" alt="Avatar">
+                                <div>
+                                    <p>Hello. How are you today?</p>
+                                    <span class="time-right">11:00</span>&nbsp;&nbsp;
+                                    <span class="date-right">01/10 Tue</span>
+                                </div>
+                                
+                              </div>
+                              
+                            <div class="container2 darker">
+                                <div>
+                                    <p>Hey! I'm fine. Thanks for asking!</p>
+                                    <span class="time-left">11:01</span>&nbsp;&nbsp;
+                                    <span class="date-left">01/10 Tue</span>
+                                </div>
+                                
+                                <!-- <img src="../version1/images/login_image.png" alt="Avatar" class="right"> -->
+                               
+                            </div>
+
+
+                          </div>
+                          <div class="right_bottom">
+                              <form method="post">
+                                <textarea type="text" placeholder="message..." rows="3"></textarea>
+                                <button type="submit">전송</button>
+                              </form>
+                              
+                          </div>
+                      </div>
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+                <!-- <div class="right_bottom">
+                    <div>
+                        <p>카테고리명 글자수: <input type="text"/></p>
+                    </div>
+                    <div>
+                        <p>카테고리별 글수:   <select>
+                                    <option value="reply_manage">표시합니다.</option>
+                                    <option value="replay_police">표시하지 않습니다.</option>
+                                </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p>카테고리 새글 발행여부:   <select>
+                                    <option value="reply_manage">표시합니다.</option>
+                                    <option value="replay_police">표시하지 않습니다.</option>
+                                </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p><input type="text"/> 일 이내 발행된 글의 경우 새글 표시합니다. </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="footer">
+            <h5>DevLog.CMY</h5>
+        </div>
+    </body>
+</html>
