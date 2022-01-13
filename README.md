@@ -951,6 +951,10 @@ WHERE Users.ID = Orders.userId;
 + 조인 조건을 지정하는 방식 ON 과 WHERE의 차이
 + [inner join을 사용하여 문제 풀고 개념 정리](https://unique-wandflower-4cc.notion.site/JOIN-9913a5dc1bf647709091326c819cd26b)
 
+# 1월 13일
+## 블로그 프로젝트
++ 메인페이지 레이아웃 header 와 footer로 레이아웃 분리
+
 
 
 

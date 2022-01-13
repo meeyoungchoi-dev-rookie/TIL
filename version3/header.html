@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+           * {
+                box-sizing: border-box;
+            }
+
+            [class="top_header"] {
+                width: 100%;
+                height: 100px;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: brown;
+            }
+
+
+            .top_header h1 {
+                display: inline-block;
+                border: 1px solid gold;
+                margin-left: 5%;
+            }
+
+            .top_header .button_container  {
+                display: inline-block;
+                border: 1px solid black;
+                margin-right: 5%;
+            }
+
+            #register {
+                display: none;
+            }
+
+
+            #login_popup {
+                display: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="top_header">
+            <h1>DevLog</h1>
+            <div class="button_container">
+                <button>Categories</button>
+                <button>Q&A</button>
+                <button type="button" id="login">로그인</button>
+                <button type="button" id="register">회원가입</button>
+                <button  id="a">그냥..</button>
+            </div>
+        </div>
+
+
+         <div class="bgLayer">
+
+        </div>
+        <div id="register">
+            <div class="register_popup">
+                <div class="popup_logo">
+                    <p>회원가입</p>
+                </div>
+                <div class="popup_body">
+                    <form>
+                        <input type="text" placeholder="사용자 닉네임"/><br>
+                        <input type="password" placeholder="비밀번호"/><br>
+                        <input type="password" placeholder="비밀번호 확인"/><br>
+                        <input type="email" placeholder="이메일을 입력하세요"/><br>
+                        <input id="input_name" type="text" placeholder="이름을 입력하세요"/><br>
+                        <button type="submit">등록후 이메일 인증</button>
+                    </form>
+                    <hr>
+                    <div>
+                        <button type="button">카카오로 시작하기</button>
+                        <button type="button">깃허브로 시작하기</button>
+                        <button type="button">이미 회원 이신가요?</button>
+                        <button type="button">이미 회원 이신가요?</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="login_popup">
+            <div class="popup">
+                <div class="popup_logo">
+                    <p>로그인</p>
+                </div>
+                <div class="popup_body">
+                    <form>
+                        <input type="text" placeholder="아이디"/><br>
+                        <input id="input_password" type="password" placeholder="비밀번호"/><br>
+                        <button type="submit">로그인</button>
+                    </form>
+                    <hr>
+                    <div>
+                        <button type="button">카카오 로그인</button>
+                        <button type="button">깃허브 로그인</button>
+                        <button type="button">아직 회원이 아니세요?</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+      
+        
+
+
+    </body>
+</html>

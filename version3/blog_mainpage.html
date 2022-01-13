@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DevLog MainPage</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        
+        <style>
+            * {
+                background-color: rgb(240, 223, 203);
+                margin: 0;
+                padding: 0;
+            }
+
+            .blog_content {
+                width: 1000px;
+                height: 2000px;
+                border: 1px solid blue;
+                margin-left: 15%;
+            }
+
+            .blog_content .content_leftside {
+                float: left;
+                width: 250px;
+                height: 1400px;
+                border: 1px solid gold;
+                margin-top: 50px;
+                margin-left: 15px;
+            }
+
+            .content_leftside img {
+                width: 50px;
+                margin-left: 35%;
+                margin-top: 20px;
+            }
+
+            .content_leftside .blog_owner {
+                margin-left: 20%;
+                margin-top: 10px;
+                width: 150px;
+                height: 50px;
+                border: 1px solid brown;
+            }
+
+            .dropdown {
+                margin-top: 20px;
+            }
+
+            .dropdown .dropdown-content a {
+                display: block;
+            }
+
+            .dropdown div {
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+
+            hr {
+                margin-top: 30px;
+            }
+
+
+            .leftside_bottom button {
+                display: block;
+            }
+
+            .leftside_bottom  div {
+                width: 50px;
+                height: 50px;
+                border: 1px solid greenyellow;
+                margin-left: 20%;
+            }
+
+            .leftside_bottom  div button {
+                margin-top: 10px;
+            }
+
+            .blog_content .content_rightside {
+                float: left;
+                width: 650px;
+                height: 1400px;
+                border: 1px solid saddlebrown;
+                margin-left: 50px;
+                margin-top: 49px;
+            }
+
+
+            .content_rightside .rightside_first .rightside_title1 {
+                margin-left: 40%;
+                font-size: 1.25rem;
+            }
+
+
+            .content_rightside .rightside_first .rightside_content {
+                width: 600px;
+                height: 600px;
+                border: 1px solid purple;
+                margin-left: 4%;
+            }
+
+            .rightside_content .card_box {
+                width: 520px;
+                height: 200px;
+                border: 1px solid blue;
+                margin-left: 7%;
+                margin-top: 35px;
+            }
+
+            .card_box .card_image {
+                float: left;
+                width: 200px;
+                height: 180px;
+                border: 1px solid peru;
+                margin-left: 2%;
+                margin-top: 10px;
+            }
+
+
+            .card_box .card_image img {
+                width: 50px;
+                height: 50%;
+                margin-left: 33%;
+                margin-top: 20%;
+            }
+
+            .card_box .card_content {
+                float: left;
+                width: 280px;
+                height: 180px;
+                border: 1px solid yellowgreen;
+                margin-left: 2%;
+                margin-top: 10px;
+
+            }
+            
+            .card_box .card_content .content p {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .rightside_content .card_box_pagination div {
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 10px;
+            }
+
+            .content_rightside .rightside_second {
+                display: inline-block;
+                margin-top: 20px;
+            }
+
+            .content_rightside .rightside_second .rightside_title2 {
+                margin-left: 40%;
+                font-size: 1.25rem;
+            }
+
+
+            .content_rightside .rightside_second .rightside_content {
+                width: 600px;
+                height: 600px;
+                border: 1px solid purple;
+                margin-left: 4%;
+            }
+
+
+            .blog_footer {
+                display: inline-block;
+                margin-left: 15%;
+                margin-top: 20px;
+                width: 1000px;
+                height: 90px;
+                border: 1px solid royalblue;
+            }
+
+            .blog_footer div {
+                display: inline-block;
+                text-align: center;
+                margin-left: 50%;
+               
+            }
+
+        </style>
+    </head>
+    <body>
+
+
+        <div id="header">
+          
+
+        </div>
+       
+        <div class="blog_content">
+            <div class="content_leftside">
+                <img src="../version1/images/login_image.png">
+                <div class="blog_owner">
+                    <p>기록하며 성장하는</p>
+                </div>
+
+                <ul>
+                    <li class="dropdown">
+                        <div class="dropdown-menu">HTTP</div>
+                        <div class="dropdown-content">
+                            <a href="#">인터넷과 네트워크</a>
+                            <a href="#">URI와 웹 브라우저 요청흐름 (2)</a>
+                            <a href="#">HTTP 기본</a>
+                            <a href="#">HTTP 메서드</a>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="dropdown">
+                        <div class="dropdown-menu">FrontEnd</div>
+                        <div class="dropdown-content">
+                            <a href="#">HTML</a>
+                            <a href="#">CSS</a>
+                            <a href="#">JavaScript</a>
+                            <a href="#">BootStraps</a>
+                        </div>
+
+                    </li>
+                </ul>
+                <hr>
+                <div class="leftside_bottom">
+                    <div>
+                        <button type="button">Github</button>
+                        <button type="button">Email</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="content_rightside">
+                <div class="rightside_first">
+                    <div class="rightside_title1">
+                        <p>최근에 올라온 글</p>
+                    </div>
+                    <div class="rightside_content">
+                        <div class="card_box">
+                            <div class="card_image">
+                                <img src="../version1/images/login_image.png">
+                            </div>
+                            <div class="card_content">
+                                <h3><a href="#">글 제목</a></h3>
+                                <div>
+                                    <span>작성자</span> <span>작성일</span>
+                                </div>
+                                
+                                <a href="#">대분류 카테고리</a> <a href="#">소분류 카테고리</a>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, tempore. Dolorum vero sed in consectetur eos commodi animi incidunt optio id hic nesciunt ut, pariatur obcaecati veritatis officiis itaque deserunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_box">
+                            <div class="card_image">
+                                <img src="../version1/images/login_image.png">
+                            </div>
+                            <div class="card_content">
+                                <h3><a href="#">글 제목</a></h3>
+                                <div>
+                                    <span>작성자</span> <span>작성일</span>
+                                </div>
+                                
+                                <a href="#">대분류 카테고리</a> <a href="#">소분류 카테고리</a>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, tempore. Dolorum vero sed in consectetur eos commodi animi incidunt optio id hic nesciunt ut, pariatur obcaecati veritatis officiis itaque deserunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_box_pagination">
+                            <div>
+                                <p>페이징 버튼이 올자리 (한 페이지에 올수 있는 글 개수: 2개 / 2개 넘어가면 페이징 버튼 생김)</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="rightside_second">
+                    <div class="rightside_title2">
+                        <p>관리자가 추천하는 글</p>
+                    </div>
+                    <div class="rightside_content">
+                        <div class="card_box">
+                            <div class="card_image">
+                                <img src="../version1/images/login_image.png">
+                            </div>
+                            <div class="card_content">
+                                <h3><a href="#">글 제목</a></h3>
+                                <div>
+                                    <span>작성자</span> <span>작성일</span>
+                                </div>
+                                
+                                <a href="#">대분류 카테고리</a> <a href="#">소분류 카테고리</a>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, tempore. Dolorum vero sed in consectetur eos commodi animi incidunt optio id hic nesciunt ut, pariatur obcaecati veritatis officiis itaque deserunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_box">
+                            <div class="card_image">
+                                <img src="../version1/images/login_image.png">
+                            </div>
+                            <div class="card_content">
+                                <h3><a href="#">글 제목</a></h3>
+                                <div>
+                                    <span>작성자</span> <span>작성일</span>
+                                </div>
+                                
+                                <a href="#">대분류 카테고리</a> <a href="#">소분류 카테고리</a>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, tempore. Dolorum vero sed in consectetur eos commodi animi incidunt optio id hic nesciunt ut, pariatur obcaecati veritatis officiis itaque deserunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_box_pagination">
+                            <div>
+                                <p>페이징 버튼이 올자리 (한 페이지에 올수 있는 글 개수: 2개 / 2개 넘어가면 페이징 버튼 생김)</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            
+        </div>
+        
+        
+        <script> 
+
+            
+          
+            function includeHTML(divContainer, urlHTML) {
+                let xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4) {
+                        if (this.status == 200) { 
+                            divContainer.innerHTML = this.responseText; 
+                            
+                           
+                        }
+                        if (this.status == 404) { divContainer.innerHTML = "Page not found."; }
+                    }
+                }
+                xhttp.open("GET", urlHTML, true);
+                xhttp.send();
+                return;
+            }
+
+            includeHTML(document.querySelector('#header'), 'header.html');
+            includeHTML(document.querySelector('#footer'), 'footer.html');
+
+
+
+         
+           
+
+
+        
+
+                
+        </script>
+
+    </body>
+</html>
