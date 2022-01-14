@@ -957,4 +957,15 @@ WHERE Users.ID = Orders.userId;
 
 
 
+# 01월 14일
 
+## 스프링
+### 스프링 핵심 개념
++ IoC 와 DI
++ IoC : 객체의 생성부터 관리까지 스프링 컨테이너가 스캔하여 관리한다
++ DI :  객체를 직접 생성하지 않고 스프링 컨테이너에서 필요한곳에 주입해주는 방식 
++ [IoC와 DI 상세 정리 내용](https://unique-wandflower-4cc.notion.site/1-4ca2dce542774ea4a29cd3cc9758c491)
+
+
+### 잘된점
++ spring IoC와 DI 가 왜 필요한지 이해할수 있었다
