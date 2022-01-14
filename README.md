@@ -969,3 +969,36 @@ WHERE Users.ID = Orders.userId;
 
 ### 잘된점
 + spring IoC와 DI 가 왜 필요한지 이해할수 있었다
+
+
+## 자바스크립트 숫자야구 리펙토링2차 진행
+
+### 리펙토링 방향
+- strike와 ball을 판단하는 로직에 반복문이 중복된다 반복문을 한번만 사용할 수 있는 방법을 찾아봐야 겟다 
+- 홈런인지 판단하는 로직이 코드가 지저분 하다 줄일수 있는 방법을 찾아봐야 겠다 
+- out ball strike를 화면에 표시해 줄때 효율적으로 분기문으로 처리하는 방법에 대해 코드를 수정해야 겠다 
+    - 현재 몇 아운 상태인지 화면에 보여주는 기능 추가
+
+### 잘된점
++ 리펙토링 진행 완료
++ 반복되는 코드의 중복을 함수를 선언하여 제거
++ 중첩 반복문을 제거하기 위해 join 함수와 indexOf 함수를 사용함
++ [숫자야구 2차 리펙토링 진행 내용](https://unique-wandflower-4cc.notion.site/2-06ce1cc7cc314f4fa4b75d3548182827)
+
+### 개선할 점
++ append vs appendChild 의 차이에 대한 학습
++ createTextNode vs createElement의 차이에 대한 학습
+
+
+# sql
+## left , right join 
+### 잘된점
++ left join 에 대한 이해
++ left join에 WHERE 조건을 줬을때와 ON 조건만 줬을때 차이에 대한 이해
++ right join 에 대한 이해 
++ TIL 리파제토리 각 항목별 폴더 정리
++ [outer join 정리 내용](https://unique-wandflower-4cc.notion.site/outer-join-left-right-6cef6e1bed684d13a508b3fe08740b96)
+
+### 향후 계획
++ outer join 관련 문제풀고 노션에 풀이과정 정리
+
