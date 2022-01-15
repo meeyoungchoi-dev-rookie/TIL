@@ -1002,3 +1002,37 @@ WHERE Users.ID = Orders.userId;
 ### 향후 계획
 + outer join 관련 문제풀고 노션에 풀이과정 정리
 
+
+
+# 01월 15일
+
+## spring
+###  개념정리
++ 필터 와 리플렉션
++ 메시지 컨버터
++ [필터 정리 내용](https://unique-wandflower-4cc.notion.site/2-0def34ec9900434784adfda82012a3ff)
++ [메시지 컨버터 정리 내용](https://unique-wandflower-4cc.notion.site/3-2d046efb911d4459bfb4d971f43cc943)
+
+### 배운점
++ 필터란 무엇이고 스프링에서는 어떻게 어노테이션을 사용하여 필터링을 진행하는가
++ 필터링을 진행하기 위해리플렉션을 통해 클래스에 선언된 어노테이션 , 필드 , 메서드를 분석한다
+
+
+## sql
+
+### outer join 문제풀이
++ 1.
++ customers 테이블과 orders 테이블의 LEFT JOIN 하여 한번도 주문하지 않은 
++ 고객의 이름을 추출한다
+
++ 2.
++ 입양 테이블에는 데이터가 있지만 동물 정보 테이블에는 데이터가 없는
++ 즉 , 입양은 갖지만 동물 테이블에서 동물 정보가 유실된 row를 추출한다
++ [상세 문제 풀이 과정 정리](https://unique-wandflower-4cc.notion.site/outer-join-79bd8c31133d4b038feb0431e1a76c2f)
+
+
+### 잘된점
++ 문제를 전부 해결하였다
+
+### 배운점
++ 문제를 읽고 주어진 상황에 맞게 LEFT JOIN 과 RIGHT JOIN을 사용하는 방법을 익힐수 있었다
