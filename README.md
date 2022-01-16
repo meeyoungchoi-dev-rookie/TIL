@@ -1036,3 +1036,17 @@ WHERE Users.ID = Orders.userId;
 
 ### 배운점
 + 문제를 읽고 주어진 상황에 맞게 LEFT JOIN 과 RIGHT JOIN을 사용하는 방법을 익힐수 있었다
+
+
+# 01월 16일
+
+## spring
+### 잘된점
++ JPA란 무엇인지에 대한 이해
++ ORM이란 무엇인지에 대한 이해
+
+### 배운점
++ JPA : 자바의 클래스 안에 있는 데이터를 영구히 기록할 수 있도록 환경을 제공하는 API
++ ORM : 자바 클래스를 기반으로 데이터베이스 테이블을 모델링하는 방법론
++ [JPA 상세 정리 내용](https://unique-wandflower-4cc.notion.site/JPA-27b29694fb7344749d51c4356cf4e56b)
++ [ORM 상세 정리 내용](https://unique-wandflower-4cc.notion.site/ORM-e4220c84435645db95ec929c37901dd9)
