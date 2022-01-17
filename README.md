@@ -1050,3 +1050,62 @@ WHERE Users.ID = Orders.userId;
 + ORM : 자바 클래스를 기반으로 데이터베이스 테이블을 모델링하는 방법론
 + [JPA 상세 정리 내용](https://unique-wandflower-4cc.notion.site/JPA-27b29694fb7344749d51c4356cf4e56b)
 + [ORM 상세 정리 내용](https://unique-wandflower-4cc.notion.site/ORM-e4220c84435645db95ec929c37901dd9)
+
+
+# 01월 17일
+## 자바스크립트
+### 잘된점
++ 로또 구조도 설계 및 코딩 진행
++ indexOf를 사용하여 배열 요소의 중복 제거
++ append를 사용하여 HTML 요소에 데이터 추가
++ setTimeOut을 사용하여 특정 시간에 한번만 작업이 수행될 수 있도록 함
++ [로또 정리 내용](https://unique-wandflower-4cc.notion.site/de5ee7df9fa9495794b6f1fe1e7cb07e)
+
+
+### 배운점
++ setTimeOut과 setInterval 의 차이
++ [setTimeOut 과 setInterval 정리내용](https://unique-wandflower-4cc.notion.site/setInterval-vs-setTimeOut-382a7e5bcaf0464d9309abb808a1188a)
+
+
+### 개선할 점
++ div를 미리 만들어 놓지 않고 로또 배열에서 값을 꺼낼때 div 요소가 만들어 지도록 리펙토링
+
+
+## spring
+
+### 잘된점
++ JPA에서 영속성 컨텍스트가 필요한 이유에 대한 이해
++ OOP 관점에서 모델링을 진행해야 하는 이유에 대한 이해
++ [영속성 컨텍스트](https://unique-wandflower-4cc.notion.site/6-dd5c610691c7409b90888ae25a3f91e9)
++ [OOP 관점에서 모델링](https://unique-wandflower-4cc.notion.site/7-OOP-84a078cff94a42569de93e64588031ae)
+
+
+### 배운점
++ 영속선 컨텍스트를 통해 엔티티의 동일성이 보장된다
++ 엔티티가 변경되었을 경우 엔티티 매니저가 이를 감지하여 update 쿼리를 자동으로 생성해 준다
+
++ RDB에는 Object 타입의 데이터가 저장될 수 없다
++ 테이블간 관계가 있는 경우 select를 두번 하거나 조인을 하여 데이터를 조회 해야 한다
++ 하지만 OOP 형식으로 클래스를 만들면 JPA가 자동으로 테이블을 만들어 주고 Object 간 관계를 바탕으로 fk 를 생성해 준다
++ 이를 통해 데이터베이스와 OOP의 불일치가 해결된다
+
+
+## sql
+
+
+### 잘된점
++ UNION과 UNION ALL의 차이에 대한 이해
++ UNION과 JOIN의 차이에 대한 이해
++ 어떤 상황에서 UNION을 사용해야 하는지에 대한 이해
++ [UNION 과 UNION ALL 정리](https://unique-wandflower-4cc.notion.site/UNION-UNION-ALL-965a45fe2c9440249c76b2082cd9f9e6)
+
+
+### 배운점
++ 따로따로 조회하던 데이터를 하나의 테이블에 위아래로 이어붙여서 보고싶을때 사용한다
++ UNION은 하나의 테이블에 데이터를 위 , 아래로 이어붙이는 것이다
++ UNION은 중복을 제거하고 붙여진다
++ UNION ALL은 중복 값이 있더라도 제거하지 않고 이어붙여 준다
+
+### 개선할 점
++ UNION을 사용하여 같은 쌍을 갖는 숫자 찾기 문제 마무리 지을것
++ 데이터를 순서대로 나눠서 생각할것
