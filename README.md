@@ -1219,3 +1219,38 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ## 개선할 점
 + map에 대한 더 정확한 이해 필요
 + 로또 번호화 보너스 번호를 분리하여 넣는 부분도 map을 사용하는 방양으로 고민 필요
+
+
+# 01월 20일
+
+## 자바스크립트 가위바위보 게임
+### 잘된점
++ 가위바위보 게임 구현 진행
++ Array 함수 , forEach , setTimeout 을 적용하여 구현 진행
++ [가위바위보 게임 상세 정리 내용](https://unique-wandflower-4cc.notion.site/8a49c7324cd347edb499a3209925cbbd)
+
+### 개선할 점
++ 현재는 가위 바위 보 버튼을 클릭하는 식으로 화면구성이 되있다
++ 버튼에 이미지를 넣고 버튼을 클릭했을때 해당 이미지가 화면에 보여지도록 구현 하는 방식에 대한 고민 필요
+
+## sql
+
+### 잘된점
++ CASE WHEN THEN 조건을 사용하여 UPDATE 관련 문제 해결
+
+### 배운점
++ CASE WHEN THEN 조건을 사용하여 UPDATE시 여러 컬럼에 대한 분기문을 작성하는데 도움을 준다
++ [sql 문제 풀이과정 정리](https://unique-wandflower-4cc.notion.site/UPDATE-2573af51a76941cabe6ee0e413590961)
+
+
+## spring
+
+### 배운점
++ servlet 컨테이너란 무엇이고 객체 생성과정에 대한 이해
++ web.xml이 어떤 기능을 하고 왜 필요한지에 대한 이해
++ [servlet 컨테이너](https://unique-wandflower-4cc.notion.site/10-4bafc399cd444c6d8a10ddb9c4677c2a)
++ [웹 배포 서술자 web.xml](https://unique-wandflower-4cc.notion.site/11-8ecb80d8a1d049688551bcd2936b4259)
+
+### 개선할 점
++ 서블릿 컨테이너가 왜 필요한 지 확실히 이해할 것
++ 서블릿 컨테이너가 객체를 생성하는 과정과 스레드의 관계에 대해 명확히 이해할것
