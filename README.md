@@ -1287,6 +1287,10 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + img 태그를 노드에 랜더링 시켜줬다
 + [가위바위보 게임 2차 리펙토링 ](https://unique-wandflower-4cc.notion.site/2-45f5d99bc10b492387bffa6ca1493bad)
 
+### 개선할 점
++ 버튼을 클릭한 값에 따라 이미지가 제대로 나오지 않는 경우가 있다
++ 이미지를 올바르게 가져올수 있는 방법에 대한 고민 필요
+
 ## SQL
 
 ### 잘된점

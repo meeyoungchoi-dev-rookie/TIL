@@ -355,3 +355,332 @@ A413789	Benji
 A414198	Shelly
 A414513	Rocky
 ```
+
+
+
+### **문제 설명**
+
+`ANIMAL_INS` 테이블은 동물 보호소에 들어온 동물의 정보를 담은 테이블입니다. `ANIMAL_INS` 테이블 구조는 다음과 같으며, `ANIMAL_ID`, `ANIMAL_TYPE`, `DATETIME`, `INTAKE_CONDITION`, `NAME`, `SEX_UPON_INTAKE`는 각각 동물의 아이디, 생물 종, 보호 시작일, 보호 시작 시 상태, 이름, 성별 및 중성화 여부를 나타냅니다.
+
+[제목 없음](https://www.notion.so/e4faa795571e4466b60ecd000fbf6789)
+
+동물 보호소에 들어온 모든 동물의 아이디와 이름을 ANIMAL_ID순으로 조회하는 SQL문을 작성해주세요. SQL을 실행하면 다음과 같이 출력되어야 합니다.
+
+[제목 없음](https://www.notion.so/bea36379a601444fac87fcc730e565e7)
+
+### 무엇
+
+동물 보호소에 들어온 모든 동물의 아이디와 이름을 ANIMAL_ID순으로 조회
+
+### 나의 풀이 과정
+
+- animal_id 컬럼을 오름차순으로 정렬한다
+
+```sql
+SELECT animal_id , name
+FROM animal_ins
+ORDER BY animal_id;
+```
+
+결과
+
+```sql
+animal_id	name
+A349996	Sugar
+A350276	Jewel
+A350375	Meo
+A352555	Harley
+A352713	Gia
+A352872	Peanutbutter
+A353259	Bj
+A354540	Tux
+A354597	Ariel
+A354725	Kia
+A354753	Sammy
+A355519	Faith
+A355688	Shadow
+A355753	Elijah
+A357021	Queens
+A357444	Puppy
+A357846	Happy
+A358697	Fuzzo
+A358879	Simba
+A361391	Baby Bear
+A362103	Stitch
+A362383	*Morado
+A362707	Girly Girl
+A362967	Honey
+A363653	Goofy
+A364429	Hugo
+A365172	Diablo
+A365302	Minnie
+A367012	Miller
+A367438	Cookie
+A367747	Woody
+A368742	Stormy
+A368930	
+A370439	Sniket
+A370507	Emily
+A370852	Katie
+A371000	Greg
+A371102	Ceballo
+A371344	Sailor
+A371534	April
+A373219	Ella
+A373687	Rosie
+A375393	Dash
+A376322	Mama Dog
+A376459	Dora
+A377750	Lucy
+A378348	Frijolito
+A378353	Lyla
+A378818	Zoe
+A378946	Mercedes
+A379998	Disciple
+A380009	Pickle
+A380320	Scooby
+A380420	Laika
+A380506	Ruby
+A381173	Pepper
+A381217	Cherokee
+A382192	Maxwell 2
+A382251	Princess
+A383036	Oreo
+A383964	Finney
+A384360	Jj
+A384568	Jedi
+A385442	Clyde
+A386005	Giovanni
+A386276	Tiko
+A386688	Punch
+A387083	Goldie
+A387965	Dakota
+A388360	Spider
+A388691	Blaze
+A390222	Holly
+A391512	Rome
+A391858	Nellie
+A392027	Penny
+A392075	Skips
+A392615	Chip
+A394547	Snickerdoodl
+A395451	Rogan
+A396810	Raven
+A397882	Charlie
+A399421	Lucy
+A399552	Jack
+A400498	Reggie
+A400680	Lucy
+A403564	Anna
+A405494	Kaila
+A406756	Sabrina
+A407156	Jake
+A408035	Lizzie
+A409637	Stanley
+A410330	Chewy
+A410668	Raven
+A410684	Mitty
+A412173	Jimminee
+A412626	*Sam
+A412697	Jackie
+A413789	Benji
+A414198	Shelly
+A414513	Rocky
+```
+
+
+
+
+### **문제 설명**
+
+`ANIMAL_INS` 테이블은 동물 보호소에 들어온 동물의 정보를 담은 테이블입니다. `ANIMAL_INS` 테이블 구조는 다음과 같으며, `ANIMAL_ID`, `ANIMAL_TYPE`, `DATETIME`, `INTAKE_CONDITION`, `NAME`, `SEX_UPON_INTAKE`는 각각 동물의 아이디, 생물 종, 보호 시작일, 보호 시작 시 상태, 이름, 성별 및 중성화 여부를 나타냅니다.
+
+[제목 없음](https://www.notion.so/282d37f536d94b6b922ab808505a4ff1)
+
+동물 보호소에 들어온 모든 동물의 아이디와 이름, 보호 시작일을 이름 순으로 조회하는 SQL문을 작성해주세요. 단, 이름이 같은 동물 중에서는 보호를 나중에 시작한 동물을 먼저 보여줘야 합니다.
+
+### 예시
+
+예를 들어, `ANIMAL_INS` 테이블이 다음과 같다면
+
+[제목 없음](https://www.notion.so/b2312400d9c84345a6276d22bf9e98d1)
+
+1. 이름을 사전 순으로 정렬하면 다음과 같으며, 'Jewel', 'Raven', 'Sugar'
+2. 'Raven'이라는 이름을 가진 개와 고양이가 있으므로, 이 중에서는 보호를 나중에 시작한 개를 먼저 조회합니다.
+
+따라서 SQL문을 실행하면 다음과 같이 나와야 합니다.
+
+[제목 없음](https://www.notion.so/7460e669af1a4bff8d426bb53e2f0cdb)
+
+### 무엇
+
+동물 보호소에 들어온 모든 동물의 아이디와 이름, 보호 시작일을 이름 순으로 조회
+
+이름이 같은 동물 중에서는 보호를 나중에 시작한 동물을 먼저 보여줘야 한다
+
+### 나의 풀이 과정
+
+- name 컬럼과 datetime 컬럼을 기준으로 정렬한다
+- 이름은 오름차순으로 정렬하고 이름이 같은 경우 datetime 컬럼을 내림차순으로 정렬한다
+
+```sql
+SELECT animal_id , name , datetime
+FROM animal_ins
+ORDER BY name ASC , datetime DESC;
+```
+
+결과 
+
+```sql
+animal_id	name	datetime
+A368930		2014-06-08 13:20:00
+A362383	*Morado	2016-04-21 08:19:00
+A412626	*Sam	2016-03-13 11:17:00
+A403564	Anna	2013-11-18 17:03:00
+A371534	April	2016-06-07 17:42:00
+A354597	Ariel	2014-05-02 12:16:00
+A361391	Baby Bear	2015-03-30 11:36:00
+A413789	Benji	2016-04-19 13:28:00
+A353259	Bj	2016-05-08 12:57:00
+A388691	Blaze	2015-11-27 15:59:00
+A371102	Ceballo	2015-08-03 09:09:00
+A397882	Charlie	2017-07-12 14:43:00
+A381217	Cherokee	2017-07-08 09:41:00
+A410330	Chewy	2016-09-11 14:09:00
+A392615	Chip	2015-07-26 11:39:00
+A385442	Clyde	2014-01-11 15:15:00
+A367438	Cookie	2015-09-10 16:01:00
+A387965	Dakota	2014-06-25 16:58:00
+A375393	Dash	2015-06-12 12:47:00
+A365172	Diablo	2014-08-26 12:53:00
+A379998	Disciple	2013-10-23 11:42:00
+A376459	Dora	2017-07-09 07:42:00
+A355753	Elijah	2015-09-10 13:14:00
+A373219	Ella	2014-07-29 11:43:00
+A370507	Emily	2014-10-27 14:43:00
+A355519	Faith	2015-05-08 18:34:00
+A383964	Finney	2017-02-05 12:27:00
+A378348	Frijolito	2014-01-25 14:38:00
+A358697	Fuzzo	2015-02-06 12:12:00
+A352713	Gia	2017-04-13 16:29:00
+A386005	Giovanni	2015-09-25 18:17:00
+A362707	Girly Girl	2016-01-27 12:27:00
+A387083	Goldie	2014-02-01 18:36:00
+A363653	Goofy	2014-11-17 17:39:00
+A371000	Greg	2015-07-29 16:07:00
+A357846	Happy	2016-03-17 14:09:00
+A352555	Harley	2014-08-08 04:20:00
+A390222	Holly	2013-12-08 17:04:00
+A362967	Honey	2014-06-08 18:19:00
+A364429	Hugo	2015-09-28 16:26:00
+A399552	Jack	2013-10-14 15:38:00
+A412697	Jackie	2016-01-03 16:25:00
+A407156	Jake	2016-10-18 11:01:00
+A384568	Jedi	2014-12-13 15:19:00
+A350276	Jewel	2017-08-13 13:50:00
+A412173	Jimminee	2015-07-28 18:17:00
+A384360	Jj	2014-07-04 01:55:00
+A405494	Kaila	2014-05-16 14:17:00
+A370852	Katie	2013-11-03 15:04:00
+A354725	Kia	2015-08-26 11:51:00
+A380420	Laika	2017-08-04 16:45:00
+A408035	Lizzie	2014-12-25 12:02:00
+A377750	Lucy	2017-10-25 17:17:00
+A400680	Lucy	2017-06-17 13:29:00
+A399421	Lucy	2015-08-25 14:08:00
+A378353	Lyla	2014-08-02 11:23:00
+A376322	Mama Dog	2014-02-18 12:24:00
+A382192	Maxwell 2	2015-03-13 13:14:00
+A350375	Meo	2017-03-06 15:01:00
+A378946	Mercedes	2017-09-28 13:36:00
+A367012	Miller	2015-09-16 09:06:00
+A365302	Minnie	2017-01-08 16:34:00
+A410684	Mitty	2014-06-21 12:25:00
+A391858	Nellie	2017-03-16 16:53:00
+A383036	Oreo	2014-05-29 12:31:00
+A352872	Peanutbutter	2015-07-09 17:51:00
+A392027	Penny	2014-01-31 13:46:00
+A381173	Pepper	2014-08-06 12:07:00
+A380009	Pickle	2016-02-01 14:35:00
+A382251	Princess	2014-11-08 16:14:00
+A386688	Punch	2015-08-17 12:55:00
+A357444	Puppy	2016-03-11 15:43:00
+A357021	Queens	2014-12-03 15:15:00
+A396810	Raven	2016-08-22 16:13:00
+A410668	Raven	2015-11-19 13:41:00
+A400498	Reggie	2016-10-04 20:31:00
+A414513	Rocky	2016-06-07 09:17:00
+A395451	Rogan	2015-12-27 17:42:00
+A391512	Rome	2016-04-06 15:53:00
+A373687	Rosie	2014-03-20 12:31:00
+A380506	Ruby	2016-01-22 17:13:00
+A406756	Sabrina	2016-05-12 20:23:00
+A371344	Sailor	2015-05-11 12:33:00
+A354753	Sammy	2017-04-21 11:33:00
+A380320	Scooby	2014-02-03 12:41:00
+A355688	Shadow	2014-01-26 13:48:00
+A414198	Shelly	2015-01-29 15:01:00
+A358879	Simba	2015-09-14 16:52:00
+A392075	Skips	2013-11-20 13:09:00
+A394547	Snickerdoodl	2015-01-24 16:14:00
+A370439	Sniket	2016-06-25 11:46:00
+A388360	Spider	2015-12-25 10:13:00
+A409637	Stanley	2016-04-02 11:36:00
+A362103	Stitch	2014-11-18 21:20:00
+A368742	Stormy	2018-02-03 10:40:00
+A349996	Sugar	2018-01-22 14:32:00
+A386276	Tiko	2015-12-19 12:52:00
+A354540	Tux	2014-12-11 11:48:00
+A367747	Woody	2014-10-19 14:49:00
+A378818	Zoe	2014-07-05 07:13:00
+```
+
+
+
+### **문제 설명**
+
+`ANIMAL_INS` 테이블은 동물 보호소에 들어온 동물의 정보를 담은 테이블입니다. `ANIMAL_INS` 테이블 구조는 다음과 같으며, `ANIMAL_ID`, `ANIMAL_TYPE`, `DATETIME`, `INTAKE_CONDITION`, `NAME`, `SEX_UPON_INTAKE`는 각각 동물의 아이디, 생물 종, 보호 시작일, 보호 시작 시 상태, 이름, 성별 및 중성화 여부를 나타냅니다.
+
+[제목 없음](https://www.notion.so/e9e203516cd34817829bfae4e5b45f3a)
+
+동물 보호소에 가장 먼저 들어온 동물의 이름을 조회하는 SQL 문을 작성해주세요.
+
+### 예시
+
+예를 들어 `ANIMAL_INS` 테이블이 다음과 같다면
+
+[제목 없음](https://www.notion.so/cd2e5cc12fc14cee9895124773b14c24)
+
+이 중 가장 보호소에 먼저 들어온 동물은 Jack입니다. 따라서 SQL문을 실행하면 다음과 같이 나와야 합니다.
+
+NAME
+
+---
+
+Jack
+
+---
+
+### 무엇
+
+동물 보호소에 가장 먼저 들어온 동물의 이름을 조회
+
+### 나의 풀이 과정
+
+- datetime 컬럼을 기준으로 오름차순 정렬한다
+- 가장 먼저 들어온 동물의 이름이 필요하기 때문에 상위 한개의 row만 추출하면 된다
+- 따라서 LIMIT 구문을 사용한다
+
+```sql
+SELECT name
+FROM animal_ins
+ORDER BY datetime
+LIMIT 1;
+```
+
+결과
+
+```sql
+name
+Jack
+```
