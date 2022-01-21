@@ -1254,3 +1254,44 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 개선할 점
 + 서블릿 컨테이너가 왜 필요한 지 확실히 이해할 것
 + 서블릿 컨테이너가 객체를 생성하는 과정과 스레드의 관계에 대해 명확히 이해할것
+
+
+# 01월 21일
+
+## spring
+
+### 잘된점
++ DispatcherServlet 과 기존 Servlet 방식의 차이에 대한 이해
++ ApplicationContext가 무엇이가 왜 필요한지에 대한 이해
++ [DispatcherServlet 정리 내용](https://unique-wandflower-4cc.notion.site/12-7fecaceb0ebc4c5689f78189d9fe04c7)
++ [ApplicationContext 정리 내용](https://unique-wandflower-4cc.notion.site/13-40e47eb7a7614d4e8095c5baef6cf573)
+
+### 배운점
++ DispatcherServlet의 역할과 필요한 이유
++ 기존 Servlet과 DispatcherServlet이 어떻게 다른가
++ DispatcherServlet에 의해 생성되는 객체를 관리하는 방법
++ ApplicationContext 방법과 BeanFacotry 방법의 차이
+
+
+
+## 자바스크립트
+
+### 잘된점
++ 가위바위보 게임 2차 리펙토링 진행
++ 사용자가 버튼을 클릭했을때 값에 맞는 이미지 보여주기
++ 컴퓨터가 랜덤으로 뽑은 값에 맞는 이미지 보여주기
+
+### 배운점
++ createElement 함수를 사용하여 img 요소를 생성하였다
++ img 요소에 src 속성에 value 값에 해당하는 이미지 경로를 설정해 두고
++ img 태그를 노드에 랜더링 시켜줬다
++ [가위바위보 게임 2차 리펙토링 ](https://unique-wandflower-4cc.notion.site/2-45f5d99bc10b492387bffa6ca1493bad)
+
+## SQL
+
+### 잘된점
++ 프로그래머스에서 select 관련 문제 7개 풀어보았다
++ 풀이 과정을 정리하였다
++ [select 관련 문제 풀이과정 정리](https://unique-wandflower-4cc.notion.site/SELECT-15b0ca1190c44877af8e8210d915f592)
+
+
