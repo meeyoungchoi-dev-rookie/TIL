@@ -1299,3 +1299,22 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [select 관련 문제 풀이과정 정리](https://unique-wandflower-4cc.notion.site/SELECT-15b0ca1190c44877af8e8210d915f592)
 
 
+# 01월 22일
+## spring
+
+### 잘된점
++ WebServer 와 WAS의 차이에 대한 이해
++ Servlet 동작 구조와 Dispatcher Servelt 의 역할
++ web.xml의 역할 과 상세 설정 정보에 대한 이해
++ spring 컨테이너가 bean을 등록하는 방식과 등록하는 과정에 대한 이해
+
+### 배운점
++ Spring이 데이터를 응답해주는 방법에 대한 이해
++ Handler Mapping을 통해 클라이언트의 요청을 처리할 컨트롤러를 찾는 과정
+
+### 정리내용
++ [서블릿 객체의 생명주기](https://unique-wandflower-4cc.notion.site/10-4bafc399cd444c6d8a10ddb9c4677c2a)
++ [웹 배포서술자](https://unique-wandflower-4cc.notion.site/11-web-xml-8ecb80d8a1d049688551bcd2936b4259)
++ [디스패처 서블릿](https://unique-wandflower-4cc.notion.site/12-7fecaceb0ebc4c5689f78189d9fe04c7)
++ [애플리케이션 컨텍스트](https://unique-wandflower-4cc.notion.site/13-40e47eb7a7614d4e8095c5baef6cf573)
++ [HandlerMapping과 spring이 데이터를 응답하는 방법](https://unique-wandflower-4cc.notion.site/14-spring-Response-80364720833e46de9623df5ee6517a12) 
