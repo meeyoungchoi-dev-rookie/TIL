@@ -1318,3 +1318,20 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [디스패처 서블릿](https://unique-wandflower-4cc.notion.site/12-7fecaceb0ebc4c5689f78189d9fe04c7)
 + [애플리케이션 컨텍스트](https://unique-wandflower-4cc.notion.site/13-40e47eb7a7614d4e8095c5baef6cf573)
 + [HandlerMapping과 spring이 데이터를 응답하는 방법](https://unique-wandflower-4cc.notion.site/14-spring-Response-80364720833e46de9623df5ee6517a12) 
+
+
+
+# 01월 24일
+
+## 자바스크립트
+
+### 잘된점
++ 버튼을 클릭하기 전에는 이미지가 일정한 시간 간격을 랜덤하게 돌게 만들기
++ 버튼을 클릭햇을때 이미지를 보여주기
++ [가위바위보게임 3차 리펙토링 및 정리](https://unique-wandflower-4cc.notion.site/3-161006d7cddd44dcb2a0fc437fa2a344)
+
+
+### 배운점
++ backgroundPositon 속성 : 이미지url , 가로위치 세로위치
++ backgroundSize 속성 : 전체 이미지를 가로크기와 세로크기로 자른다
++ [css background 속성](https://unique-wandflower-4cc.notion.site/4-background-03c458603a89474ead55324565697585) 
