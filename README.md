@@ -1334,4 +1334,37 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + backgroundPositon 속성 : 이미지url , 가로위치 세로위치
 + backgroundSize 속성 : 전체 이미지를 가로크기와 세로크기로 자른다
-+ [css background 속성](https://unique-wandflower-4cc.notion.site/4-background-03c458603a89474ead55324565697585) 
++ [css background 속성](https://unique-wandflower-4cc.notion.site/4-background-03c458603a89474ead55324565697585)
+
+
+# 01월 25일
+
+# SQL
+## 잘된점
++ 프로그래머스 GROUP BY 4문제 풀고 정리
++ [고양이와 개는 몇마리 있을까](https://unique-wandflower-4cc.notion.site/f97dd4c657784905a70ee3efba869d17)
++ [동명 동물수 찾기](https://unique-wandflower-4cc.notion.site/ece3ed023bd4416b8c32a5bc2ccac18d)
+
+## 배운점
++ 컬럼의 타입이 datetime인 경우 시 정보만 추출하기 위해
++ date_format 함수와 HOUR 함수를 사용하여 추출할 수 있다
++ [datetime 관련 문제1](https://unique-wandflower-4cc.notion.site/1-0c0e0a533ee64cc3b4277a84f76a5281)
++ [datetime 관련 문제2](https://unique-wandflower-4cc.notion.site/2-c7403801493f4e75ba849318908608f0)
+
+## 개선할 점
++ 테이블에 조건에 해당하는 시간정보가 없는 경우 조건을 맞추기 위해 SET 을 사용하는 방법에 대한 추가학습 필요
+
+# 자바스크립트
+## 잘된점
++ 반응속도 테스트 게임 구조도 그리고 코딩 진행
+
+## 배운점
++ 사용자가 버튼을 클릭하기 까지 시간을 계산하기 위해 함수의 실행될때의 시간과 
++ 사용자가 버튼을 클릭했을때의 시간을 구해 후자에서 전자를 빼줘서 반응하는데 얼마나 걸리는지 계산했다
++ [반응 속도 테스트 정리 내용](https://unique-wandflower-4cc.notion.site/8b92b7270d66478cbb218c4bb9c687a1)
+
+## 개선해야 하는 부분
+
++ 배경색이 초록색으로 바뀌지 않았을때 클릭 막기
++ 평균 반응시간
++ 반응시간 순위 매기기
