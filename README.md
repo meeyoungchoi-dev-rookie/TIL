@@ -1383,3 +1383,45 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [업캐스팅과 메서드 오버라이딩](https://unique-wandflower-4cc.notion.site/d3e564b7627549bba579e1cd8941a83e)
 + [상속과 생성자 호출](https://unique-wandflower-4cc.notion.site/917db96a26984fbab7b2983762e396cd)
 + [ths , super , protected](https://unique-wandflower-4cc.notion.site/this-super-protected-b78ce0b4e54f463eb013ba319b7fe904)
+
+
+
+# 01월 27일
+
+## SQL
+
+### 잘된점
++ 프로그래머스에서 NULL 판단을 위한 문제 4개 풀고 정리
++ 프로그래머스에서 JOIN 관련 문제 4개 풀고 정리
++ [NULL 판단을 위한 문제풀이](https://unique-wandflower-4cc.notion.site/IS-NULL-d26500e3aa744a37847272c273cdec2e)
++ [JOIN 관련 문제 풀이](https://unique-wandflower-4cc.notion.site/JOIN-d1a74d32fcae4d0a909dead17c0c7a9a)
+
+### 배운점
++ LEFT JOIN 은 왼쪽 테이블이 기준이다
++ 왼쪽 테이블에는 있지만 오른쪽 테이블에 없는 데이터까지 같이 보고 싶을때 사용한다
++ ON: 조인을 하기 위한 테이블을 어떤 조건으로 붙일 것인가
++ WHERE: 붙인 테이블을 어떤 조건을 기준으로 조인 시킬 것인가
+
+
+## 자바
+### 잘된점
++ ArrayList 와 Random 클래스를 사용하여 주사위 2개를 던졌을때 나올수 있는 눈의합을 계산하는 문제 해결
++ 자바 배열을 사용하여 숫자를 n개 입력받아 뒤집은후 소수인지 판단하는 문제 해결
++ 소수인지 판단하는 메서드 로직 작성
++ [자바 API 정리내용](https://unique-wandflower-4cc.notion.site/09-API-e8c4b8dc80174e78aa32df71e23127d9)
++ [자자 ArrayList와 Random 클래스를 사용하여 문제풀이](https://unique-wandflower-4cc.notion.site/7945e956da9b40749cba2c89ce364449)
++ [배열을 사용하여 뒤집은 숫자에 대한 소수인지 판단](https://unique-wandflower-4cc.notion.site/6-9ff6e6d235c745079ef45f9d2e01604b)
+
+
+### 배운점
++ 자바 Math.Random 클래스 사용 방법에 대한 이해
++ API 가 무엇인지에 대한 이해
++ ArrayList 와 배열의 차이점에 대한 이해
++ StringBuffer 객체와 reverse 메서드를 사용하여 데이터를 뒤집는 방법
+
+### 개선할 점
++ 소수인지 판단할 때 더 효율적으로 판단할수 있는 방법이 있는지 고민 필요
+
+
+
+
