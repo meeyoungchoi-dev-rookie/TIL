@@ -1465,3 +1465,26 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 자바 중복문자제거 알고리즘 문제 복습
 
 
+# 01월 31일
+## 자바
+### 잘된점
++ 자바 예외처리 정리 및 문제 풀이
+
+### 배운점
++ 예외의 종류와 예외를 던져서 처리하는 방법
++ [자바 예외처리](https://unique-wandflower-4cc.notion.site/ch12-1dfc823bac4c4ce6bebfc6101747b122)
+
+
+## SQL
+
+### 잘된점
++ 프로그래머스에서 String, Date관련 문제풀고 풀이 과정 정리
++ [중성화 여부 파악하기](https://unique-wandflower-4cc.notion.site/6545289f49504c83a0d0812ab1fc3106)
++ [오랜기간 보호한 동물(2)](https://unique-wandflower-4cc.notion.site/2-7338eb69d37d44d58c66e1398fb477a1)
++ [DATETIME에서 DATE로 형변환](https://unique-wandflower-4cc.notion.site/DATETIME-DATE-f1e560780c5a4a26bdc51dbf627debf2)
+
+
+
+### 배운점
++ date_format 함수를 사용하여 날짜를 원하는 형식으로 변경하는 방법
++ CASE WHEN THEN 구문을 사용하여 컬럼 값에 따라 조건을 부여하는 방법
