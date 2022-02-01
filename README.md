@@ -1488,3 +1488,44 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + date_format 함수를 사용하여 날짜를 원하는 형식으로 변경하는 방법
 + CASE WHEN THEN 구문을 사용하여 컬럼 값에 따라 조건을 부여하는 방법
+
+
+
+# 02월 01일
+
+## spring
+### 잘된점
++ web server 와 web application server 의 차이에 대한 이해 및 정리
++ 서블릿 동작과정에 대한 이해 및 정리
+
+### 배운점
++ 웹 시스템을 구성할때 web과 was로 분리하는 이유와 분리했을때 장점
++ 서블릿이 응답을 받고 요청을 보내는 과정
++ [웹서버 vs WAS](https://unique-wandflower-4cc.notion.site/dd87f0858d084f4495ae0d70437d9ecf)
++ [서블릿 동작 과정](https://unique-wandflower-4cc.notion.site/3427a9c07bcb47b49c44ede6bfa1ed9b)
+
+## SQL
+### 배운점
++ DELETE 시 서브쿼리를 사용하는 방법
++ [DELETE_서브쿼리](https://unique-wandflower-4cc.notion.site/DELETE_-SUB-QUERY-846c407c07c0498abfb0923bc64dd70f)
+
+
+## 자바
+### 잘된점
++ 자바 파일입출력 정리 및 문제풀이
+### 배운점
++ 파일입출력이란 무엇인가
++ 파일입출력에 사용되는 클래스와 클래스간 관계
++ [자바 파일 입출력 정리](https://unique-wandflower-4cc.notion.site/ch13-f6a2e9d4ce0a4d5bb23749acf5f2c69c)
+
+
+## 자바 알고리즘
+### 잘된점
++ 자바 문자열 관련 알고리즘 3문제 풀고 정리
+
+### 배운점
++ charAt 메서드를 사용하여 특정 인덱스 위치의 문자를 반환받는다
++ indexOf 메서드를 사용하여 특정 문자가 가장 처음 나오는 인덱스를 반환받는다
++ [자바 특정문자 뒤집기](https://unique-wandflower-4cc.notion.site/5-cfe4be61ff3641df8af96c7ae0ee3b3a)
++ [자바 중복문자 제거](https://unique-wandflower-4cc.notion.site/6-fc19d0680c1e4ed0b1f2d544d5be662b)
++ [자바 회문문자열](https://unique-wandflower-4cc.notion.site/7-0f94585106d94fb88381280981fc7f19)
