@@ -1529,3 +1529,47 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [자바 특정문자 뒤집기](https://unique-wandflower-4cc.notion.site/5-cfe4be61ff3641df8af96c7ae0ee3b3a)
 + [자바 중복문자 제거](https://unique-wandflower-4cc.notion.site/6-fc19d0680c1e4ed0b1f2d544d5be662b)
 + [자바 회문문자열](https://unique-wandflower-4cc.notion.site/7-0f94585106d94fb88381280981fc7f19)
+
+
+
+# 02월 02일
+
+## SQL
+### 잘된점
++ DELETE시 INNER JOIN을 활용한 문제 풀고 정리
++ [DETETE + JOIN 활용 문제풀이](https://unique-wandflower-4cc.notion.site/DELETE-INNER-JOIN-e82f774ec37940cea4788105d632dae4)
+### 배운점
++ DELETE시 INNER JOIN을 활용하는 방법
+
+## spring
+### 잘된점
++ 쓰레드의 목적에 대한 이해
++ 데이터를 렌더링해주는 방법과 종류
++ 웹기술의 변천사에 대한 이해
++ [동시 요청 - 멀티 쓰레드](https://unique-wandflower-4cc.notion.site/03-67c654e6e3794fd28c2e6407e213a609)
++ [데이터를 렌더링 해주는 방법과 종류](https://unique-wandflower-4cc.notion.site/04-HTML-HTTP-API-CSR-SSR-44c16bad661c405fa13e5ad39980cbc8)
++ [자바 기반 웹 기술의 변천사](https://unique-wandflower-4cc.notion.site/05-cf14c5243de74285838d3da8115c7ff7)
+
+### 배운점
++ 멀티 쓰레드를 사용해야 하는 이유
++ 요청이 들어올때 마다 쓰레드를 생성하는 것의 단점을 보완하기 위해 등장한 쓰레드 풀
++ 자바 웹 기술 역사
++ JAR vs WAR
+
+
+
+## 자바 영화얘매 프로그램
+### 잘된점
++ 프로그램 기능 정리
++ 프로그램 시작점과 프로그램 종료점의 구조파악
++ [영화 얘매 프로그램 기능 및 시작 메뉴 구성](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+## 자바 문자열 알고리즘
+### 잘된점
++ 문자열 알고리즘 3문제 풀고 정리
++ [유효한 팰린드롬](https://unique-wandflower-4cc.notion.site/8-09339df4525147e2a248c5c92b3b66db)
++ [숫자만 추출](https://unique-wandflower-4cc.notion.site/9-cda967f603de43c2be4ad4072e59c362)
++ [가장 짧은 문자거리](https://unique-wandflower-4cc.notion.site/10-f47b3c4aa87345a1b167fdc67134c57a)
+### 배운점
++ replaceAll 메서드에 정규표현식을 사용하여 특정 조건을 만족하는 경우 이를 대체 문자로 치환시킨다
++ Character 클래스의 isDigit 메서드를 사용하여 char 타입의 문자가 숫자인지 여부를 판단한다
