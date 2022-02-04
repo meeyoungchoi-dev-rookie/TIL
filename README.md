@@ -1579,7 +1579,7 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 # 02월 03일
 
-## 자바스크립트
+## spring
 ### 잘된점
 + 서블릿 동작 흐름에 대한 이해
 + request , response 객체에 데이터가 담기는 방식에 대한 이해
@@ -1590,7 +1590,8 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [HTTPServletRequest 객체의 부가적인 기능과 객체를 사용하여 가져올수 있는 정보](https://unique-wandflower-4cc.notion.site/03-HttpServletRequest-5c2eb0a7c39b49b7af07d0e1ba18bf6e)
 + HTTP 요청 메시지 구조
 
-## spring
+
+## 자바스크립트
 ### 잘된점
 + 반응속도 테스트 게임 리펙토링 진행
 + [반응 속도 테스트 1차 리펙토링 진행 내용](https://unique-wandflower-4cc.notion.site/1-b3b363ac96aa4daab5d175ba4b74f1ed)
@@ -1627,3 +1628,50 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + int 형 데이터를 String 타입의 문자열로 만들때 Stirng 클래스의 valueOf 메서드를 사용한다
 + 문자열의 특정 위치부터 특정 위치까지 자르는 경우 substring 메서드를 사용한다
 + 문자열에서 특정 문자를 특정 문자로 대체하고자 하는 경우 replace 메서드를 사용한다
+
+
+# 02월 04일
+
+## spring
+### 잘된점
++ HTTP 요청 메시지를 통해 클라이언트에서 서버로 데이터를 전달하는 방법에 대해 정리
+
+### 배운점
++ [GET - 쿼리파라미터](https://www.notion.so/HTTP-GET-6a605df364c542d98a2b6a499d4f7dc9)
++ [POST - HTML Form](https://www.notion.so/HTTP-POST-HTML-Form-389352c0183d4e6a90edd41b09b74899)
++ [API 메시지 바디 - 텍스트](https://www.notion.so/HTTP-API-b674f41d1bad4262a78a1fc777af72ac)
++ [API 메시지 바디 - JSON](https://www.notion.so/HTTP-API-JSON-42f50363d81b486fa11717ff04634fa8)
+## 자바스크립트
+### 잘된점
++ 반응속도 테스트 게임 2차 리펙토링 진행
++ [반응 속도 테스트 2차 리펙토링 진행 내용](https://unique-wandflower-4cc.notion.site/2-f7d0467f74d64a92b77e3a1032df371b)
+
+## 배운점
++ 반응속도 측정을 5회 이상 진행하였을때
++ 5회동안 기록된 데이터를 오름차순으로 정렬하여 가장 빠른 기록부터 상위 5개만 화면에 보여준다
+
+## SQL
+### 잘된점
++ ERD 구조와 구성 요소에 대한 이해 및 정리
+
+### 배운점
++ [ERD 구성 요소와 데이터 타입](https://unique-wandflower-4cc.notion.site/ERD-fe697911a8f04840905df3fdb9e778aa)
+
+## 자바
+### 잘된점
++ 영화 얘매 콘솔 프로그램 파일을 통해 영화 등록하는 기능 추가
++ 영화 얘매 콘솔 프로그램 파일을 통해 영화 삭제하는 기능 추가
++ [영화 얘매 콘솔 프로그램 작업 내용 정리](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+### 배운점
++ BufferedReader 객체를 사용하여 파일에서 데이터를 한줄씩 읽어온다
++ 한줄에서 ,(콤마)를 기준으로 split 메서드를 사용하여 문자열을 분리하여 배열에 담았다
+
+## 자바 알고리즘
+### 잘된점
++ 배열관련 알고리즘 3문제 풀고 정리
+
+### 배운점
++ [보이는 학생 묹제 풀이과정](https://unique-wandflower-4cc.notion.site/2-b97baae12878433498ab200cffc17df1)
++ [가위 바위보 문제 풀이과정](https://unique-wandflower-4cc.notion.site/3-5178387af23d4209b0e860ac382943d6)
++ [피보나치 수열 문제 풀이과정](https://unique-wandflower-4cc.notion.site/4-7240dd4f6d284e60a8952ed9a31c4ff4)
