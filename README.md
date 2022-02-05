@@ -1675,3 +1675,35 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [보이는 학생 묹제 풀이과정](https://unique-wandflower-4cc.notion.site/2-b97baae12878433498ab200cffc17df1)
 + [가위 바위보 문제 풀이과정](https://unique-wandflower-4cc.notion.site/3-5178387af23d4209b0e860ac382943d6)
 + [피보나치 수열 문제 풀이과정](https://unique-wandflower-4cc.notion.site/4-7240dd4f6d284e60a8952ed9a31c4ff4)
+
+
+# 02월 05일
+## spring
+### 잘된점
++ HTTP Response 객체를 통해 응답 데이터를 생성하는 방법에 대한 이해 및 정리
+
+### 배운점
++ [HTML로 응답하기](https://www.notion.so/HTTP-HTML-99130290316040d6ab0129686942186b)
++ [API JSON으로 응답하기](https://www.notion.so/HTTP-API-JSON-b073e7a61c4a48c580d6b2b9dff431f8)
+
+
+
+## 자바스크립트
+### 잘된점
++ 반응속도 테스트 3차 리펙토링 진행
++ [반응속도 테스트 3차 리펙토링 진행 과정](https://unique-wandflower-4cc.notion.site/3-c2566208c1ea4a0ab540d01c145aafc4)
+
+### 배운점
++ 사용자가 5회 이상 시도했을때 상위 5개의 결과를 화면에 보여준다
++ 2차 리펙토링에서는 innerHTML을 사용했었는데
++ 3차 리펙토링에서는 append와 appendChild 메서드를 사용해 보았다
++ 상위 5개 요소가 들어갈 div 요소를 만든 후 그 안에 appendChild를 사용하여 각 데이터가 담긴 div 요소를 추가해 줬다
++ 또한 해당 데이터가 반응속도 상위 5위와 관련된 것임을 알려주기 위해 제목용 div를 만들고 append를 사용하여 제목 요소를 추가해 줬다
+
+## 자바 알고리즘
+### 잘된점
++ 배열관련 알고리즘 1문제 풀고 정리
+
+### 배운점
++ 소수를 판단하기 위해 배수가 되는 숫자를 먼저 걸러낸다
++ [소수 찾기_에라토스테니스의 체 방식](https://unique-wandflower-4cc.notion.site/5-5f198572f1774ec1961e0dd021495793)
