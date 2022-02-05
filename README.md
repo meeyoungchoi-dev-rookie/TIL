@@ -1683,6 +1683,7 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + HTTP Response 객체를 통해 응답 데이터를 생성하는 방법에 대한 이해 및 정리
 
 ### 배운점
++ [HttpServletResponse 객체 사용하여 HTTP 응답 메시지 작성](https://unique-wandflower-4cc.notion.site/HttpServletResponse-2466239415c94b5f81733c1d9fd683c5)
 + [HTML로 응답하기](https://www.notion.so/HTTP-HTML-99130290316040d6ab0129686942186b)
 + [API JSON으로 응답하기](https://www.notion.so/HTTP-API-JSON-b073e7a61c4a48c580d6b2b9dff431f8)
 
