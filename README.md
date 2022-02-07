@@ -1708,3 +1708,34 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + 소수를 판단하기 위해 배수가 되는 숫자를 먼저 걸러낸다
 + [소수 찾기_에라토스테니스의 체 방식](https://unique-wandflower-4cc.notion.site/5-5f198572f1774ec1961e0dd021495793)
+
+
+# 02월 07일
+## 자바
+## 자바 영와 얘매 프로그램
+### 잘된점
++ 영화 얘매 확인 기능
++ 영화 얘매 취소 기능
+
+### 배운점
++ [영화 얘매 프로그램 얘매 확인 및 얘매 취소 정리 내용](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+## spring
+### 잘된점
++ servlet을 사용하여 회원관리 웹 애플리케이션 만들고 정리
++ jsp를 사용하여 회원관리 웹 애플리케이션 만들고 정리
+
+### 배운점
++ [회원관리 Repository 테스트 케이스 작성](https://unique-wandflower-4cc.notion.site/b7a0e986f1a4476da028bf250668510c)
++ [servlet을 사용하여 회원관리 만든 과정 정리](https://unique-wandflower-4cc.notion.site/servlet-303763931d8f470e89bd7f94788638b0)
++ [jsp를 사용하여 회원관리 만든 과정 정리](https://unique-wandflower-4cc.notion.site/JSP-363ae7db26ec4c8ab69e1282231d0e45)
++ 자바 코드로 html을 만드는 것은 유지보수하기 매우 힘들다
++ 템플릿 엔진을 사용하면 html 문서에서 필요한 부분에만 코드를 적용하여 동적인 html을 만들수 있다
++ 템플릿 엔진에는 JSP , Thymeleaf , Freemarker , Velocity등이 있다
+
+## 자바 영와 얘매 프로그램
+### 잘된점
++ 영화 얘매 확인 기능
++ 영화 얘매 취소 기능
+
+### 배운점
++ [영화 얘매 프로그램 얘매 확인 및 얘매 취소 정리 내용](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
