@@ -1739,3 +1739,52 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [영화 얘매 프로그램 얘매 확인 및 얘매 취소 정리 내용](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+
+
+# 02월 08일
+## spring
+### 잘된점
++ servlet에 MVC 패턴을 적용하여 회원관리 웹 애플리케이션 개발
+
+### 배운점
++ MVC 패턴으로 분리했을떄 장점
++ Model View Controlle의 역할
++ 포워딩과 리다이렉트 차이
++ JSP에 el태그와 jstl을 사용하여 데이터를 바인딩 시키는 방법
++ [MVC 패턴 정리](https://unique-wandflower-4cc.notion.site/MVC-130e7ece5dc540868c09e4ade94f72e1)
+
+
+## 자바 영화 얘매 콘솔 프로그램
+
+### 잘된점
++ 영화 얘매 기능 구현
+
+### 배운점
++ [영와 얘매 기능 구현 및 정리](https://unique-wandflower-4cc.notion.site/ch14-a50c66672f624eb2bc5f37b3cb4ff6f3)
+
+
+## 자바 알고리즘
+### 잘된점
++ 배열관련 알고리즘 2문제 풀고 정리
+
+### 배운점
++ [뒤집은 소수 문제 풀고 정리](https://unique-wandflower-4cc.notion.site/6-68b7d17ac94d4790a1ed31f5c4ae8755)
++ [점수계산 문제 풀고 정리](https://unique-wandflower-4cc.notion.site/7-436dec9bd2064ef58a192f1a5f8c7fdd)
++ [문자열 압축](https://www.notion.so/34d04fe0d1d54b2eb6c59819e54f3b1c)
++ [암호](https://www.notion.so/8e247bef8d52403086fd13b3315278b3)
+
+
+#### 문자열
+1. 문자열 압축
+  + 문자열에서 같은 문자가 연속으로 반복되는 경우 반복된느 문자 바로 오른쪽에 반복 횟수를 표시하는 방법으로 문자열을 압축한다
+  + 반복문을 사용하여 같은 문자가 나오지 않을 때까지 검사한다
+  + 같은 문자가 나온 경우 count를 1씩 증가시킨다
+  + 같은 문자가 나오지 않은 경우 변수에 문자와 count 개수를 연결한다
+2. 암호
+  + 문자 개수의 7개 만큼의 # 과 * 로 구성된 암호를 해제하여 문자신호로 구분한다
+  + substring 메서드를 사용하여 문자열을 특정 위치까지 자른다
+  + replace 메서드를 사용하여 문자가 #인 경우 1로 , *인 경우 0으로 대체한다
+  + parseInt 메서드를 사용하여 2진수를 10진수를 변환한다
+  + 10진수를 char로 변환하여 문자로 만든다
+  + 문자를 이어 붙인다
