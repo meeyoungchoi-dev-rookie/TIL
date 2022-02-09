@@ -1788,3 +1788,12 @@ DATE_SUB(now() , INTERVAL 1 DAY);
   + parseInt 메서드를 사용하여 2진수를 10진수를 변환한다
   + 10진수를 char로 변환하여 문자로 만든다
   + 문자를 이어 붙인다
+
+
+# 02월 09일
+### 잘된점
++ 자바 문자열 관련 알고리즘 2문제 풀고 정리
+
+### 배운내용
++ [숫자만 추출 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/ce4d92318efd49998e4714f75b696ee9)
++ [가장 짧은 문자거리 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/0f47bdf062c24142aba9460711fe5da2)
