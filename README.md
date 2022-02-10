@@ -1797,3 +1797,12 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운내용
 + [숫자만 추출 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/ce4d92318efd49998e4714f75b696ee9)
 + [가장 짧은 문자거리 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/0f47bdf062c24142aba9460711fe5da2)
+
+
+# 02월 10일
+### 잘된점
++ 자바 배열 관련 알고리즘 2문제 풀고 정리
+
+### 배운내용
++ [보이는 학생수 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/b9cf2b330eda45db84da0c0a192357d3)
++ [큰수 출력하기 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/e6c48a47b0a54715b8ce0e3067e766f7)
