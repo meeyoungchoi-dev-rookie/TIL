@@ -1806,3 +1806,27 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운내용
 + [보이는 학생수 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/b9cf2b330eda45db84da0c0a192357d3)
 + [큰수 출력하기 문제 풀이 과정](https://unique-wandflower-4cc.notion.site/e6c48a47b0a54715b8ce0e3067e766f7)
+
+
+# 2월 11일
+## 자바 배열 관련 알고리즘
+### 잘된점
++ 배열관련 알고리즘 두문제 풀고 정리
+
+### 배운내용
++ [소수의 개수](https://unique-wandflower-4cc.notion.site/c69c441e39c3438292d3b8795603eb48)
++ [뒤집은 소수](https://unique-wandflower-4cc.notion.site/9895cf8c6fd141c48889fbba922a2137)
+
+## spring 블로그 프로젝트
+### 잘된점
++ 프로젝트 환경설정 작업 진행
+
+### 배운점
++ spring boot를 인텔리제이에서 프로젝트 생성할때 jsp를 지원하지 않으므로 타임리프나 mustache 템플릿을 사용해야 한다
++ 테스트할때 jsp로 레이아웃을 만들고 application.yml에 jsp 관련 설정을 추가했는데도
+화면이 404가 떠서 원인을 찾는데 시간이 걸렸다
++ 구글링을 했더니 spring boot 프로젝트 생성시 인텔리제이에서는 jsp를 지원하지 않는다고 한다
++ 따라서 템플릿으로 mustache와 타임리프를 활용하기로 했다
+
+
+
