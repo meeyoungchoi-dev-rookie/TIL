@@ -1829,4 +1829,19 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 따라서 템플릿으로 mustache와 타임리프를 활용하기로 했다
 
 
+# 02월 12일
+## 10000hr 클론코딩
+### 잘된점
++ html을 사용하여 레이아웃 설계
 
+### 배운점
++ 특정 영역을 감쌀때 section 태그를 사용한다
++ [10000hr - html 레이아웃](https://unique-wandflower-4cc.notion.site/10000hr-a23a8209be1f44159c521798dbbce599)
+
+
+## 자바 배열관련 알고리즘
+### 잘된점
++ 배열관련 알고리즘 한문제 풀고 정리
+
+### 배운점
++ [배열 알고리즘 - 점수계산 풀이과정](https://unique-wandflower-4cc.notion.site/536f03e341f54b398551b23820e7de1b)
