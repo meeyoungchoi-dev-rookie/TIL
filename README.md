@@ -1836,7 +1836,7 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + 특정 영역을 감쌀때 section 태그를 사용한다
-+ [10000hr - html 레이아웃](https://unique-wandflower-4cc.notion.site/10000hr-a23a8209be1f44159c521798dbbce599)
++ [10000hr - html 레이아웃 설계](https://unique-wandflower-4cc.notion.site/10000hr-a23a8209be1f44159c521798dbbce599)
 
 
 ## 자바 배열관련 알고리즘
@@ -1845,3 +1845,17 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [배열 알고리즘 - 점수계산 풀이과정](https://unique-wandflower-4cc.notion.site/536f03e341f54b398551b23820e7de1b)
+
+
+
+
+# 2월 14일
+##자바 알고리즘
+### 잘된점
++ 배열관련 알고리즘 문제 풀고 회고
+
+### 배운점
++ [자바 배열 가위바위보 문제풀이 과정 정리](https://unique-wandflower-4cc.notion.site/526e18f2dc714a98af91fd03c201128a)
+- A가 낸 패를 담을 배열을 선언한다
+- B가 낸 패를 담을 배열을 선언한다
+- A가 낸 패와 B가 낸 패를 비교하여 이겼을때 졌을때 비겼을때를 판별한다
