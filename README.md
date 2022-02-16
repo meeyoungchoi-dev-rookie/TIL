@@ -1875,4 +1875,11 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 배열관련 알고리즘 문제 풀고 회고
 
 ### 배운점
-+ [봉우리 문제풀이 과정 정리]()
++ [봉우리 문제풀이 과정 정리](https://unique-wandflower-4cc.notion.site/0079fe14a29040eebe28fe0cdef30017)
+
+## spring
+### 잘된점
++ FrontController 패턴에 대한 이해 및 정리
+
+### 배운점
++ [FrontController 정리 내용](https://unique-wandflower-4cc.notion.site/1cfb6dbf9be84d98bc88b59d852657f3)
