@@ -1867,3 +1867,12 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [격자판 최대합 문제풀이 과정 정리](https://unique-wandflower-4cc.notion.site/9-4af791e94aa34d16aa8f0be43d6c47e9)
+
+
+# 2월 16일
+## 자바 배열관련 알고리즘
+### 잘된점
++ 배열관련 알고리즘 문제 풀고 회고
+
+### 배운점
++ [봉우리 문제풀이 과정 정리]()
