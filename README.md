@@ -1883,3 +1883,12 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [FrontController 정리 내용](https://unique-wandflower-4cc.notion.site/1cfb6dbf9be84d98bc88b59d852657f3)
+
+
+# 2월 17일
+## 백준 - 블루트포스 알고리즘 - 블랙잭
+### 잘된점
++ 블루트포스 알고리즘 블랙잭 문제 풀고 정리 
+
+### 배운점
++ [블랜잭 문제풀이 과정 정리](https://unique-wandflower-4cc.notion.site/b419db9ef66748a3a2bea03c17fddbed)
