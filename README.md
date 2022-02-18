@@ -1886,9 +1886,19 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 
 # 2월 17일
-## 백준 - 블루트포스 알고리즘 - 블랙잭
+## 백준 - 브루트포스 알고리즘 - 블랙잭
 ### 잘된점
-+ 블루트포스 알고리즘 블랙잭 문제 풀고 정리 
++ 브루트포스 알고리즘 블랙잭 문제 풀고 정리 
 
 ### 배운점
 + [블랜잭 문제풀이 과정 정리](https://unique-wandflower-4cc.notion.site/b419db9ef66748a3a2bea03c17fddbed)
+
+
+# 2월 18일
+
+## 백준 - 브루트포스 알고리즘 - 덩치
+### 잘된점
++ 브루트포스 알고리즘 덩치 문제 풀고 정리
+
+### 배운점
++ [덩치 문제풀이 과정 정리](https://unique-wandflower-4cc.notion.site/fe09e056485049adb8e14a6fda8ea721)
