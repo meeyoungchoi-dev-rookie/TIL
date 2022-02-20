@@ -1922,3 +1922,25 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + + 같지 않으면 N이 666을 포함하고 있는지 검사한다
  + + 포함하면 cnt를 1씩 증가시킨다
   + + 근데 N은 왜 증가시켜야 하는가?...
+
+
+
+  # 02월 20일
+
+## 백준 배열 알고리즘
+  ### 잘된점
+  + 백준 배열 관련 알고리즘 2문제 풀정 정리
+
+  ### 배운점
++ [백준 최소,최대 풀이과정 정리 및 회고](https://unique-wandflower-4cc.notion.site/_-7aa755e505804299a82b3aca0e1d24ed)
++ [백준_최댓값 풀이과정 정리 및 회고](https://unique-wandflower-4cc.notion.site/_-_-f01a915fabb64e09914f59bcf37d02de)
+
+
+## spring - FrontController 실습
+### 잘된점
++ spring 프론트컨트롤러 도입 배경과 특징에 대한 이해
++ 기존 servlet 코드를 프론트컨트롤러 패턴을 사용하여 리펙토링 진행
+
+### 배운점
++ [프론트컨트롤러 도입 배경과 특징](https://unique-wandflower-4cc.notion.site/1cfb6dbf9be84d98bc88b59d852657f3)
++ [servlet을 프론트컨트롤러 패턴을 사용하여 리펙토링](https://unique-wandflower-4cc.notion.site/v1-1739b92d64a842a4a5da19e813331d5e)
