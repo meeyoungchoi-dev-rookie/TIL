@@ -1944,3 +1944,20 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + [프론트컨트롤러 도입 배경과 특징](https://unique-wandflower-4cc.notion.site/1cfb6dbf9be84d98bc88b59d852657f3)
 + [servlet을 프론트컨트롤러 패턴을 사용하여 리펙토링](https://unique-wandflower-4cc.notion.site/v1-1739b92d64a842a4a5da19e813331d5e)
+
+
+# 02월 21일
+## spring - FrontController를 사용하여 view 분리
+### 잘된점
++ view를 분리해야 하는 이유 와 장점
+
+### 배운점
++ [프론트컨트롤러 패턴을 사용하여 view를 분리하는 과정 정리](https://unique-wandflower-4cc.notion.site/VIEW-aadfcc80c4a340be990aaca455362323)
+
+
+## 백준 - 정렬알고리즘 - 수정렬하기
+### 잘된점
++ 정렬알고리즘 한문제 풀고 정리
+
+### 배운점
++ [정렬 - 수정렬하기 풀이과정](https://unique-wandflower-4cc.notion.site/1d74ffbd838c42bd81a732eaabb1c406)
