@@ -1961,3 +1961,21 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [정렬 - 수정렬하기 풀이과정](https://unique-wandflower-4cc.notion.site/1d74ffbd838c42bd81a732eaabb1c406)
+
+
+# 2월 22일
+## 알고리즘
+### 잘된점
++ 백준 정렬 알고리즘 관련 문제 풀고 정리
++ 백준 배열 관련 문제 풀고 정리
+
+### 배운점
++ [수정렬하기2 풀이과정](https://www.notion.so/2-3db098ff2e8244e6be1f868aed523d4b)
++ [숫자의개수 풀이과정](https://unique-wandflower-4cc.notion.site/_-dbf95db5ea64451babc324d6fc67d9b6)
+
+ ## 자바스크립트
+ ### 잘된점
+ + 틱택토 게임 레이아웃 설계
+
+ ### 배운점
+ + [틱택토 게임 레이아웃 설계과정 정리](https://unique-wandflower-4cc.notion.site/265fab00e45548b28b51e9f676db72ac)
