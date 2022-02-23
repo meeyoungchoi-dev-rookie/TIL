@@ -1979,3 +1979,12 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
  ### 배운점
  + [틱택토 게임 레이아웃 설계과정 정리](https://unique-wandflower-4cc.notion.site/265fab00e45548b28b51e9f676db72ac)
+
+
+ # 02월 23일
+ ## 백준 알고리즘
+ ### 잘된점
+ + 정렬알고리즘 - 수정렬하기3 문제풀이
+
+ ### 배운점
+ + [수정렬하기3 해결과정 정리](https://unique-wandflower-4cc.notion.site/3-5efd609e40d1445b815dd2b1b3938be6)
