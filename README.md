@@ -1988,3 +1988,24 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
  ### 배운점
  + [수정렬하기3 해결과정 정리](https://unique-wandflower-4cc.notion.site/3-5efd609e40d1445b815dd2b1b3938be6)
+
+
+
+ # 02월 24일
+ ## 밋코더 발표 준비
+ ### 잘된점
+ + spring 서블릿 관련 발표자료 준비
+
+ ### 배운점
+ + [sertvlet 정의와 servlet 생명주기](https://unique-wandflower-4cc.notion.site/servlet-367c4cbbc02d46b486d9a1f9cf08bd6f)
+## 백준 알고리즘 배열
+### 잘된점
++ 백준 배열 고나련 알고리즘 한문제 풀고 정리
+### 배운점
++  [나머지 풀이과정](https://unique-wandflower-4cc.notion.site/_-7251a54093fa4f199b72e4e206082714)
+
+## 자바 알고리즘 배열 강의
+### 잘된점
++ 배열 관련 알고리즘 한문제 풀고 정리
+### 배운점
++ [임시반장 정하기 풀이과정](https://unique-wandflower-4cc.notion.site/11-ee610f4d0a98468f991122f65a35bfbc)
