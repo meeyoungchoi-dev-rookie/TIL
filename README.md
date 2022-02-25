@@ -2009,3 +2009,31 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 배열 관련 알고리즘 한문제 풀고 정리
 ### 배운점
 + [임시반장 정하기 풀이과정](https://unique-wandflower-4cc.notion.site/11-ee610f4d0a98468f991122f65a35bfbc)
+
+
+# 2월 25일
+## MeetCode 블로그 스터디
+### 잘된점
++ spring 발표자료 리뷰받은 내용 기준으로 수정
+
+### 배운점
++ [리뷰받은 내용](https://github.com/Meet-Coder-Study/posting-review/pull/936)
++ [servlet 객체와 생명주기](https://unique-wandflower-4cc.notion.site/servlet-367c4cbbc02d46b486d9a1f9cf08bd6f)
+
+## 백준 알고리즘
+### 잘된점
++ 브루트포스 개념정리
++ 정렬관련 알고리즘 한문제 풀고 정리
+
+### 배운점
++ [브루트포스 알고리즘 개념 정리](https://unique-wandflower-4cc.notion.site/c250349238c14534b1615b5de838c72e)
++ [소트인사이드 풀이과정](https://unique-wandflower-4cc.notion.site/_-e0e9ba4d3da44d63b13f98e87e595091)
+
+
+
+## spring
+### 잘된점
++ mvc 프레임워크 만들기 - 서블릿 종속성 제거 및 뷰이름 중복 제거
+
+### 배운점
++ []

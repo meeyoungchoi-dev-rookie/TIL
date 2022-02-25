@@ -1,4 +1,6 @@
-# 컨트롤러에서 뷰로 이동하는 코드에 중복이 있다
+# VIEW 분리
+
+# 컨트롤러에서 뷰를 렌더링하는  코드에 중복이 있다
 
 - 아래의 코드를 깔끔하게 분리하기 위해 별도로 뷰를 처리하는 객체를 만든다
 
@@ -10,12 +12,11 @@ dispatcher.forward(request, response);
 
 ## V2구조
 
-- FrontController가 HTTP 요청을 받는다
-- URL 매핑정보를 참고하여 컨트롤러를 호출한다
-- 뷰페이지를 반봔해주기 위해 MyView 클래스를 생성한다
-- render 메서드를 통해 view 경로로 포워딩 된다
+- FrontController가 HTTP 요청을 받아 URL 매핑정보를 참고하여 컨트롤러를 호출한다
+- 뷰페이지를 렌더링해주기 위한 MyView 클래스를 생성한다
+- render 메서드를 통해  RequestDispatcher 인터페이스를 사용하여 view 경로로 포워딩 된다
 
-
+![스크린샷(391).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6fc42fe1-ac78-48c5-b80e-faf0e891f9e9/스크린샷(391).png)
 
 ### MyView
 
@@ -78,6 +79,8 @@ public class MemberFormControllerV1 implements ControllerV1 {
     - 인터페이스 타입으로 선언한 이유
     - 왜? 현재는 jsp 만 사용하지만 추후 다른 view 템플릿도 사용하게 된다면
     - 인터페이스를 갈아끼워주면 된다
+    - 또한 인터페이스를 구현한 컨트롤러에서 뷰를 렌더링 하기 위해 Requst , Response 객체를 필요로 한다
+    - 공통 메서드이기 때문에 인터페이스로 설계 했다
     - 즉 , 다형성이 보장된다
 
 ```java
@@ -100,7 +103,8 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 }
 ```
 
-- 뷰페이지를 렌더링 해주기 위해 MyView 객체를 생성후 파라미터로 viewPath 경로를 넣어준다
+- 컨트롤러에서는 뷰페이지 경로를 반환해 준다
+- `MemberFormControllerV2`
 
 ```java
 public class MemberFormControllerV2 implements ControllerV2 {
@@ -111,8 +115,54 @@ public class MemberFormControllerV2 implements ControllerV2 {
 }
 ```
 
+- `MemberListControllerV2`
+
+```java
+public class MemberListControllerV2 implements ControllerV2 {
+
+    MemberRepository memberRepository = MemberRepository.getInstance();
+
+    @Override
+    public MyView process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        List<Member> members = memberRepository.findAll();
+        request.setAttribute("members", members);
+
+        return new MyView("/WEB-INF/views/members.jsp");
+    }
+}
+```
+
+- `MemberSaveControllerV2`
+
+```java
+public class MemberSaveControllerV2 implements ControllerV2 {
+
+    private MemberRepository memberRepository = MemberRepository.getInstance();
+
+    @Override
+    public MyView process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        String username = request.getParameter("userName");
+        int age = Integer.parseInt(request.getParameter("age"));
+
+        Member member = new Member(username, age);
+        memberRepository.save(member);
+        request.setAttribute("member", member);
+
+        return new MyView( "/WEB-INF/views/save-result.jsp");
+    }
+}
+```
+
 - MyView 클래스를 생성한다
 - render 메서드를 통해 view 경로로 포워딩 시켜준다
+- RequestDispatcher 인터페이스를 사용하여 jsp로 포워딩 시켜준다
+
+```java
+ MyView view = controller.process(request, response);
+ view.render(request, response);
+```
 
 ```java
 public class MyView {
