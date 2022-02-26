@@ -2041,3 +2041,37 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + [프론트컨트롤러서블릿 view 렌더링 코드 분리](https://unique-wandflower-4cc.notion.site/VIEW-aadfcc80c4a340be990aaca455362323)
 + [모델을 통한 서블릿 의존성 제거 및 뷰 포워딩 코드 중복 제거](https://unique-wandflower-4cc.notion.site/Model-V3-de6d205739474fb4967ff62b9f73c5b8)
+
+
+
+# 02월 26일
+## 밋 코더 발표
+### 잘된점
++ spring servlet 객체의 정의와 생명주기 관련 발표
++ 발표자료에 이미지 추가
+
+### 배운점
++ [서블릿 객체의 정의와 생명주기](https://unique-wandflower-4cc.notion.site/servlet-367c4cbbc02d46b486d9a1f9cf08bd6f)
+
+ ## 알고리즘
+ ### 잘된점
+ + 백준 배열 관련 알고리즘 한문제 풀고 정리
+
+ ### 배운점
+ + [평균 풀이과정](https://unique-wandflower-4cc.notion.site/_-c14a52a0536045ef86feab4cccb04410)
+
+## spring
+### 잘된점
++ V1 - FrontController HandlerMapping 
+     - 컨트롤러에서 뷰 페이지로 포워딩
++ V2 - 컨트롤러는 뷰 경로만 반환
+     -  프론트 컨트롤러에서 뷰 페이지로 포워딩
++ V3 - 컨트롤러의 서블릿 종속성 제거
+     - 컨트롤러는 ModelView 객체에 뷰 이름과 데이터만 담아 반환
+     - 프론트 컨트롤러에서 ViewResolver가 물리적 뷰 경로 생성 
+     - request 객체에 ModelView 객체에 들어있는 데이터를 담아 뷰페이지로 포워딩
+    
+### 배운점
++ [v1 정리내용](https://unique-wandflower-4cc.notion.site/1cfb6dbf9be84d98bc88b59d852657f3)
++ [v2 정리내용](https://unique-wandflower-4cc.notion.site/VIEW-V2-aadfcc80c4a340be990aaca455362323)
++ [v3 정리내용](https://unique-wandflower-4cc.notion.site/Model-V3-de6d205739474fb4967ff62b9f73c5b8)
