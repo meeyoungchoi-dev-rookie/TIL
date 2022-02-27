@@ -2075,3 +2075,21 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [v1 정리내용](https://unique-wandflower-4cc.notion.site/1cfb6dbf9be84d98bc88b59d852657f3)
 + [v2 정리내용](https://unique-wandflower-4cc.notion.site/VIEW-V2-aadfcc80c4a340be990aaca455362323)
 + [v3 정리내용](https://unique-wandflower-4cc.notion.site/Model-V3-de6d205739474fb4967ff62b9f73c5b8)
+
+
+
+# 02월 27일
+## servlet 부터 spring 프레임워크까지 직접 만들기
+### 잘된점
++ V4 - FrontController 에서 ModelView 객체를 만들어 Controller에게 전달한다
+     - Controller는 더이상 ModelView 객체를 반환하지 않는다
+     - ViewName만 반환한다
+  
+### 배운점
++ [v4 정리내용](https://unique-wandflower-4cc.notion.site/V4-b67cc0ff03224be898d2ad1fe968a8b6)
+
+## 백준 알고리즘 배열
+### 잘된점
++ 배열관련 알고리즘 한문제 풀고 정리
+### 배운점
++ [OX퀴즈 풀이과정](https://unique-wandflower-4cc.notion.site/_OX-b5bb270b44e142ce9e86b3d130d63e0b)
