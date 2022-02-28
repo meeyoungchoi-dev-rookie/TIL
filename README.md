@@ -2093,3 +2093,12 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 배열관련 알고리즘 한문제 풀고 정리
 ### 배운점
 + [OX퀴즈 풀이과정](https://unique-wandflower-4cc.notion.site/_OX-b5bb270b44e142ce9e86b3d130d63e0b)
+
+
+# 02월 28일
+## spring
+### 잘된점
++ FrontController 대신 핸들러 어댑터가 컨트롤러를 호출할 수 있도록 변경
+
+### 배운점
++ [프론트 컨트롤러에 핸들러 어댑터 적용](https://unique-wandflower-4cc.notion.site/1-V5-d24a208d4e3f4ab798e7adcd66134b05)
