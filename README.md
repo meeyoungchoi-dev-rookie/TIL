@@ -2102,3 +2102,24 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [프론트 컨트롤러에 핸들러 어댑터 적용](https://unique-wandflower-4cc.notion.site/1-V5-d24a208d4e3f4ab798e7adcd66134b05)
+
+## 자바 알고리즘
+### 배운점
++ 프로그래머스 피로도 문제 진행중
+
+
+# 03월 01일
+## FrontController에 핸들러 매핑과 핸들러 어댑터 적용
+### 잘된점
++ FrontController에 어댑터가 필요한 이유
+  + 다양한 종류의 컨트롤러를 호출할 수 있게 하기 위함
+  + 다양한 형태의 핸들러가 생길수 있고 이메 맞는 핸들러 어댑터를 구현해 놨다
+  + 개발자는 원하는 형태로 컨트롤러를 정의하여 개발할 수 있다
+
+### 배운점
++ [프론트 컨트롤러에 핸들어 매핑과 핸들러 어댑터 적용과정 정리](https://unique-wandflower-4cc.notion.site/V5-d24a208d4e3f4ab798e7adcd66134b05)
++ [mvc 프레임워크 만드는 과정 V1 ~ V5 까지 정리](https://unique-wandflower-4cc.notion.site/V5-d24a208d4e3f4ab798e7adcd66134b05)
+
+## 자바 알고리즘
+### 잘된점
++ 백트레킹 스타트와 링크 문제 푸는중
