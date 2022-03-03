@@ -2123,3 +2123,32 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ## 자바 알고리즘
 ### 잘된점
 + 백트레킹 스타트와 링크 문제 푸는중
+
+
+
+# 03월 03일
+## html
+### 잘된점
++ include 사용하여 html 동적으로 로드하는 방법 실습
+### 배운점
++ [include 사용하여 html 동적으로 로드시키는 방법](https://unique-wandflower-4cc.notion.site/html-f0751f7fc493428682722efb45acb80e)
+
+## spring
+### 잘된점
++ spring mvc 전체 구조 정리
++ 핸들러 매핑과 핸들러 어댑터 개념 정리 및 실습
++ 뷰 리졸버의 역할과 개념 정리 및 실습
+
+### 배운점
++ [spring mvc 전체 구조](https://unique-wandflower-4cc.notion.site/MVC-f8358340bb7e4edaaa561ff206d1351d)
++ [핸들러 매핑과 핸들러 어댑터](https://unique-wandflower-4cc.notion.site/66b9dd9f4eb0486c82ab5dcb4e28b260)
++ [뷰 리졸버](https://unique-wandflower-4cc.notion.site/011642fead53484da05503c701b1f330)
++ [spring mvc 컨트롤러로 변경 V1](https://unique-wandflower-4cc.notion.site/MVC-V1-f21adc58f03e4cf29142b75a0f69c815)
++ [spring mvc 컨트롤러 통합 V2](https://unique-wandflower-4cc.notion.site/MVC-V3-a1438c8a77464e7695bc74019021e771)
++ [spring mvc 컨트롤러 실용적인 방식으로 변경 V3](https://unique-wandflower-4cc.notion.site/MVC-V3-a1438c8a77464e7695bc74019021e771)
+
+## 자바 알고리즘
+### 잘된점
++ 백준 문자열 아스키코드 문제 풀고 정리
+### 배운점
++ [백준_아스키코드 풀이과정](https://unique-wandflower-4cc.notion.site/_-35186204742a4b58a46f2b4d0a6c069e)

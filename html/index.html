@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+}
+ 
+/* All Grid Items */
+.container > * {
+    background-color: mediumseagreen;
+    font-size: 80px;
+}
+ 
+header {
+    grid-area: header;
+}
+ 
+nav {
+    grid-area: nav;
+}
+ 
+section {
+    grid-area: section;
+}
+ 
+aside {
+    grid-area: aside;
+}
+ 
+footer {
+    grid-area: footer;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header include-html="header.html"></header>
+        <nav include-html="nav.html"></nav>
+        <section>Section</section>
+        <aside>Aside-right</aside>
+        <footer include-html="footer.html"></footer>
+    </div>
+
+    <script>
+    
+    function includeHTML(callback) {
+    var z, i, elmnt, file, xhr;
+    /*loop through a collection of all HTML elements:*/
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("include-html");
+        //console.log(file);
+        if (file) {
+        /*make an HTTP request using the attribute value as the file name:*/
+        xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (this.readyState == 4) {
+            if (this.status == 200) {
+                elmnt.innerHTML = this.responseText;
+            }
+            if (this.status == 404) {
+                elmnt.innerHTML = "Page not found.";
+            }
+            /*remove the attribute, and call this function once more:*/
+            elmnt.removeAttribute("include-html");
+            includeHTML(callback);
+            }
+        };
+        xhr.open("GET", file, true);
+        xhr.send();
+        /*exit the function:*/
+        return;
+        }
+    }
+    setTimeout(function() {
+        callback();
+    }, 0);
+    }
+        
+        
+    
+    
+    
+    
+    includeHTML()
+    
+    
+    
+    
+    
+    </script>
+
+    
+</body>
+</html>
