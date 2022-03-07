@@ -2152,3 +2152,40 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 백준 문자열 아스키코드 문제 풀고 정리
 ### 배운점
 + [백준_아스키코드 풀이과정](https://unique-wandflower-4cc.notion.site/_-35186204742a4b58a46f2b4d0a6c069e)
+
+
+
+
+# 03월 07일
+## 자바 알고리즘
+### 잘된점
++ 문자열 대소문자 변환 문제 풀고 정리
++ 백준 숫자의 합 문제 다른 방법으로 풀이
+
+### 배운점
++ [문자열 대소문자 변환](https://unique-wandflower-4cc.notion.site/9ec81f7196cf4bbebd347d8fe83528e2)
++ [백준_숫자의합](https://unique-wandflower-4cc.notion.site/cb12561bfc0946639e5728017ce73dea)
+
+## 기술 면접 발표 자료
+### 잘된점
++ REST AND RESTFUL 관련 발표자료 준비
++ REST 구성 요소
++ RESTFUL API 특징
++ RESTFUL API를 설계하기 위해 지켜야 하는 원칙
+### 배운점
++ [REST AND RESTFUL](https://unique-wandflower-4cc.notion.site/Rest-AND-Restful-e95cc455b4c34ef58120c6c5dea3775b)
+
+## spring
+### 잘된점
++ HTTP 요청 파라미터 관련 내용 실습 
+
+### 배운점
+## HTTP 요청 파라미터 관련 내용 실습
+### 배운점
+## HTTP 요청 파라미터 관련 내용 실습
+### 배운점
++ [요청 매핑](https://unique-wandflower-4cc.notion.site/a049acd58d674185b3e1bb291f47f2b9)
++ [회원관리 요청매핑 API](https://unique-wandflower-4cc.notion.site/API-5f088d407b34405ba05850c402738774)
++ [HTTP 요청 - 헤더 조회](https://unique-wandflower-4cc.notion.site/HTTP-5ccda026b62f4e208d70617767d1cb47)
++ [@RequestParam](https://unique-wandflower-4cc.notion.site/HTTP-RequestParam-115b0e3598614d328f527e2270932712)
++ [@ModelAttribute](https://unique-wandflower-4cc.notion.site/HTTP-ModelAttribute-97bf6bb1b60942fe9ef76cda95487b1d)
