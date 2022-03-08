@@ -29,8 +29,7 @@
 `Stateless (무상태성)`
 
 - 서버에 클라이언트의 상태 정보를 저장하지 않는다
-    
-    
+- 서버가 클라이언트의 상태를 저장하지 않는다
 
 `자원 식별`
 
@@ -59,6 +58,19 @@
 
 - REST API 자체 표현구조를 가짐
 - 메시지만 보고 도 쉽게 이해 할 수 있음
+
+`처리 결과를 HTTP 상태코드로 변환`
+
+| 코드 | 상태 | 설명 |
+| --- | --- | --- |
+| 200 | OK | 요청이 정상적으로 처리됨 |
+| 201 | Created | 요청이 정상적으로 처리되고, 신규 리소스가 작성됨 |
+| 204 | No Content | 요청이 정상적으로 처리되었지만, 응답할 신규 정보는 없음 |
+| 400 | Bad Request | 서버가 이해할 수 없는 무효한 요청임 |
+| 401 | Unauthorized | 요청된 리소스는 인증이 필요함 |
+| 403 | Forbidden | 요청된 리소스는 거부됨 |
+| 404 | Not Found | 요청된 리소스는 서버에 존재하지 않음 |
+| 500 | Internal Server Error | 서버에서 에러가 발생함 |
 
 ### REST API 중심 규칙
 
@@ -100,7 +112,7 @@ DELETE /members/1
 
 ### URI 설계 방법
 
-- `/` 는 계층 관계를 나타낼때 상요
+- `/` 는 계층 관계를 나타낼때 필요
 
 ```java
 http://restapi.example.com/houses/apartments
@@ -151,3 +163,5 @@ http:// restapi.example.com/sports/soccer/players/13
 [https://repo.yona.io/doortts/blog/issue/12](https://repo.yona.io/doortts/blog/issue/12)
 
 [https://jaeseongdev.github.io/development/2021/06/15/REST의-기본-원칙-6가지/](https://jaeseongdev.github.io/development/2021/06/15/REST%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%9B%90%EC%B9%99-6%EA%B0%80%EC%A7%80/)
+
+[https://thesoul214.github.io/server/2019/02/26/Restful-1.html](https://thesoul214.github.io/server/2019/02/26/Restful-1.html)

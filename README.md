@@ -2189,3 +2189,33 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [HTTP 요청 - 헤더 조회](https://unique-wandflower-4cc.notion.site/HTTP-5ccda026b62f4e208d70617767d1cb47)
 + [@RequestParam](https://unique-wandflower-4cc.notion.site/HTTP-RequestParam-115b0e3598614d328f527e2270932712)
 + [@ModelAttribute](https://unique-wandflower-4cc.notion.site/HTTP-ModelAttribute-97bf6bb1b60942fe9ef76cda95487b1d)
+
+
+
+# 03월 08일
+## 자바 알고리즘
+### 잘된점
++ 문자열 관련 문장 속 단어 찾기 문제 풀고 정리
++ 프로그래머스 정수 내림차순으로 배치하기 문제 풀고 정리
+
+### 배운점
++ [문장 속 단어](https://unique-wandflower-4cc.notion.site/ebff02a3cc6d44f6ad3ed173b1c340dd)
++ [프로그래머스 정수 내림차순으로 배치하기](https://unique-wandflower-4cc.notion.site/_-9c88616a3e5645c7a8920c5d7f4674fc)
+
+## 기술면접 스터디
+### 잘된점
++ REST AND RESTFUL 내용 보충
++ RestFul 무상태성 관련 내용 추가
++ REST API 통신시 반환해주는 HTTP 상태코드와 의미
+
+### 배운점
++ [Rest AND RESTFUL 내용 수정](https://unique-wandflower-4cc.notion.site/Rest-AND-Restful-e95cc455b4c34ef58120c6c5dea3775b)
+
+## spring
+### 잘된점
++ JSON 형식으로 HTTP 요청 메시지 보내기
++ HTTP 사용시 메시지 바디에 직접 데이터를 담아 응답해주는 방법
+### 배운점
++ [HTTP 요청 메시지 - JSON](https://unique-wandflower-4cc.notion.site/HTTP-JSON-ba8baaeab9cd4ee79ecf799c39a62605)
++ [뷰 템플릿 응답](https://unique-wandflower-4cc.notion.site/6e7d399f1f83402aa8f751527b534557)
++ [HTTP 응답 - 메시지 바디에 직접 입력](https://unique-wandflower-4cc.notion.site/HTTP-4daf9f78dd5d40a9be2e697610aef51b)
