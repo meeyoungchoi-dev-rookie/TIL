@@ -2219,3 +2219,19 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [HTTP 요청 메시지 - JSON](https://unique-wandflower-4cc.notion.site/HTTP-JSON-ba8baaeab9cd4ee79ecf799c39a62605)
 + [뷰 템플릿 응답](https://unique-wandflower-4cc.notion.site/6e7d399f1f83402aa8f751527b534557)
 + [HTTP 응답 - 메시지 바디에 직접 입력](https://unique-wandflower-4cc.notion.site/HTTP-4daf9f78dd5d40a9be2e697610aef51b)
+
+
+
+# 03월 09일
+## spring
+### 잘된점
++ http 메시시 컨버터 정의 및 종류
++ 메시지 컨버터를 통해 데이터를 읽고 쓰는 방법에 대해 정리
+
+### 배운점
++ [HTTP 메시지 컨버터](https://unique-wandflower-4cc.notion.site/HTTP-b8c12daf987a43ab858ca574eaa0d4ab)
+## 자바 알고리즘
+### 잘된점
++ 문자열 관련 단어뒤집기 문제 풀고 정리
+### 배운점
++ [단어 뒤집기](https://unique-wandflower-4cc.notion.site/d40ac1b645f44cc6838f25b452754155)
