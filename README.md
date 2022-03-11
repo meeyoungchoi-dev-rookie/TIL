@@ -2263,3 +2263,31 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 4주차 REST and RESTFUL 관련 글 업로드
 ### 배운점
 + [REST and RESTFUL](https://unique-wandflower-4cc.notion.site/4-REST-and-RESTFUL-9430984ad1d041b7b6ed016424fdaad0)
+
+
+
+# 03월 11일
+## 자바 알고리즘
+### 잘된점
++ 문자열 관련 두문제 풀고 정리
++ replace 와 replaceAll 차이점 정리 및 실습
+
+### 배운점
++ [회문 문자열](https://unique-wandflower-4cc.notion.site/9ecb494290d941dab357b480398e9e17)
++ [유효한 팰린드롬](https://unique-wandflower-4cc.notion.site/a69802907f6d4cbdad0f40a909aa6a0f)
+
+## spring mvc1편
+### 잘된점
++ spring mvc 기반 아이템 관리 프로젝트 생성 및 환경설정 진행
++ 섹션1 ~ 섹션3 발표자료 정리 및 요약
+
+### 배운점
++ [타임리프 환경설정 에러 해결과정](https://unique-wandflower-4cc.notion.site/spring-boot-Thymeleaf-1e682c67a4e74cf9b0b0cc8cb26712e8)
++ [센션1 ~ 섹션3 발표자료 정리](https://unique-wandflower-4cc.notion.site/mvc1-1-3-86a874509bec4ef091ea5590ef6f7615)
+
+## 블로그 프로젝트
+### 잘된점
++ 테이블 설계도 바탕으로 실제 테이블 생성 작업 진행 중
+### 배운점
++ [블로그 프로젝트 테이블 설계도](https://unique-wandflower-4cc.notion.site/52b599fe286a4a3c85d3bad7764a4b71)
++ [블로그 프로젝트 테이블 설계 코드](https://unique-wandflower-4cc.notion.site/9e229794f2154a81b08313fb31e232b4)
