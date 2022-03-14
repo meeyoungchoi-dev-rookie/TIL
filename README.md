@@ -2291,3 +2291,13 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + [블로그 프로젝트 테이블 설계도](https://unique-wandflower-4cc.notion.site/52b599fe286a4a3c85d3bad7764a4b71)
 + [블로그 프로젝트 테이블 설계 코드](https://unique-wandflower-4cc.notion.site/9e229794f2154a81b08313fb31e232b4)
+
+
+# 03월 14일
+# 자바스크립트
+## 스코프
+### 잘된점
++ 스코프 관련 개념정리
+
+### 배운점
++ [스코프](https://unique-wandflower-4cc.notion.site/13-7f1ab52dbf0949e683a8960014541e98)
