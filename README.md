@@ -2315,3 +2315,16 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + @ServletComponentScan
 + 서블릿 컴포넌트를 스캔할 때 사용하는 어노테이션
 + @WebFilter , @WebServlet ,@WebListener 어노테이션이 붙은 클래스를 자동으로 스캔해 객체로 만들어 준다
+
+## DDD
+### 잘된점
++ 챕터1 도메인 모델 시작 정리
++ [챕터1 도메인 모델 시작](https://unique-wandflower-4cc.notion.site/984e2febd52a43eca9533d889ebb3f8f)
+
+### 배운점
++ 도메인 이란
++ 도메인 모델 패턴과 아키텍쳐 구조
++ 엔티티와 밸류
++ 도메인 모델에 set 메서드를 넣어면 안되는 이유
++ 도메인 객체를 불변 객체로 만드는 방법
+
