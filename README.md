@@ -2301,3 +2301,17 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [스코프](https://unique-wandflower-4cc.notion.site/13-7f1ab52dbf0949e683a8960014541e98)
+
+# 03월 15일
+## spring
+### 잘된점
++ spring mvc1편 섹션1 ~ 섹션3까지 발표 진행
++ [spring mvc1편 섹션1 ~ 섹션3 발표 자료](https://unique-wandflower-4cc.notion.site/mvc1-1-3-86a874509bec4ef091ea5590ef6f7615)
+### 배운점
++ @RequiredArgsConstructor
++ 생성자를 통해 객체를 주입해주는 것을 자동으로 처리 해주는 어노테이션
++ final 키워드가 붙은 멤버변수를 생성자 파라미터로 알아서 주입해준다
+
++ @ServletComponentScan
++ 서블릿 컴포넌트를 스캔할 때 사용하는 어노테이션
++ @WebFilter , @WebServlet ,@WebListener 어노테이션이 붙은 클래스를 자동으로 스캔해 객체로 만들어 준다
