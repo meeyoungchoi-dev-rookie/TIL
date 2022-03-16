@@ -2328,3 +2328,16 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 도메인 모델에 set 메서드를 넣어면 안되는 이유
 + 도메인 객체를 불변 객체로 만드는 방법
 
+# 3월 16일
+## 자바 알고리즘
+### 잘된점
++ 숫자만 추출 문제를 다른 방식으로 풀고 정리
++ replaceFirst 메서드를 사용하여 문자열에서 첫번째 0을 제거
+### 배운점
++ [숫자만추출 다른 방식으로 풀어보기](https://unique-wandflower-4cc.notion.site/ce4d92318efd49998e4714f75b696ee9)
+
+## 기술면점 대비 HTTP 공부 및 정리
+### 배운점
++ [웹소켓](https://unique-wandflower-4cc.notion.site/21a3aa5e4910477d9da1613d1c250bf8)
++ [CORS](https://unique-wandflower-4cc.notion.site/CORS-b839525e524c4891a22405ba13f98bc4)
++ [OAuth](https://unique-wandflower-4cc.notion.site/OAUth-7c63c545a17142418f3d3221c024eeab)
