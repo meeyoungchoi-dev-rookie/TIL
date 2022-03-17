@@ -69,7 +69,7 @@ public class CancelOrderService {
 
 `계층 구조 아키텍처의 구성`
 
-![chap2_계층구조와아키텍처구성.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a577335-9891-4927-a0b1-d67d3cf319ca/chap2_계층구조와아키텍처구성.png)
+![chap2_계층구조와아키텍처구성](https://user-images.githubusercontent.com/42866800/158823400-da3fbec1-2518-4ba1-b279-34c9eaa678ce.png)
 
 - 계층구조의 특성상 상위 계층에서 하위 계층으로의 의존만 존재하고 하위계층은 상위 계층에 의존하지 않는다
 - 표현 계층은 응용 계층에 의존하고
@@ -85,7 +85,7 @@ public class CancelOrderService {
 
 - 계층 구조에 따르면 도메인과 응용 계층을 룰 엔진과 DB 연동을 위해 인프라스터럭쳐 모델에 의존하게 된다
 
-![chap2_계층구조상_의존관계.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ffd62d2-78d1-4360-b122-95ac14162de6/chap2_계층구조상_의존관계.png)
+![chap2_계층구조상_의존관계](https://user-images.githubusercontent.com/42866800/158823511-487fd50a-cb45-48f0-98ed-58866bf209a9.png)
 
 - 응용 영역과 도메인 영역은 DB나 외부 시스템 연동을 위해 인프라스트럭쳐의 기능을 사용한다
 - 따라서 이런 계층 구조를 사용하는 것은 직관적으로 이해하기 쉽다
@@ -189,7 +189,7 @@ public class CalculateDiscountService {
 - 즉 , 추상화한 인터페이스를 사용한다
 - 
 
-참고 -
+## 추가적으로 공부해야 하는 부분
 
 메시지큐 - [https://creakycogwheel.tistory.com/entry/캡스톤-프로젝트메시지-큐란](https://creakycogwheel.tistory.com/entry/%EC%BA%A1%EC%8A%A4%ED%86%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A9%94%EC%8B%9C%EC%A7%80-%ED%81%90%EB%9E%80)
 
