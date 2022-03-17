@@ -2341,3 +2341,34 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [웹소켓](https://unique-wandflower-4cc.notion.site/21a3aa5e4910477d9da1613d1c250bf8)
 + [CORS](https://unique-wandflower-4cc.notion.site/CORS-b839525e524c4891a22405ba13f98bc4)
 + [OAuth](https://unique-wandflower-4cc.notion.site/OAUth-7c63c545a17142418f3d3221c024eeab)
+
+
+# 3월 17일
+## spring 스터디
+### 잘된점
++ servlet에서 부터 spring 프레임워크 만드는 과정 정리
++ spring mvc 전체 구조 
++ - DispatcherServlet의 목적
++ - RequestDispatcher 가 필요한 이유
+
+### 배운점
++ [spring mvc1 섹션4 ~ 섹션5 정리](https://unique-wandflower-4cc.notion.site/4-5-ddd121b6072b4ae2af98237a8ebe8f8a)
+
+## ddd
+### 잘된점
++ chapter2 아케텍쳐 구조 정리
++ 네가지 영역과 역할
++ 계층 구조 아키텍쳐
+
+### 배운점
++ [아키텍처 개요](https://unique-wandflower-4cc.notion.site/36b3135f19d74fb1a2fbd55ee2848c1d)
+
+## 기술면접 대비 스터디
+### 잘된점
++ 운영체제 메모리 구조
++ 스택 동작 과정
++ 스택 영역 특징
++ 힙 영역 특징
+
+### 배운점
++ [운영체제 메모리 구조](https://unique-wandflower-4cc.notion.site/b77a2f747b06439cbf55d90a9bee9d2e)
