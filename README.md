@@ -2372,3 +2372,17 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [운영체제 메모리 구조](https://unique-wandflower-4cc.notion.site/b77a2f747b06439cbf55d90a9bee9d2e)
+
+# 03월 18일
+## DDD
+### 잘된점
++ DIP의 목적
++ DIP 방식으로 설계하는 방법
+
+### 배운점
++ [아키텍처개요 - DIP](https://unique-wandflower-4cc.notion.site/36b3135f19d74fb1a2fbd55ee2848c1d)
+
+### 잘된점
++ 문자열 관련 한문제 풀고 정리
+### 배운점
++ [가장 짧은 문자 거리](https://unique-wandflower-4cc.notion.site/3e6736dececb415b84e54ec91db36d86)
