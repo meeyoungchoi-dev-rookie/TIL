@@ -2386,3 +2386,19 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 문자열 관련 한문제 풀고 정리
 ### 배운점
 + [가장 짧은 문자 거리](https://unique-wandflower-4cc.notion.site/3e6736dececb415b84e54ec91db36d86)
+
+# 03월 20일
+## 기술면접 스터디
+### 잘된점
++ 운영체제 메모리 구조 발표 및 피드백 진행
++ 다른 사람 발표 주제에 대해 미리 정리
++ [캐시의 지역성](https://unique-wandflower-4cc.notion.site/9afc9a8b4e0747e38ef6892422b53dfa)
++ [교착상태와 기아상태](https://unique-wandflower-4cc.notion.site/185c69b6b1a74b3bbf2c5f0ea8b21119)
+### 배운점
++ [운영체제 메모리 구조](https://unique-wandflower-4cc.notion.site/b77a2f747b06439cbf55d90a9bee9d2e)
+
+## DDD
+### 잘된점
++ 도메인 영역의 구성 요소와 역할 정리
+### 배운점
++ [도메인 영역 구성 요소](https://unique-wandflower-4cc.notion.site/1fc2bb4ac9e548f28bad0b338cc79892)
