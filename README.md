@@ -2402,3 +2402,31 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 도메인 영역의 구성 요소와 역할 정리
 ### 배운점
 + [도메인 영역 구성 요소](https://unique-wandflower-4cc.notion.site/1fc2bb4ac9e548f28bad0b338cc79892)
+
+
+# 03월 21일
+## DDD
+### 잘된점
++ 표현영역 , 응용영역 , 인프라스턱처 영역간 요청처리 흐름에 대한 이해
++ 인프라스트럭처 영역의 역할
++ 아키텍처에 맞는 패키지 모듈 구성방법
+
+### 배운점
++ [요청처리 흐름](https://unique-wandflower-4cc.notion.site/cdca3ff502174cf08ee268030b6bf728)
++ [인프라스트럭처 영역의 역할](https://unique-wandflower-4cc.notion.site/f2717298304f4163a02520a876b8d04b)
++ [패키지 모듈 구성방법](https://unique-wandflower-4cc.notion.site/b147cb41ecd94a918b763f6fae32588d)
+
+## 오브젝트
+### 잘된점
++ 티켓판매 애플리케이션 가장 시나리오 설계
++ 클래스 기반 구조도 설계
+
+### 배운점
++ [티켓 판매 애플리케이션 클래스 설계](https://unique-wandflower-4cc.notion.site/01_1-ace7774eb70d4750b75422b5843947d7)
+
+## 기술면접 스터디 - 운영체제
+### 잘된점
++ 운영체제 메모리 구성요소 피드백 기반 자료 수정
+
+### 배운점
++ [운영체제 메모리 구성요소](https://unique-wandflower-4cc.notion.site/b77a2f747b06439cbf55d90a9bee9d2e)
