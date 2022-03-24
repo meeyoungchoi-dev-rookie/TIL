@@ -2518,3 +2518,41 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 배열 관련 한문제 풀고 정리
 ### 배운점
 + [큰 수 출력하기](https://unique-wandflower-4cc.notion.site/c9d23243d1034b22b394955ed70bb2d0)
+
+
+# 03월 24일
+## DDD
+### 잘된점
++ 리파지터리와 애그리거트
++ 애그리거트를 ID로 참조하면 안되는 이유
++ 애그리거트와 애그리거트 루트 관계 정리
+
+### 배운점
++ [리파지터리와 애그리거트](https://unique-wandflower-4cc.notion.site/16524da647844ec080ed603df48e71f7)
+
+## 오브젝트 
+## 잘된점
++ 티켓 애플리케이션 구조 개선
++ TicketSeller와 TicketOffice 의존성 제거
++ Audience 와 Bag 의존성 제거
++ 객체지향 프로그래밍과 절차지향 프로그래밍 차이
+
+### 배운점
++ [설계 개선하기_2](https://www.notion.so/_2-57a311e3e3384febb45441098707e382)
++ [설계 개선하기_3]https://www.notion.so/_3-c40d4a2fd9be4131b1fa4c470bce2c44)
+
+## 자바 알고리즘
+### 잘된점
++ 두 배열의 공통원소구하기 문제 풀고 정리
+### 배운점
++ [공통 원소 구히기](https://unique-wandflower-4cc.notion.site/5095c4a556a34617a7f063df7e017a1b)
+
+## spring
+### 잘된점
++ 요청 매핑관련 어노테이셔내
++ 요청 매핑 HTTP 메서드
++ 컴포넌트 스캔 - @Component
++ 회원관리 예제 요청 매핑 실습
+
+### 배운점
++ [spring 요청 매핑](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055)
