@@ -2556,3 +2556,47 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [spring 요청 매핑](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055)
+
+
+# 03월 25일
+## spring 
+### 잘된점
++ 어노테이션을 사용하여 HTTP 헤더 정보를 가져오는 방법
++ @RequestParam 사용법
++ @RequestParam에 적용할 수 있는 속성 - requirec , defalutValue
++ @RequestParam - 파라미터를 Map과 MultiValueMap으로 받는 방법
+### 배운점
++ [spring HTTP 헤더 정보 활용하는 방법 과 @RequestParam 어노테이션 사용방법](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055)
+
+## ddd
+### 잘된점
++ 애그리거트와 집합 관계
++ 1:N 관계를 사용할때 발생할 수 있는 문제점
++ N:M 관계를 RDB 와 JPA에서 처리하는 방법
++ 애그리거트에 팩토리 메서드를 적용하여 내부 구현을 캡슐화 하는 방법
+### 배운점
++ [애그리거트 간 집합 연관](https://www.notion.so/92c768c5eb2b4031ae9b3a494f951487)
++ [애그리거트와 팩토리 메서드](https://www.notion.so/8f06525c459247f5ab188c50f56a5c8e)
+
+## 오브젝트
+### 잘된점
++ 영화 애플리케이션 구조 설계
++ 객체간 협력을 해야 하는 이유
++ 객체간 메시지를 통해 협력하는 방법
+
+### 배운점
++ [영화 애플리케이션 구조 설계](https://unique-wandflower-4cc.notion.site/01-5d84df99c61c4f9b85937ebb7b9e8120)
++ [객체간 협력](https://www.notion.so/02-8e3b03139d7b4c2ea4291c8cecb56db8)
+
+## 자바 알고리즘
+### 잘된점 
++ 배열관련 알고리즘 두문제 풀고 정리
+### 배운점
++ [보이는 학생](https://unique-wandflower-4cc.notion.site/efcbc6deb6d9485b8cb6d6a7a5c00bfa)
++ [피보나치 수열](https://www.notion.so/1450a8b55b5d42d9b274fbc4754f5118)
+
+## GIT
+### 잘된점
++ reset과 revert차이 실습
+### 배운점
++ [reset vs revert](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
