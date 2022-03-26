@@ -2600,3 +2600,37 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + reset과 revert차이 실습
 ### 배운점
 + [reset vs revert](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
+
+# 03월 26일
+## 오브젝트
+### 잘된점
++ 영화 애플리케이션
++ 할인 정책 과 할인 조건
++ 금액 할인 정책 과 비율 할인 정책
++ 순번 조건 과 기간 조건
++ 오버라이딩 vs 오버로딩
++ 생성자 파라미터를 사용하여 객체 초기화
+### 배운점
++ [영화 애플리케이션 - 할인 요금 구하기](https://unique-wandflower-4cc.notion.site/03-6e53c55a2ef54dae994466a1405db07d)
+
+## DDD 
+### 잘된점
++ JPA리포지터리 사용하여 기본 CRUD 기능 구현
++ DIP를 활용한 리포지터리 모듈
+
+### 배운점
++ [JPA를 활용한 리포지터리 구현](https://unique-wandflower-4cc.notion.site/JPA-be64462cc8b54b3aae1316aba33c061d)
+
+## 자바 알고리즘
+### 잘된점
++ 배열관련 알고리즘 한문제 풀고 정리
+
+### 배운점
++ [소수 - 에러토스테네스 체](https://unique-wandflower-4cc.notion.site/ee96f9db88f5431cac1b8aa57d2870a2)
+
+## spring
+### 잘된점
++ HTTP message-body에 단순 텍스트를 요청 및 응답해주는 방법
++ HTTP message-body에 JSON을 요청 및 응답해주는 방법
+### 배운점
++ [HTTP message-body - 텍스트 , JSON 요청 및 응답](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055) 
