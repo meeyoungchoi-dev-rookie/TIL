@@ -2634,3 +2634,30 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + HTTP message-body에 JSON을 요청 및 응답해주는 방법
 ### 배운점
 + [HTTP message-body - 텍스트 , JSON 요청 및 응답](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055) 
+
+
+# 03월 27일
+## DDD
+### 잘된점
++ 엔티티와 밸류 매핑 방법
++ @Embedable 과 @Embedded
++ 기본 생성자 매핑
++ 필드 매핑
+
+### 배운점
++ [엔티티와 밸류 매핑 구현](https://unique-wandflower-4cc.notion.site/d2588cf97db7477b85f25c97ef9d2490)
+
+## 오브젝트
+### 잘된점
++ 상속을 사용하는 이유
++ 다형성을 사용했을 때 효과
+
+### 배운점
++ [영화 애플리케이션에 적용된 상속과 다형성](https://unique-wandflower-4cc.notion.site/04-8fafab2ddea94b208b6069cd1a607cd8)
+
+## 기술면점 스터디
+### 잘된점
++ 파일과 디렉토리 구조
++ 파티션과 파일시스템
+### 배운점
++ [파일 시스템과 RDBMS](https://www.notion.so/6b8cee581e0d4f8ca22c6634ecb01042)
