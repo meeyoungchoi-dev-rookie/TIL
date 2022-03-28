@@ -2661,3 +2661,27 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 파티션과 파일시스템
 ### 배운점
 + [파일 시스템과 RDBMS](https://www.notion.so/6b8cee581e0d4f8ca22c6634ecb01042)
+
+# 03월 28일
+## spring
+### 잘된점
++ 아이템 서비스 CRUD 기능 구현
+
+## ddd
+### 잘된점
++ 밸류 컬렉션을 별도 테이블에 매팽
++ 한개의 컬럼에 밸류 컬렉션 매핑
++ 밸류를 사용한 아이디 매핑
+### 배운점
++ [밸류 매핑 처리](https://unique-wandflower-4cc.notion.site/f43d1215d9a941c1b94cba401d5fd506)
+
+## 오브젝트
+### 잘된점
++ 상속과 상속에서 다형성
++ 인터페이스와 인터페이스에서 다형성
++ 할인 정책의 경우 왜 추상 클래스 기반 상속을 적용했는가
++ 할인 조건의 경우 왜 인터페이스 기반 다형성을 적용했는가
+
+### 배운점
++ [상송과 다형성](https://unique-wandflower-4cc.notion.site/04-8fafab2ddea94b208b6069cd1a607cd8)
+
