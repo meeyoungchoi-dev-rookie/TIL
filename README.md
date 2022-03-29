@@ -2685,3 +2685,30 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 ### 배운점
 + [상송과 다형성](https://unique-wandflower-4cc.notion.site/04-8fafab2ddea94b208b6069cd1a607cd8)
 
+
+# 03월 29일
+## 오브젝트
+### 잘된점
++ 상속 과 다형성
++ 인터페이스 와 다형성
++ 추상클래스 대신 인터페이스를 사용해야 하는 이유
++ 상속 과 합성
++ 추상클래스에서 인터페이스로 리펙토링
+### 배운점 
++ [추상화와 유연성](https://unique-wandflower-4cc.notion.site/05-391c69b440ab40d9b9d7d4e773c7b470)
+
+## spring
+### 잘된점
++ 아이템 관리 아이템 저장시 @ModelAttribute 사용하여 리펙토링 진행
+
+## spring - 블로그 프레적트
+### 잘된점
++ 부트스트랩 템플릿에 타임리프 적용하여 레이아웃 적용
+
+## spring mvc 섹션6 ~ 섹션7 스터디
+### 잘된점
++ 메시지 컨버터 미디어 타입과 클래스 타입 정리
+### 배운점
++ 미디어 타입 : 클라이언트에서 서버로 요청을 보낼때 HTTP 헤더에 컨텐츠의 타입을 전달한다
++ 클래스 타입 : 서버에서 데이터를 변환할 타입
++ [spring 섹션6 ~ 섹션7 정리](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055)
