@@ -2712,3 +2712,43 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 미디어 타입 : 클라이언트에서 서버로 요청을 보낼때 HTTP 헤더에 컨텐츠의 타입을 전달한다
 + 클래스 타입 : 서버에서 데이터를 변환할 타입
 + [spring 섹션6 ~ 섹션7 정리](https://unique-wandflower-4cc.notion.site/6-7-b87465a37c4648f9934db14002772055)
+
+# 03월 30일
+## ddd
+### 잘된점
++ 양방향 관계에서 ID를 사용하여 조인하는 방법
++ 밸류를 엔티티로 매핑하는 방법
++ 밸류를 별도 테이블로 매핑하는 방법
++ JPA에서 양방향 관계의 주인을 지정하는 방법
+### 배운점
++ [밸류 매핑 처리](https://unique-wandflower-4cc.notion.site/f43d1215d9a941c1b94cba401d5fd506)
+
+## 오브젝트
+### 잘된점
++ 객체간 메시지를 통해 협력을 해야 하는 이유
++ 객체의 상태와 행동을 결정하는 방법
++ 영화 애플리케이션 할인 정책이 없는 경우 추가 및 인터페이스 사용하여 코드 리펙토링
+### 배운점
++ [역할 , 책임 , 협력](https://unique-wandflower-4cc.notion.site/03-4a4a1229fd424e8bbb71bc73c762dd24)
+
+## 자바 알고리즘
+### 잘된점
++ 배열 뒤집은 소수 찾기 문제 풀고 정리
++ String으로 입력받아 뒤집은 후 숫자로 변환하는 방법
++ int로 입력받아 숫자를 뒤집는 방법
+### 배운점
++ [뒤집은 소수](https://unique-wandflower-4cc.notion.site/35d27eaf199a45f79109a1a9ba75d4bd)
+
+## spring 기본편 - 다형성
+### 잘된점
++ 스프링의 핵심 개념 다형성
++ 자바에서 다형성 과 스프링에서 다형성
++ 객체간 협력
+### 배운점
++ [스프링과 다형성](https://unique-wandflower-4cc.notion.site/7355968f8067436f8bca74b3954a0d40)
+
+## GIT - branch
+### 잘된점
++ git 브랜치 땋는 방법 실습 및 정리
+### 배운점
++ [GIT 브랜치 실습](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
