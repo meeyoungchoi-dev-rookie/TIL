@@ -2752,3 +2752,52 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + git 브랜치 땋는 방법 실습 및 정리
 ### 배운점
 + [GIT 브랜치 실습](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
+
+# 03월 31일
+## spring
+### 잘된점
++ 객체지향 설계의 5원칙
++ SRP , OCP , LSP , ISP , DIP
++ 스프링과 객체지향
++ DI를 사용하여 OCP와 DIP가 가능한 이유
+
+### 배운점
++ [좋은 객체지향 설계의 5원칙 SOLID](https://unique-wandflower-4cc.notion.site/5-SOLID-2c0dba4834234bc29438186e365f8f01)
++ [객체지향 설계와 스프링](https://unique-wandflower-4cc.notion.site/bad82b1343c9440e98f3ea43a36418cc)
+
+## DDD
+### 잘된점
++ 애그리거트를 완전한 상태로 만드는 방법 - 즉시로딩
++ 즉시 로딩 단점
++ 애그리거트 영속성 전파 - 애그리거트를 완전한 상태로 매핑하기 위한 cascade 속성
++ 식별자를 생성하는 방법 3가지
+### 배운점
++ [애그리거트 로딩 전략](https://unique-wandflower-4cc.notion.site/4f864e52e157449aa016bf55a665bcad)
++ [애그리거트 영속성 전파](https://unique-wandflower-4cc.notion.site/1c556c59628643bfb2379951bd7190f0)
++ [식별자 생성 기능](https://unique-wandflower-4cc.notion.site/bda92dbb566d4f8cb9d1056f72deef64)
+
+## 오브젝트
+### 잘된점
++ 책임 주도 설계가 필요한 이유
++ 책임 주도 설계 과정
++ 객체의 상태에 초점을 맞출때 발생하는 문제점
+### 배운점
++ [책임](https://unique-wandflower-4cc.notion.site/02-07d2ac53f7fe4fe196b0ca280a773812)
+
+## 자바 알고리즘
+### 잘된점
++ 배열 점수계산 문제 풀고 정리
+### 배운점
++ [점수계산](https://unique-wandflower-4cc.notion.site/3e02fce6fe0f4b8394d91b1dbbc081b9)
+
+## spring 아이템 관리
+### 잘된점
++ create시 시퀀스 생성 코드 리펙토링
++ 기존 : item 저장전 시퀀스 값 증가후 item 저장
++ 수정후 : service에서 item 추가전 먼저 시퀀스를 생성하여 item을 Map에 저장
+
+## git merge 실습
+### 잘된점
++ 브랜치 딴후 master 브랜치로 병합하는 과정 실습
+### 배운점
++ [브랜치 병합](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
