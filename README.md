@@ -2801,3 +2801,48 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 브랜치 딴후 master 브랜치로 병합하는 과정 실습
 ### 배운점
 + [브랜치 병합](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
+
+
+# 04월 1일
+## ddd
+### 잘된점
++ 리포지터리에서 애그리거트를 메서드를 사용하여 검색하는 방법
++ 검색 조건을 조합하여 find 메서드를 정의하는 방법
++ 검색 조건을 조합하기 위한 Speficiation 인터페이스
++ 스펙을 사용하여 검색 조건을 조합하는 방법
+
+### 배운점
++ [JPA 리포지터리 검색을 위한 스펙](https://unique-wandflower-4cc.notion.site/8c7bc9739b8d45eead758521f776adb9)
+
+## 오브젝트
+### 잘된점
++ 동일한 책임을 지는 객체를 역할로 추상화 
++ 추상화의 장점
+
+### 배운점
++ [역할](https://unique-wandflower-4cc.notion.site/03-783ac371d7e3428994a7ddc67109510b)
+
+## spring 기본편
+### 잘된점
++ 프로젝스 생성
++ 요구사항 파악 하여 객체지향적으로 설계
+### 배운점
++ [비즈니스 요구사항](https://unique-wandflower-4cc.notion.site/11c92cc3040d4c54a10ef35ee8b84d3c)
+
+## 자바 알고리즘
+### 잘된점
++ 자바 배열 관련 등수구하기 문제 풀고 정리
+
+### 배운점
++ [등수 구하기](https://www.notion.so/a0c7febacc534031914541c542bc04fd)
+## GIT
+### 잘된점
++ 3명이서 작업하는 상황 가정하여 브랜치 따고 머지 실습
+
+### 배운점
++ [여러명이 작업하는 상황 가정 브랜치 따고 머지 실습](https://unique-wandflower-4cc.notion.site/GIT-af134aa416b54bd9998b9ae13dfd65f0)
+
+## spring - 아이템 관리
+### 잘된점
+
+### 배운점
