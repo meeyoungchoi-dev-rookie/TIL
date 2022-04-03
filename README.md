@@ -2865,3 +2865,26 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 인터페이스를 추상화 해야 하는 이유
 + [다형성](https://www.notion.so/04-8fafab2ddea94b208b6069cd1a607cd8)
 + [추상화와 유연성](https://www.notion.so/05-391c69b440ab40d9b9d7d4e773c7b470)
+
+
+# 4월 03일
+## 기술면접 스터디
+### 잘된점
++ RDB와 NoSQL 차이 정리
+### 배운점
++ [RDBMS vs NoSQL](https://unique-wandflower-4cc.notion.site/RDBMS-vs-NoSQL-593813d9c9da404490dab3c8bca05b25)
+## 오브젝트
+### 잘된점
++ 다형성 , 추상화 , 객체의 역할과 책임 복습
++ 다형성과 추상화 
++ 다형성을 적용해야 하는 이유
++ 객체의 역할과 책임
++ 동일한 책임을 갖는 객체의 역할을 추상화 해야 하는 이유
++ 추상화를 통해 얻을 수 있는 효과
+
+### 배운점
++ [협력 , 객체 , 클래스](https://unique-wandflower-4cc.notion.site/02-8e3b03139d7b4c2ea4291c8cecb56db8)
++ [상속과 다형성](https://www.notion.so/04-8fafab2ddea94b208b6069cd1a607cd8)
++ [추상화와 유연성](https://www.notion.so/05-391c69b440ab40d9b9d7d4e773c7b470)
++ [객체의 역할](https://unique-wandflower-4cc.notion.site/03-4a4a1229fd424e8bbb71bc73c762dd24)
++ [객체의 책임](https://unique-wandflower-4cc.notion.site/02-07d2ac53f7fe4fe196b0ca280a773812)
