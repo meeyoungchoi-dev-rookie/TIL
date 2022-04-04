@@ -2888,3 +2888,40 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [추상화와 유연성](https://www.notion.so/05-391c69b440ab40d9b9d7d4e773c7b470)
 + [객체의 역할](https://unique-wandflower-4cc.notion.site/03-4a4a1229fd424e8bbb71bc73c762dd24)
 + [객체의 책임](https://unique-wandflower-4cc.notion.site/02-07d2ac53f7fe4fe196b0ca280a773812)
+
+# 04월 04일
+## 오브젝트
+### 잘된점
++ 데이터 기반 설계의 문제점
++ 올바른 객체지향 설계 방법
+### 배운점
++ [데이터 중심 설계의 문제점과 올바른 객체지향 설계](https://unique-wandflower-4cc.notion.site/a32326f5c2614275a95992ca4aeb77d0)
+
+## ddd
+### 잘된점
++ JPA AND / OR 스펙조합
++ 스펙을 JPA 리포지터리에서 사용하는 방법
+### 배운점
++ [JPA를 위한 스펙 구현](https://unique-wandflower-4cc.notion.site/JPA-3ccb58327cf4409e9059b2bda54372a3)
+
+## 자바
+### 잘된점
++ 상속 , 추상 클래스  , 인터페이스 , 다형성 왜 필요한지 정리
++ 추상 클래스와 인터페이스 차이점과 언제 사용해야 하는지 정리
+### 배운점
++ [https://unique-wandflower-4cc.notion.site/8fd9cc85a26146688cae6a4724662935]
+
+## 기술면접
+### 잘된점
++ DBLock 정리
+### 배운점
++ [DBLock](https://unique-wandflower-4cc.notion.site/DB-Lock-5c02cff5a1ec4cb99288260c225ec943)
+
+## spring
+### 잘된점
++ 회원도메인 클래스 구조도 기반 설계 진행
++ 회원 도메인 리파지토리에 적용된 인터페이스와 다형성
++ 서비스 메서드 단위테스트
++ 회원 도메인 설계의 문제점
+### 배운점
++ [회원 도메인 설계](https://unique-wandflower-4cc.notion.site/fdff0d293620455cb15872e13af28fbe)
