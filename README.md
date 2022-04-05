@@ -2925,3 +2925,17 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 회원 도메인 설계의 문제점
 ### 배운점
 + [회원 도메인 설계](https://unique-wandflower-4cc.notion.site/fdff0d293620455cb15872e13af28fbe)
+
+# 04월 05일
+## 오브젝트
+### 잘된점
++ 영화 애플리케이션 할인 정책을 추상클래스에서 인터페이스로 구조를 변경한 이유 정리
+### 배운점
++ [할인 정책 추상클래스에서 인터페이스 트레이드오프](https://unique-wandflower-4cc.notion.site/46a8b080c3904229ada999f577a4f3fa)
+## 자바
+### 잘된점
++ 상속의 is-a 와 has-a 관계 장단점 정리
++ 추상클래스 사용목적 과 인터페이스와 차이점 정리
++ 다형성 사용목적 정리
+### 배운점
++ [객체지향 - 상속 , 추상클래스 , 다형성 , 인터페이스](https://unique-wandflower-4cc.notion.site/56346e5bef384d24a2ff7df4909e6762)
