@@ -2939,3 +2939,19 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 다형성 사용목적 정리
 ### 배운점
 + [객체지향 - 상속 , 추상클래스 , 다형성 , 인터페이스](https://unique-wandflower-4cc.notion.site/56346e5bef384d24a2ff7df4909e6762)
+
+# 04월 06일
+## 오브젝트
+### 잘된점
++ 영화 애플리케이션 데이터 중심 설계의 문제점 
++ 캡슐화를 해야 하는 이유
++ 캡슐화를 하지 않았을때 발생하는 문제점
+### 배운점
++ [데이터 중심 영화 애플리케이션 문제점](https://unique-wandflower-4cc.notion.site/e1de49a9ca3542c381dec1e94469e04b)
++ [캡슐화를 하지 않았을때 발생하는 문제점](https://unique-wandflower-4cc.notion.site/1511388910dd4177971847041dffab90)
+
+## spring
+### 잘된점
++ 주문 할인 애플리케이션 객체지향적으로 설계
+### 배운점
++ [주문 할인 애플리케이션 설계](https://unique-wandflower-4cc.notion.site/8e56b591fe2549378278756e05df096d)
