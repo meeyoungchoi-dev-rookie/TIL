@@ -2955,3 +2955,34 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 주문 할인 애플리케이션 객체지향적으로 설계
 ### 배운점
 + [주문 할인 애플리케이션 설계](https://unique-wandflower-4cc.notion.site/8e56b591fe2549378278756e05df096d)
+
+
+# 04월 07일
+## spring
+### 잘된점
++ 주문 할인 도메인 객체지향적으로 설계
++ 주문 할인 도메인 단위테스트 진행
+
+## 오브젝트
+### 잘된점
++ 영화 얘매 애플리케이션 데이터 중심 설계
++ 데이터 중심 설계를 객체 중심으로 설계 변경
+### 배운점
++ [캡슐화를 더 개선할 수 있는 방법](https://unique-wandflower-4cc.notion.site/8184ddc1747d4446b8c5368e8f6c75d0)
+
+## DDD
+### 잘된점
++ JPA 기반 정렬
++ JPA 기반 페이징 처리
+### 배운점
++ [JPA 정렬 구현](https://unique-wandflower-4cc.notion.site/e70503fc6e5a4b358a841f0b23e14cf5)
++ [JPA 페이징 처리 구현](https://unique-wandflower-4cc.notion.site/a7f2d18b9b7b46cf9320c8f63fe481fa)
+
+## 밋코더 블로그 포스팅 스터디
+### 잘된점
++ 오브젝트책 데이터 중심 설계의 문제점 정리
++ 캡슐화를 위반했을때 어떤 문제가 발생하는지 정리
++ 데이터 중심 설계를 해결하는 방법 정리
+
+### 배운점
++ [오브젝트 - 데이터 중심 설계의 문제점](https://unique-wandflower-4cc.notion.site/8-165012e3b0aa48e09555ecc3bf5f42f5)
