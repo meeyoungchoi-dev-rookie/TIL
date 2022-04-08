@@ -2986,3 +2986,25 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [오브젝트 - 데이터 중심 설계의 문제점](https://unique-wandflower-4cc.notion.site/8-165012e3b0aa48e09555ecc3bf5f42f5)
+
+# 04월 08일
+## spring
+### 잘된점
++ 할인정책에 비율 할인 정책이 추가되는 경우를 고려한 객체지향적 설계
+
+## 오브젝트
+### 잘된점
++ 책임주도설계란 무엇인가
++ 높은 응집도와 낮은 결합도
++ CREATOR 패턴
+### 배운점
++ [책임 주도 설계](https://unique-wandflower-4cc.notion.site/8565cd5af5d042a789420638f46ba92f)
+
+## ddd
+### 잘된점
++ JPA를 사용하여 조회기능을 구현하는 방법
++ 동적 인스턴스 생성
++ @SubSelect
+
+### 배운점
++ [JPA 조회 전용 기능 구현](https://unique-wandflower-4cc.notion.site/86739d169f11404ebfbbd6884ab8a9cb)
