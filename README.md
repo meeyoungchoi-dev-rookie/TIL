@@ -3008,3 +3008,31 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [JPA 조회 전용 기능 구현](https://unique-wandflower-4cc.notion.site/86739d169f11404ebfbbd6884ab8a9cb)
+
+
+
+# 04월 12일
+## spring
+### 잘된점
++ 주문 할인 도메인 AppConfig 클래스 사용하여 관심사 분리
++ 객체지향 설계의 5가지 원칙
++ IoC와 DI란 무엇인가
++ AppConfig 클래스를 스프링이 관리하도록 전환
+### 배운점
++ [주문 할인 도메인 설계](https://unique-wandflower-4cc.notion.site/8e56b591fe2549378278756e05df096d)
++ [IoC DI 컨테이너](https://unique-wandflower-4cc.notion.site/IoC-DI-d5f29df6cb28479aaa0ff8d61ed42905)
++ [AppConfig 클래스를 스프링으로 전환하는 방법](https://www.notion.so/8af5e19d16e1416cad173275c16d82b3)
+
+## 오브젝트
+### 잘된점
++ 리펙토링을 통해 메서드의 응집도를 낮추는 방법
++ 메시지를 통해 인터페이스가 협력하는 방법
+### 배운점
++ [책임 주도 설계의 대안](https://unique-wandflower-4cc.notion.site/141a4b2bfc2f4b44bd6aeac072e26233)
++ [협력과 메시지](https://unique-wandflower-4cc.notion.site/57122b3c449e4c10a577338be5dbfaa6)
+
+## DDD
+### 잘된점
++ 응용서비스와 표현영역의 관계 파악
+### 배운점
++ [표현 영역과 응용 영역](https://www.notion.so/1bf6ca01aeb54b51a9f17203b32fa746)
