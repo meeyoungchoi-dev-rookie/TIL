@@ -3036,3 +3036,29 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 응용서비스와 표현영역의 관계 파악
 ### 배운점
 + [표현 영역과 응용 영역](https://www.notion.so/1bf6ca01aeb54b51a9f17203b32fa746)
+
+# 04월 13일
+## 오브젝트
+### 잘된점
+1. 추상적인 인터페이스를 설계하는 방법
+2. 디미터 법칙
+3. 메시지 수신자에게 시키기
+4. 객체의 인터페이스에는 협력과 관련된 오퍼레이션만을 표현하기
+
+### 배운점
++ [추상적인 인터페이스를 설계하는 방법](https://unique-wandflower-4cc.notion.site/8cbde6a9f8694c9e8e81328e7eeed73a)
+
+## spring
+### 잘된점
++ 스프링 컨테이너 구조
++ 모든 빈 조회하는 방법
++ 애플리케이션에서 사용하는 빈만 조회하는 방법 
++ 상속 관계에서 빈 조회하는 방법
++ 동일한 빈의 타입이 두개이상 있는 경우 빈을 조회하는 방법
++ BeanFactory와 ApplicatonContext 차이
+
+### 배운점
++ [스프링 컨테이너 구조와 빈 조회](https://unique-wandflower-4cc.notion.site/c9c8f823e14641e28b667ca04c81ab92)
++ [스프링 빈 조회 - 동일한 타입이 둘 이상 일때](https://unique-wandflower-4cc.notion.site/9dec6e44bc99493db02ecdd3015cc081)
++ [스프링 빈 조회 - 상속관계](https://unique-wandflower-4cc.notion.site/5f29c47d4e0a4a06a55323d8d752c2dd)
++ [BeanFactory와 ApplicationContext](https://unique-wandflower-4cc.notion.site/BeanFactory-ApplicationContext-9f9acea296a64efdb95b66e098ce9345)
