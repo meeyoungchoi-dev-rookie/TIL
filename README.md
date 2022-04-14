@@ -3092,3 +3092,11 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 - [인터페이스 설계와 품질 - 디미터 법칙에 대한 오해 와 결합도와 응집도 해결하는 방법과 한계](https://unique-wandflower-4cc.notion.site/8cbde6a9f8694c9e8e81328e7eeed73a)
+
+## ddd
+### 잘된점
++ 컨트롤러에서 값 검증하는 방법
++ 서비스단에서 값 검증하는 방법
++ 서비스단에서 권한 검사하는 방법
+### 배운점
++ [표현영역과 응용영역에서 값 검증 및 권한 검사](https://unique-wandflower-4cc.notion.site/1bf6ca01aeb54b51a9f17203b32fa746)
