@@ -3062,3 +3062,33 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + [스프링 빈 조회 - 동일한 타입이 둘 이상 일때](https://unique-wandflower-4cc.notion.site/9dec6e44bc99493db02ecdd3015cc081)
 + [스프링 빈 조회 - 상속관계](https://unique-wandflower-4cc.notion.site/5f29c47d4e0a4a06a55323d8d752c2dd)
 + [BeanFactory와 ApplicationContext](https://unique-wandflower-4cc.notion.site/BeanFactory-ApplicationContext-9f9acea296a64efdb95b66e098ce9345)
+
+
+# 04월 14일
+## spring
+### 잘된점
+1. xml로 빈 설정하는 방법
+2. BeanDefinition - 빈 설정 메타정보
+3. 싱글톤 패턴이 적용되지 않은경우 발생하는 문제
+4. 싱글톤 패턴으로 객체 생성 실습
+5. 스프링 컨테이너에 적용된 실글톤 패턴
+6. 싱글턴 객체에 공유 필드가 있을때 발생하는 문제점과 해결책
+### 배운점
+- [xml을 사용하여 빈 설정 하는 방법](https://unique-wandflower-4cc.notion.site/xml-71f0b21c9edd414daad727fd51ffab7a)
+- [spring 빈 설정 메타정보](https://unique-wandflower-4cc.notion.site/spring-efd809ff1b464fffb4d06ef3f43866e9)
+- [웹 애플리케이션과 싱글톤 - 싱글톤이 없다면](https://unique-wandflower-4cc.notion.site/49443448b1c144f4b410ce80c38f9d2d)
+- [싱글톤 패턴으로 객체 생성 실습](https://www.notion.so/1-2-3-2d466979724f449788cc983cc6f0fa5d#fd3713a184644a4bafbe11597002638c)
+- [실글톤 컨테이너](https://www.notion.so/1-2-3-2d466979724f449788cc983cc6f0fa5d#c081ee4008104538922ce2a0a22079f9)
+- [실글톤 방식의 문제점](https://www.notion.so/1-2-3-2d466979724f449788cc983cc6f0fa5d#1991dd7f49314c07b169ecb053bd1dd0)
+
+
+
+
+## 오브젝트
+### 잘된점
+1. 디미터 법칙에 대한 오해
+2. 위임 메서드를 사용하여 응집도를 높이고 결합도 낮추기
+3. 위임 메서드의 한계
+
+### 배운점
+- [인터페이스 설계와 품질 - 디미터 법칙에 대한 오해 와 결합도와 응집도 해결하는 방법과 한계](https://unique-wandflower-4cc.notion.site/8cbde6a9f8694c9e8e81328e7eeed73a)
