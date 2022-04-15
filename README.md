@@ -3100,3 +3100,41 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 서비스단에서 권한 검사하는 방법
 ### 배운점
 + [표현영역과 응용영역에서 값 검증 및 권한 검사](https://unique-wandflower-4cc.notion.site/1bf6ca01aeb54b51a9f17203b32fa746)
+
+
+# 4월 15일
+## spring
+### 잘된점
+1. @Configuration과 싱글톤
+2. 스프링 컨테이너가 싱글톤 객체를 생성하는 원리
+3. @ComponentScan을 통해 @Component가 붙은 클래스를 자동으로 빈으로 등록 하고 @Autowired를 통해 의존관계가 자동으로 주입된다
+4. 스프링 컴포넌트스캔 스캔 범위설정
+5. 스캔 패키지 설정및 스캔 클래스 설정 (basePackage , baseClassName)
+6. 빈 등록시 빈이름 중복이 발생하는경우 에러 내용과 해결방법
+
+### 배운점
++ [@Configuration과 싱글톤](https://www.notion.so/Configuration-584458a423fe475d8e972ea2c9b0f3f5)
++ [@Configuration과 바이트코드 조작](https://www.notion.so/Configuration-6340b10bf1c54a13abfbce83415d6674)
++ [컴포넌트 스캔과 의존관계 자동주입](https://www.notion.so/24f42bedfc2a486781ceb3df019f9f19)
++ [탐색 위치와 기본 스캔 대상](https://www.notion.so/fcd49db79ec2406cb9ad626a01161e50)
++ [필터](https://www.notion.so/f5db6e036d074e6d833c1cafd056172c) 
++ [빈등록시 중복과 충돌](https://www.notion.so/4475db903372491096d3d344a199fcac)
+
+## 오브젝트
+### 잘된점
+1. 명령-쿼리 분리와 참조 투명성
+2. 명령과 쿼리를 분리해야 하는 이유
+3. 부수효과와 참조 투명성
+4. 명령-쿼리 분리의 한계
+### 배운점
++ [명령-쿼리 분리와 참조 투명성](https://unique-wandflower-4cc.notion.site/9cab7e2d59ef4fb68ae8973c970496cf)
+
+## DDD
+### 잘된점
+1. 도메인 서비스
+2. 도메인 서비스 객체를 애그리거트에 주입하지 않기
+3. 도메인 로직이 외부 시스템이나 별도 엔진을 사용해서 구현해야 할 경우 인터페이스와 클래스 분리
+
+
+### 배운점
++ [도메인 서비스 영역](https://unique-wandflower-4cc.notion.site/9a706da8580042b0b9f195ba7f712c60)
