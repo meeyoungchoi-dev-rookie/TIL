@@ -3138,3 +3138,27 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [도메인 서비스 영역](https://unique-wandflower-4cc.notion.site/9a706da8580042b0b9f195ba7f712c60)
+
+
+# 04월 16일
+## spring
+### 잘된점
++ 의존관계 주입시 옵션 처리 방법
++ 의존관계 주입시 생성자 주입을 선택해야 하는 이유
++ 롬복과 최신 트랜드
++ 의존관계 주입시 동일한 타입의 빈이 2개 이상 존재할 때 충돌을 해결하는 방법
+### 배운점
++ [옵션 처리](https://unique-wandflower-4cc.notion.site/64a1ece8fca84b03a86088dd29c9e75a)
++ [생성자 주입을 선택해야 하는 이유](https://unique-wandflower-4cc.notion.site/38efbee7c4bf4b5980bb0be453e82d41)
++ [롬복과 최신 트랜드](https://unique-wandflower-4cc.notion.site/35078da2fe4b49c98068995185c5ffc0)
++ [조회 빈이 2개이상 존재할때 문제](https://unique-wandflower-4cc.notion.site/2-c63f08b621ba4cb6bf21d631c83e6c91)
+
+## 오브젝트
+### 잘된점
++ 객체 분해 개요
++ 프로시저 추상화와 데이터 추상화 차이
++ 하향식 기능 분해의 문제점
++ 언제 하향식 기능 분해를 사용해야 하는가
+
+### 배운점
++ [객체 분해 개요 - 프로시저 추상화와 데이터 추상화](https://unique-wandflower-4cc.notion.site/078ec11416974d50894c671ef03855e2)
