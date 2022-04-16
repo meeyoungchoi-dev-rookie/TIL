@@ -3162,3 +3162,10 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [객체 분해 개요 - 프로시저 추상화와 데이터 추상화](https://unique-wandflower-4cc.notion.site/078ec11416974d50894c671ef03855e2)
+
+## DDD
+### 잘된점
++ 선점 잠금
++ 비선점 잠금
+### 배운점
++ [선점 잠금과 비선점 잠금](https://unique-wandflower-4cc.notion.site/12ca46fa6df3432985903d4a494f3eaa)
