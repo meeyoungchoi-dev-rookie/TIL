@@ -3169,3 +3169,38 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 비선점 잠금
 ### 배운점
 + [선점 잠금과 비선점 잠금](https://unique-wandflower-4cc.notion.site/12ca46fa6df3432985903d4a494f3eaa)
+
+# 04월 18일
+## spring
+### 잘된점
+빈 자동 등록과 수동 등록
+1. 인터페이스 구현객체가 여러개인 경우 빈을 전부 가져오는 방법
+2. 언제 빈 자동 등록을 사용해야 하는가
+3. 언제 빈 수동 등록을 사용해야 하는가
+빈 생명주기
+1. 빈 라이프사이클
+2. 빈 등록후 초기화 메서드 설정 방법 3가지
+3. 빈 소멸후 메서드 설정 방법 3가지
+
+### 배운점
++ [애노테이션 직접 만들기](https://unique-wandflower-4cc.notion.site/e43486bbedbc47d7a04e32c95a95d5c4)
++ [조회한 빈이 모두 필요한 경우 List와 Map을 활용하는 방법](https://unique-wandflower-4cc.notion.site/List-Map-4eccc170622b4653a95a623e2b9d4573)
++ [빈 자동 등록과 수동 등록의 올바른 기준](https://unique-wandflower-4cc.notion.site/1844f9c5e4934b6398d616d1be9fb093)
++ [빈 생명주기와 빈 등록및 의존관계 주입후 메서드 설정방법 과 빈 소멸후 설정 방법](https://unique-wandflower-4cc.notion.site/0c3845b7e80e414db6464b6526631098)
+
+## 오브젝트
+### 잘된점
+객체 분해
+1. 모듈
+2. 추상 데이터 타입
+3. 역할과 협력이 중요한 이유
+
+### 배운점
++ [객체 분해 개요](https://unique-wandflower-4cc.notion.site/078ec11416974d50894c671ef03855e2)
+
+## ddd
+### 잘된점
++ 비선점 잠금
++ 오프라인 선점 잠금
+### 배운점
++ [애그리거트와 트랜잭션](https://unique-wandflower-4cc.notion.site/12ca46fa6df3432985903d4a494f3eaa)
