@@ -3204,3 +3204,33 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 + 오프라인 선점 잠금
 ### 배운점
 + [애그리거트와 트랜잭션](https://unique-wandflower-4cc.notion.site/12ca46fa6df3432985903d4a494f3eaa)
+
+# 4월 19일
+## spring
+### 잘된점
++ 빈 스코프
+1. 싱글톤 스코프
+2. 프로토타입 스코프
+3. 싱글톤 빈과 프로토타입 빈 이 같이 사용될 경우 문제점
++ Provider를 사용하여 싱글톤 스코프에 적용된 프로토타입 스코프 문제 해결하는 방법
+
+### 배운점
++ [빈 스코프](https://unique-wandflower-4cc.notion.site/186b3f0a725d4fc4a16a251b23059701)
+
+## 오브젝트
+### 잘된점
++ 타입 추상화와 절차 추상화
+1. 타입 추상화
+2. 절차 추상화
+3. 타입 계층과 다형성을 적요할때 고민해봐야 하는 것
+
+### 배운점
++ [타입 추상화와 절차 추상화](https://unique-wandflower-4cc.notion.site/078ec11416974d50894c671ef03855e2)
+
+## DDD
+### 잘된점
++ BOUNDED CONTEXT
+1. 도메인 모델과 경계
+2. BOUNDED CONTEXT 간 통합하는 방법
+### 배운점
++ [도메인 모델과 BOUNDED CONTEXT](https://unique-wandflower-4cc.notion.site/BOUNDED-CONTEXT-f34fd42691b8495a8b47b8a18db30f9f)
