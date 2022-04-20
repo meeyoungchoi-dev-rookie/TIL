@@ -3234,3 +3234,37 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 2. BOUNDED CONTEXT 간 통합하는 방법
 ### 배운점
 + [도메인 모델과 BOUNDED CONTEXT](https://unique-wandflower-4cc.notion.site/BOUNDED-CONTEXT-f34fd42691b8495a8b47b8a18db30f9f)
+
+# 04월 20일
+## spring
+### 잘된점
++ 웹 스코프
+1. 정의
+2. 특징
+3. 종류
+4. request 스코프인 빈을 의존관계 주입받을때 발생하는 오류와 원인 정리
++ request 스코프시Provider를 사용하여 스프링 컨테이너의 빈 생성 및 의존관계 주입 시점을 늦춘다
+1. 프록시를 사용하던 핵심은 빈을 필요한 시점에 생성할 수 있게 지연시키기 실습 및 정리
+2. 프록시를 사용하여 request 요청이 들어오기 전까지는 가짜 프록시 빈으로 버티다가 나중에 로직 실행시점에 해당 빈을 진짜로 갈아끼운다
+
+### 배운점
++ [웹 스코프](https://unique-wandflower-4cc.notion.site/92885a8949474d989ec89a165c445224)
+
+## ddd
+### 잘된점
++ 이벤트
+1. 시스템이 강하게 결합되 있을때 이벤틀를 사용하여 도메인의 상태를 변경하는 방법 정리
+
+### 배운점
++ [이벤트](https://unique-wandflower-4cc.notion.site/10-fd52bcf4bee3486ba2442d983575aad7)
+
+## 오브젝트
+### 잘된점
++ 의존성
+1. 의존성 전이
+2. 런타임 의존성과 컴파일타임 의존성 차이
+3. 컨텍스트 독립성
+4. 의존관계 주입방법 3가지
+
+### 배운점
++ [의존성 이해하기](https://unique-wandflower-4cc.notion.site/5a877623005c4f498245cb50d22e0afe)
