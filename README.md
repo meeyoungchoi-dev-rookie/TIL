@@ -3268,3 +3268,55 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [의존성 이해하기](https://unique-wandflower-4cc.notion.site/5a877623005c4f498245cb50d22e0afe)
+
+
+# 4월 21일
+## jpa
+### 잘된점
++ JPA 환경설정
++ h2 데이터베이스 세팅
++ JPA와 h2 데이터베이스가 잘 동작하는지 테스트
++ JPA기반 쇼핑몰 요구사항 분석
++ 엔티티 설계도 분석
++ 도메인 설계도 분석
++ 테이블 설계도 분석
+
+### 배운점
++ [프로젝트 환경설정 및 세팅](https://unique-wandflower-4cc.notion.site/564aedfdf8324a2eb82f8b1943ea34ec)
++ [요구사항 분석 및 도메인 설계도 분석](https://unique-wandflower-4cc.notion.site/63949e3229cc43a7b0ce2deee1bf2aa8)
+
+
+
+## 오브젝트
+### 잘된점
++ 유연한 설계를 위한 의존성
++ 의존성과 결합도 관계
++ 결합도를 느슨하게 유지해야 하는 이유
++ 추상화에 의존해야 하는 이유
++ 명시적 의존성을 사용해야 하는 이유
++ 명시적 의존성을 사용하고 결합도를 느슨하게 했을때 얻을 수 있는 효과
+
+### 배운점
++ [유연한 설계를 위한 의존성](https://unique-wandflower-4cc.notion.site/5a877623005c4f498245cb50d22e0afe)
+
+## ddd
+### 잘된점
++ 이벤트 클래스란 무엇인가
++ 이벤트 핸들러 인터페이스 역할
++ AOP를 사용하여 Events reset 메서드 실행하는 방법 
++ 왜 이벤트에서 AOP를 사용해야 하는가
+
+### 배운점
++ [이벤트 클래스 , 핸들러 , 인터페이스](https://unique-wandflower-4cc.notion.site/10-fd52bcf4bee3486ba2442d983575aad7)
+
+
+## 밋코더 블로그 포스팅 스터디 발표자료 준비
+### 잘된점
++ 스프링을 사용하는 이유와 스프링 컨셉
++ 객체지향 프로그래밍 특징 (다형성)
++ 스프링과 객체지향
++ SOLID 객체지향 5가지 설계 원칙
++ IoC 컨테이너와 DI
+
+### 배운점
++ [스프링을 사용하는 이유와 객체지향](https://unique-wandflower-4cc.notion.site/10-1e861ff1e543404fa0f352983b2bac15)
