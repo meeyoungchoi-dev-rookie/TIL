@@ -3320,3 +3320,26 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [스프링을 사용하는 이유와 객체지향](https://unique-wandflower-4cc.notion.site/10-1e861ff1e543404fa0f352983b2bac15)
+
+
+# 04월 22일
+## jpa
+### 잘된점
++ JPA 엔티티 클래스 설계 코드리뷰 
+1. Member와 Address
+2. Member와 Order
+3. Order와 OrderItem
+4. OrderItem과 Item
+5. Order와 Delivery
+6. Order와 OrderStatus
++ JPA 엔티티간 상속관계 표현방법
+1. @Inheritance 어노테이션의 startegy 속성으로 상속관계 매핑 전략을 설정
+2. SINGLE_TABLE인 경우 모든 자식 엔티티가 하나의 테이블로 합쳐져서 생성
+3.@DiscriminatorColumn(name = "dtype")을 사용하여 자식 엔티티들간 구분값 지정
++ JPA 연관관계 실습
+1. 데이터 중심 설계의 문제점
+2. 테이블 중심 설계와 객체 중심 설계의 차이
+3. 연관관계 주인 설정하는 방법
+
+### 배운점
++ [엔티티 클래스 개발 1](https://unique-wandflower-4cc.notion.site/1-7c916a4a33444d0ab91bee505104f41d)
