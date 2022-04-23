@@ -3343,3 +3343,14 @@ DATE_SUB(now() , INTERVAL 1 DAY);
 
 ### 배운점
 + [엔티티 클래스 개발 1](https://unique-wandflower-4cc.notion.site/1-7c916a4a33444d0ab91bee505104f41d)
+
+# 04월 23일
+## jpa
+### 잘된점
+JPA 엔티티 클래스 분석1
+1. Order와 OrderItem 관계
+2. Order와 Delivery 관계
+3. Order와 OrderStatus 관계
+
+### 배운점
++ [엔티티 클래스 분석 1](https://unique-wandflower-4cc.notion.site/1-7c916a4a33444d0ab91bee505104f41d)
