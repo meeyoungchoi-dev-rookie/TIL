@@ -3379,3 +3379,19 @@ JPA 엔티티 클래스 분석1
 
 ### 배운점
 + [유연한 설계 - 개방 패쇄 원칙](https://unique-wandflower-4cc.notion.site/b164076a2eee42feaf2b482abf43d69b)
+
+# 4월 25일
+## jpa
+### 잘된점
++ 엔티티 연관관계 설정
+1. Category와 Item 연관관계 설정
+2. Category 엔티티 계층관계 설정
++ 엔티티 설계시 주의할 점
+1. setter 메서드를 사용하지 않는다
+2. 지연로딩 사용해야 하는 이유
+3. 연관관계 편의 메서드 목적
+4. CASCADE - 엔티티 상태 변화 전파
+
+### 배운점
++ [엔티티 연관관계 설정](https://unique-wandflower-4cc.notion.site/2-7e1bf610af6846e595fc24ef60b8207c)
++ [엔티티 설계시 주의할 점](https://unique-wandflower-4cc.notion.site/6238a85e59b94d4b8387a798c747a978)
