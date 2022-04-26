@@ -3395,3 +3395,33 @@ JPA 엔티티 클래스 분석1
 ### 배운점
 + [엔티티 연관관계 설정](https://unique-wandflower-4cc.notion.site/2-7e1bf610af6846e595fc24ef60b8207c)
 + [엔티티 설계시 주의할 점](https://unique-wandflower-4cc.notion.site/6238a85e59b94d4b8387a798c747a978)
+
+
+# 4월 26일
+## JPA
+### 잘된점
++ 회원 가입 및 목록 조회 비즈니스 로직 및 리파지터리 구현
++ 상품 관리 비즈니스 로직 및 리파지터리 구현
++ 테스트 코드 작성
+
+## ddd
+### 잘된점
++ CQRS 도입 배경
+- 단일 모델의 단점
+- CQRS 도입 배경
+- CQRS 장단점
+
+### 배운점
++ [CQRS](https://unique-wandflower-4cc.notion.site/11-CQRS-5cd8f9d198584ab7b883a048696831cb)
+
+## 오브젝트
+### 잘된점
++ 객체지향 패러다임에서 의존성 역정 원칙이 필요한 이유
+- 추상화 의존성 역전의 관계
+- 의존성 역전과 패키지 관계
+- 유연한 설계와 복잡성
+- 의존성을 관리해야 하는 이유
+
+### 배운점
++ [의존성 역전 원칙](https://unique-wandflower-4cc.notion.site/18500d18fa414520ac21e11e9e3392eb)
++ [유연성에 대한 조언](https://unique-wandflower-4cc.notion.site/c6addf52be974679a1d239112767b48a)
