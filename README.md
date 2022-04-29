@@ -3451,3 +3451,20 @@ JPA 엔티티 클래스 분석1
 
 ### 배운점
 + [JUNIT 에러 테스트 하는 방법](https://unique-wandflower-4cc.notion.site/0d0c164203fd44f8b88c5be15555a4a4)
+
+# 4월 29일
+## JPA
+### 잘된점
+1. 주문 및 주문 목록 조회 , 주문 취소 기능
+- 상품 주문 기능 구현
+- 주문 목록 조회 기능 구현
+- 주문 취소 기능 구현
+2. 엔티티 변경 감지와 merge
+- 준영속 엔티티
+- 더티체킹
+- 데이터베이스에 변경 데이터를 저장하는 시점
+
+### 배운점
++ [변경감지와 merge](https://unique-wandflower-4cc.notion.site/merge-d3a475fa0dea4196810d2c8b4f246210)
++ [기능 구현하면서 발생했던 에러](https://unique-wandflower-4cc.notion.site/b827b97406894ce5887d922c388bd397)
++ [주문 관리 프로젝트 정리](https://unique-wandflower-4cc.notion.site/05194b29973f4f25bfe3e19b34f0ff17)
