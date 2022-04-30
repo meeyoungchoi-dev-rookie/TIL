@@ -3468,3 +3468,13 @@ JPA 엔티티 클래스 분석1
 + [변경감지와 merge](https://unique-wandflower-4cc.notion.site/merge-d3a475fa0dea4196810d2c8b4f246210)
 + [기능 구현하면서 발생했던 에러](https://unique-wandflower-4cc.notion.site/b827b97406894ce5887d922c388bd397)
 + [주문 관리 프로젝트 정리](https://unique-wandflower-4cc.notion.site/05194b29973f4f25bfe3e19b34f0ff17)
+
+# 4월 30일
+## JPA 기본편
+### 잘된점
++ JDBC와 JPA 차이점 정리
++ SQL 중심 개발의 문제점
+
+### 배운점
++ [JPA와 JDBC 차이점](https://unique-wandflower-4cc.notion.site/JDBC-vs-JPA-b685912285224df3bdf099ba6ac8d04e)
++ [SQL 중심 개발의 문제점](https://unique-wandflower-4cc.notion.site/SQL-3d5632ea62734c63b94fdab08daca595)
