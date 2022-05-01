@@ -3478,3 +3478,15 @@ JPA 엔티티 클래스 분석1
 ### 배운점
 + [JPA와 JDBC 차이점](https://unique-wandflower-4cc.notion.site/JDBC-vs-JPA-b685912285224df3bdf099ba6ac8d04e)
 + [SQL 중심 개발의 문제점](https://unique-wandflower-4cc.notion.site/SQL-3d5632ea62734c63b94fdab08daca595)
+
+# 5월 01일
+## spring db
+### 잘된점
++ JDBC 인터페이스 등장배경
++ JDBC를 사용했을때 문제점
++ SQL Mapper와 ORM 등장배경
++ SQL Mapper와 ORM 차이
+
+### 배운점
++ [JDBC 등장 배경](https://unique-wandflower-4cc.notion.site/JDBC-7d97b8b8e73a4ee8bd6e641a42dffeb9)
++ [JDBC 사용하여 h2데이터베이스 연결테스트](https://unique-wandflower-4cc.notion.site/JDBC-h2-37b28dde97d544b99fe6cd41f846493e)
