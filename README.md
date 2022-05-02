@@ -3490,3 +3490,21 @@ JPA 엔티티 클래스 분석1
 ### 배운점
 + [JDBC 등장 배경](https://unique-wandflower-4cc.notion.site/JDBC-7d97b8b8e73a4ee8bd6e641a42dffeb9)
 + [JDBC 사용하여 h2데이터베이스 연결테스트](https://unique-wandflower-4cc.notion.site/JDBC-h2-37b28dde97d544b99fe6cd41f846493e)
+
+
+# 5월 02일
+## 블로그 프로젝트
+### 잘된점
++ JDBC 사용하여 oracle 데이터베이스 연동 테스트
++ 게시글 CRUD 테스트 코드 작성
++ 게시르 CRUD 기능 리포지터리 코드 작성
+
+## spring db
+### 잘된점
++ 커넥션 풀에서 커넥션을 획득하는 과정 정리
++ DataSource를 사용하여 커넥션을 획득하는 과정 정리 및 실습
++ DriverManager를 사용하여 커넥션을 획득하는 과정 정리 및 실습
+
+### 배운점
++ [커넥션 풀 개념](https://unique-wandflower-4cc.notion.site/edfa4dec64e9479c970f0755d11b9b09)
++ [DataSource를 사용하여 커넥션 획득하는 과정 정리](https://unique-wandflower-4cc.notion.site/DataSource-5d734fbd81754d1ea4bfe73ae06f4ed7)
