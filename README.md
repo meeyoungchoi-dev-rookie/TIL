@@ -3508,3 +3508,20 @@ JPA 엔티티 클래스 분석1
 ### 배운점
 + [커넥션 풀 개념](https://unique-wandflower-4cc.notion.site/edfa4dec64e9479c970f0755d11b9b09)
 + [DataSource를 사용하여 커넥션 획득하는 과정 정리](https://unique-wandflower-4cc.notion.site/DataSource-5d734fbd81754d1ea4bfe73ae06f4ed7)
+
+
+# 5월 3일
+## spring db
+### 잘된점
++ 트랜잭션이란 무엇인가
++ 트랜잭션 내부에서 커밋과 롤백을 계좌이체 예제를 통해 알아보기
++ DB 락이란 무엇인가
++ 조회시 락을 거는 이유
+
+### 배운점
++ [트랜잭션과 DB락](https://unique-wandflower-4cc.notion.site/7a76d317832446738e15453d191b289b)
+
+## 블로그 프로젝트
++ 게시글 CRUD 비즈니스 로직 작성
++ 비즈니스 로직 CRUD 테스트 코드 작성 및 테스트 진행
++ 게시글 리파지토리의 커녁션을 생성하는 작업을 DriverManager에서 HikariDataSource 로 교체
