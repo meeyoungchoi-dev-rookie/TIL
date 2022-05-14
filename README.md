@@ -3653,3 +3653,15 @@ JPA 엔티티 클래스 분석1
 ### 잘된점
 + 피그마 보면서 기능 수정
 + https://unique-wandflower-4cc.notion.site/38f70e68a5144deea9f0220046b02d6a
+
+
+# 5월 14일
+## 팀프로젝트
+### 잘된점
++ 피그마 실제 데이터 넣고 기능 구체화
++ 기술명세서 구체화
++ erd 개요 잡기
+
+### 배운점
++ [erd 개요](https://unique-wandflower-4cc.notion.site/erd-cd22ab69e5704fc38e10d8cd0afb249c)
++ [기능 명세서](https://www.notion.so/ooLa-1389c563c730413583f7b612d9235bee)
