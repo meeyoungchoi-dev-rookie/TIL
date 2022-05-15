@@ -3665,3 +3665,15 @@ JPA 엔티티 클래스 분석1
 ### 배운점
 + [erd 개요](https://unique-wandflower-4cc.notion.site/erd-cd22ab69e5704fc38e10d8cd0afb249c)
 + [기능 명세서](https://www.notion.so/ooLa-1389c563c730413583f7b612d9235bee)
+
+# 5월 15일
+## 팀 프로젝트
+### 잘된점
++ 테이블 erd 설계
+
+### 배운점
++ 테이블 명은 간결하고 누구나 알기 쉽게 지을것
++ 테이블 명만 보고 어떤 테이블인지 알수 있게 지을것
++ 테이블로 쪼개야 하는 경우는 자주 써야 하는 데이터인 경우에만 쪼개야 한다
++ 굳이 테이블로 나눠야 하는지 나누지 않고 처리할수 있는 방법은 없는지 고민해 볼것
++ [erd 명세서](https://unique-wandflower-4cc.notion.site/ERD-6a80f456b7c945e4ae3f5c7a6fae76c2)
