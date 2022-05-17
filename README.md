@@ -3690,3 +3690,12 @@ JPA 엔티티 클래스 분석1
 + oauth를 통해 displayName과 photoUrl 정보를 가져와서 회원정보 테이블에 반영하는 것으로 설계방향 수정 결정
 + 알림에 대해서 내일(17일) 회의를 통해 추가적인 논의 필요
 + [erd 회의를 통한 수정방향](https://unique-wandflower-4cc.notion.site/ERD-6a80f456b7c945e4ae3f5c7a6fae76c2)
+
+# 5월 17일
+## 팀 프로젝트
+### 배운점
++ URI 명세서 기반 피드백 진행
++ erd 기반 피드백 진행
++ 스터디 상세페이지 기능별로 API 구분 하여 재설계
++ 피드백받은 내용 바탕으로 진행방향 정리
++ [URI 피드백 내용 정리](https://unique-wandflower-4cc.notion.site/URI-c7f0fc7f8ef44af185d501f36bbaedf8)
