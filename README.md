@@ -3699,3 +3699,10 @@ JPA 엔티티 클래스 분석1
 + 스터디 상세페이지 기능별로 API 구분 하여 재설계
 + 피드백받은 내용 바탕으로 진행방향 정리
 + [URI 피드백 내용 정리](https://unique-wandflower-4cc.notion.site/URI-c7f0fc7f8ef44af185d501f36bbaedf8)
+
+# 5월 18일
+## 팀 프로젝트
+### 잘된점
++ URI 명세서 정리
++ 알람 기능 수정
++ erd 좋아요 테이블 추가
