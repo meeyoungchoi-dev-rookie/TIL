@@ -3713,3 +3713,14 @@ JPA 엔티티 클래스 분석1
 ### 잘된점
 + URI 명세서 기능단위로 재정리
 + erd 명세서 수정
+
+# 5월 20일
+## 팀 프로젝트
++ 헤로쿠가 무엇인가
++ [헤로쿠](https://unique-wandflower-4cc.notion.site/f3025cdd416346649e589d2bd853de09)
+### 잘된점
++ API 문서 최종 제출
++ ERD 문서 연관관계 수정하여 최종 제출
++ [1주차 회고](https://unique-wandflower-4cc.notion.site/1-71b15e7cef4f40c5a707be63ec74b746)
++ [2주차 회고](https://unique-wandflower-4cc.notion.site/2-2fbe42f256954404a79d3e225b9cf96a)
++ [프로젝트 세팅 및 환경설정 관련 에러 및 해결과정 정리](https://unique-wandflower-4cc.notion.site/5033fd6e39934121b45141492fa632f4)
