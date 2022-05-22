@@ -3724,3 +3724,10 @@ JPA 엔티티 클래스 분석1
 + [1주차 회고](https://unique-wandflower-4cc.notion.site/1-71b15e7cef4f40c5a707be63ec74b746)
 + [2주차 회고](https://unique-wandflower-4cc.notion.site/2-2fbe42f256954404a79d3e225b9cf96a)
 + [프로젝트 세팅 및 환경설정 관련 에러 및 해결과정 정리](https://unique-wandflower-4cc.notion.site/5033fd6e39934121b45141492fa632f4)
+
+# 5월 22일
+## 팀 프로젝트
++ 깃에 백엔드 프로젝트 생성
++ 프로젝트 환경설정
++ CI/CD 환경 세팅
++ 엔티티 설계
