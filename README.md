@@ -3736,3 +3736,10 @@ JPA 엔티티 클래스 분석1
 ## 팀 프로젝트
 + 백엔드 리파지터리에 깃 Actions 사용하여 헤로쿠 CI/CD 적용
 + 백엔드 예외를 처리하기 위한 Exception 클래스 설계
+
+# 5월 24일
+## 팀 프로젝트
+- ControllerAdviser 사용하여 ExceptionHandler 설계 및 PR 요청
+- 파이어베이스 oauth 프로젝트 생성
+- 파이어베이스 oauth 연동 작업 진행 중
+- 세션 쿠키 관련 내용 정리
