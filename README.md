@@ -3750,3 +3750,15 @@ JPA 엔티티 클래스 분석1
 + heroku 자동 배포 에러 처리
 + 인증과 인가 관련 개념정리
 + 서버에서 인가를 처리하는 방법 5가지와 장단점 정리
+
+# 5월 26일
+## OAuth
++ 생활코딩 OAuth 관련 강의 듣고 정리
+## 팀프로젝트
++ firbase 프로젝트 생성
++ FirebaseAuth 인증관련 모듈 초기화
++ spring security 관련 설정
++ Firebase Token 검증하는 필터 생성
++ 작업후 PR 요청 및 리뷰 진행
++ AuthFilter를 초기화 해주는 방법에 대한 고민 필요
+
