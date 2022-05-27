@@ -3762,3 +3762,8 @@ JPA 엔티티 클래스 분석1
 + 작업후 PR 요청 및 리뷰 진행
 + AuthFilter를 초기화 해주는 방법에 대한 고민 필요
 
+
+# 5월 27일
+## 팀프로젝트
++ AuthFilterContainer 객체 초기화 해주는 AuthConfig 클래스 추가 및 JwtFilter 설정
++ 테스트를 위한 MockJwtFilter 설정
