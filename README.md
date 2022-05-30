@@ -3767,3 +3767,9 @@ JPA 엔티티 클래스 분석1
 ## 팀프로젝트
 + AuthFilterContainer 객체 초기화 해주는 AuthConfig 클래스 추가 및 JwtFilter 설정
 + 테스트를 위한 MockJwtFilter 설정
+
+# 5월 30일
+## 팀 프로젝트
+- 팀프로젝트 procfile 배포시 active 설정 변경
+- firebase oauth 연동 중 에러 발생하는 부분 정리
+- heroku 서버 설정
