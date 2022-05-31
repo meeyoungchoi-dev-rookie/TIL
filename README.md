@@ -3773,3 +3773,9 @@ JPA 엔티티 클래스 분석1
 - 팀프로젝트 procfile 배포시 active 설정 변경
 - firebase oauth 연동 중 에러 발생하는 부분 정리
 - heroku 서버 설정
+
+# 5월 31일
+## 팀프로젝트
++ firebase oauth 로그인 테슽 에러 해결
++ study api JSON 설계
++ queryDSL 설정 진행중
