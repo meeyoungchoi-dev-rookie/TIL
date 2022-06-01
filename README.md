@@ -3779,3 +3779,8 @@ JPA 엔티티 클래스 분석1
 + firebase oauth 로그인 테슽 에러 해결
 + study api JSON 설계
 + queryDSL 설정 진행중
+
+# 6월 1일
+## 팀프로젝트
++ study CRUD 기능 구현
++ study CRUD 기능 테스트 코드 작성 
