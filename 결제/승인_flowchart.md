@@ -38,4 +38,20 @@ TransCardBean preProcess() -> doProcess() -> postProcess()
 + TID , MID , CardCAVV(vacc) , CardECI , CardNum , CardXID(가맹점인증번호) , JoinCode(제휴코드) 데이터
 
 5. TR-KEY 존재하지 않은 경우 
++ 원장테이블(tb_tr_key)조회를 skip한다
++ ISP 거래 (다시 확인할것 select 인지 insert인지)
+- tb_isp_auth 테이블에 (ISP인증결과 테이블) TID , MID , ISPGID(PGID), GoodsName(상품명) , Amt(총금액) , kvp-noint-inf(무이자 할부정보) , kvp-auota-inf(일반할부개월수 정보) , kvp-noint(무이자할부값) , kvp-auota(할부개월수) , ispcode, kvp-coname, ISPSessionKey(세션키) , ISPEncData(암호화된 거래 데이터 key) 
++ 안심클릭 거래 (다시 확인할것 select 인지 insert인지)
+- TID , MID , CardCAVV(vacc) , CardECI , CardNum , CardXID(가맹점인증번호) , JoinCode(제휴코드) 데이터
++ ISPPGID , CardCAVV가 존재하지 않으면 인증 결과 저장을 하지 않는다
 
+6. 간편결제종류(ClickpayCl)이 1(은련간편결제)인 경우 
++ 은련간편결제 유효성 검사 (NPGEasyUpopValidator.validate())
++ 카드결제 BIZ 요청 전문 생성 (NPGCardRequestMessageCreator) -> Ap서버 NPG01WCD01 신용카드 승인요청
++ 그외 결제수단인 경우
+- 은련간편결제 유효성 검사 (NPGEasyUpopValidator.validate())
+- 카드결제 BIZ 요청 전문 생성 (NPGCardRequestMessageCreator)
++ 결제 BIZ 공통부 전문 생성
++ 카드결제 BIZ body 전문 생성
++ 카드결제 BIZ 인증항목 전문 생성 
++ Ap서버 NPG01WCD01 신용카드 승인요청
