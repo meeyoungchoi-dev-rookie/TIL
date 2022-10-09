@@ -68,3 +68,8 @@ TransCardBean preProcess() -> doProcess() -> postProcess()
 8. postProcess()
 + 응답전문 파싱 및 생성
 
+10월 11일
+- [ ]  다이어그램 내가 그린것 사진찍기
+- [ ]  내가 그린것과 위의 흐름정리도를 비교하여 어떻게 말할지 정리
+- [ ]  TransCardBean - doProcess() 그릴것 (doProcess 부터 카카오페이까지)
+- [ ]  postProcess() 그릴것
