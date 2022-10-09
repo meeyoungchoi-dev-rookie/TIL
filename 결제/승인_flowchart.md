@@ -55,3 +55,16 @@ TransCardBean preProcess() -> doProcess() -> postProcess()
 + 카드결제 BIZ body 전문 생성
 + 카드결제 BIZ 인증항목 전문 생성 
 + Ap서버 NPG01WCD01 신용카드 승인요청
+
+7. doProcess()
++ 서비스 지연처리(procTime) 체크
++ 신용카드 전문 송수신
++ CARD_BL일때 NPGTransport.communicate()
++ -> NPG01WCD01.execute()
++ 간편결제종류(ClickpayCl)이 카카오페이인 경우 
++ -> EasyPayExecutor (간편결제 승인 요청)
++ -> PayCardClickBean
+
+8. postProcess()
++ 응답전문 파싱 및 생성
+
