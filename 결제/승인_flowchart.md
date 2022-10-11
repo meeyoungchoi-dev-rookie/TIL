@@ -69,7 +69,13 @@ TransCardBean preProcess() -> doProcess() -> postProcess()
 + 응답전문 파싱 및 생성
 
 10월 11일
-- [ ]  다이어그램 내가 그린것 사진찍기
-- [ ]  내가 그린것과 위의 흐름정리도를 비교하여 어떻게 말할지 정리
-- [ ]  TransCardBean - doProcess() 그릴것 (doProcess 부터 카카오페이까지)
-- [ ]  postProcess() 그릴것
+- [ 못함]  다이어그램 내가 그린것 사진찍기
+- [아직 못함 ]  내가 그린것과 위의 흐름정리도를 비교하여 어떻게 말할지 정리
+- [카카오페이 doPay 그리는중 ]  TransCardBean - doProcess() 그릴것 (doProcess 부터 카카오페이까지)
+- [ 완료 ]  postProcess() 그릴것
+
+10월 12일
+- DB중심으로 먼저 그리자 ~!! 제발~!!
+- 분기문은 대충 요약해서 적어두고 일단 넘어가자
+- 다이어그램에 번호 표시해서 순서 안햇갈리도록 할것
+- 무슨일이 있어도 doPay 마무리할것~!!
